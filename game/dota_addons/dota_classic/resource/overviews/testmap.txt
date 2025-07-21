@@ -1,8 +1,0 @@
-testmap
-{
-	material materials/overviews/testmap.vmat
-	pos_x -1024
-	pos_y 1024
-	scale 2.000
-}
-
