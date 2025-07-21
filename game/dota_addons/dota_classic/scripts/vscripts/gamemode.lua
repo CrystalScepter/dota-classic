@@ -26,4 +26,8 @@ function GameMode:InitGameMode()
         GameMode:SetNeutralItemHideUndiscoveredEnabled(true)
 
         GameRules:SetTreeRegrowTime(300)
+
+        GameMode:SetTowerBackdoorProtectionEnabled(false)
+
+        GameRules:SetFirstBloodActive(false)
 end
