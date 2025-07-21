@@ -19,4 +19,11 @@ function GameMode:InitGameMode()
         GameMode:SetRecommendedItemsDisabled(true)
         GameMode:SetStickyItemDisabled(true)
         GameMode:SetGiveFreeTPOnDeath(false)
+
+        GameMode:SetAllowNeutralItemDrops(false)
+        GameMode:SetNeutralStashEnabled(false)
+        GameMode:SetNeutralStashTeamViewOnlyEnabled(true)
+        GameMode:SetNeutralItemHideUndiscoveredEnabled(true)
+
+        GameRules:SetTreeRegrowTime(300)
 end
