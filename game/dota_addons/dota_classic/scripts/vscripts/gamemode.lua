@@ -11,6 +11,8 @@ function GameMode:InitGameMode()
         GameRules:SetShowcaseTime(0)
 
         GameRules:SetEnableAlternateHeroGrids(false)
+        GameRules:SetSuggestAbilitiesEnabled(false)
+        GameRules:SetSuggestItemsEnabled(false)
 
         GameMode:SetCustomGameForceHero("npc_dota_hero_medusa")
 
