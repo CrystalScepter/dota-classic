@@ -10,7 +10,11 @@ function GameMode:InitGameMode()
         GameRules:SetStrategyTime(0)
         GameRules:SetShowcaseTime(0)
 
+        GameRules:SetEnableAlternateHeroGrids(false)
+
         GameMode:SetCustomGameForceHero("npc_dota_hero_medusa")
+
+        GameRules:SetStartingGold(50000)
 
         GameMode:SetRecommendedItemsDisabled(true)
         GameMode:SetStickyItemDisabled(true)
