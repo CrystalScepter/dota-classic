@@ -33,4 +33,18 @@ function GameMode:InitGameMode()
         GameMode:SetTowerBackdoorProtectionEnabled(false)
 
         GameRules:SetFirstBloodActive(false)
+
+        GameMode:SetUseCustomHeroLevels(true)
+	GameMode:SetCustomXPRequiredToReachNextLevel({
+		0,
+		200,
+		500,
+		900,
+		1400,
+		2000,
+		2700,
+		3500,
+		4400,
+		5400,
+	})
 end
