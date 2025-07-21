@@ -20,6 +20,7 @@ function GameMode:InitGameMode()
 
         GameMode:SetRecommendedItemsDisabled(true)
         GameMode:SetStickyItemDisabled(true)
+        GameMode:SetSendToStashEnabled(false)
         GameMode:SetGiveFreeTPOnDeath(false)
 
         GameMode:SetAllowNeutralItemDrops(false)
