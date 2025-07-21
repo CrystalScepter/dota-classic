@@ -47,4 +47,8 @@ function GameMode:InitGameMode()
 		4400,
 		5400,
 	})
+
+        GameMode:SetInnateMeleeDamageBlockPercent(0)
+        GameMode:SetInnateMeleeDamageBlockAmount(0)
+	GameMode:SetInnateMeleeDamageBlockPerLevelAmount(0)
 end
