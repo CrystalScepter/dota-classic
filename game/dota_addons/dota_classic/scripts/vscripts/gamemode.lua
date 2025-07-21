@@ -11,4 +11,8 @@ function GameMode:InitGameMode()
         GameRules:SetShowcaseTime(0)
 
         GameMode:SetCustomGameForceHero("npc_dota_hero_medusa")
+
+        GameMode:SetRecommendedItemsDisabled(true)
+        GameMode:SetStickyItemDisabled(true)
+        GameMode:SetGiveFreeTPOnDeath(false)
 end
