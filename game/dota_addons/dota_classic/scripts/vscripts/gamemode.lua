@@ -21,6 +21,8 @@ function GameMode:InitGameMode()
         GameMode:SetRecommendedItemsDisabled(true)
         GameMode:SetStickyItemDisabled(true)
         GameMode:SetSendToStashEnabled(false)
+        GameMode:SetStashPurchasingDisabled(true)
+	GameRules:SetUseUniversalShopMode(true)
 
         GameMode:SetGiveFreeTPOnDeath(false)
         GameMode:SetBuybackEnabled(false)
