@@ -67,4 +67,6 @@ function GameMode:InitGameMode()
         GameMode:SetInnateMeleeDamageBlockPercent(0)
         GameMode:SetInnateMeleeDamageBlockAmount(0)
 	GameMode:SetInnateMeleeDamageBlockPerLevelAmount(0)
+
+        GameMode:SetRemoveIllusionsOnDeath(false)
 end
