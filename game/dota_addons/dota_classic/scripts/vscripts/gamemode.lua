@@ -32,6 +32,10 @@ function GameMode:InitGameMode()
 
         GameRules:SetTreeRegrowTime(300)
 
+        GameRules:SetPreGameTime(0)
+        GameRules:SetTimeOfDay(0)
+        GameMode:SetDaynightCycleAdvanceRate(0.625)
+
         GameMode:SetTowerBackdoorProtectionEnabled(false)
 
         GameRules:SetFirstBloodActive(false)
