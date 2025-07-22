@@ -21,7 +21,9 @@ function GameMode:InitGameMode()
         GameMode:SetRecommendedItemsDisabled(true)
         GameMode:SetStickyItemDisabled(true)
         GameMode:SetSendToStashEnabled(false)
+
         GameMode:SetGiveFreeTPOnDeath(false)
+        GameMode:SetBuybackEnabled(false)
 
         GameMode:SetAllowNeutralItemDrops(false)
         GameMode:SetNeutralStashEnabled(false)
