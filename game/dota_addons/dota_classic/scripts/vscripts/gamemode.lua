@@ -14,7 +14,7 @@ function GameMode:InitGameMode()
         GameRules:SetSuggestAbilitiesEnabled(false)
         GameRules:SetSuggestItemsEnabled(false)
 
-        GameMode:SetCustomGameForceHero("npc_dota_hero_medusa")
+        GameMode:SetCustomGameForceHero("npc_dota_hero_crystal_maiden")
 
         GameRules:SetStartingGold(50000)
 

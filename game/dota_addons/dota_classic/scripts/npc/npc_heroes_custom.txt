@@ -1,0 +1,30 @@
+"DOTAHeroes"
+{
+	"npc_dota_hero_crystal_maiden_classic"
+	{
+                "override_hero"				"npc_dota_hero_crystal_maiden"
+
+                "Ability1"				""
+		"Ability2"				""
+		"Ability3"				""
+		"Ability4"				"generic_hidden"
+		"Ability5"				"generic_hidden"
+		"Ability6"				""
+		"Ability7"				""
+		"Ability10"				""
+		"Ability11"				""
+		"Ability12"				""
+		"Ability13"				""
+		"Ability14"				""
+		"Ability15"				""
+		"Ability16"				""
+		"Ability17"				""
+		"Ability25"				""
+
+		"AbilityTalentStart"			""
+
+		"Facets"
+		{
+		}
+        }
+}
