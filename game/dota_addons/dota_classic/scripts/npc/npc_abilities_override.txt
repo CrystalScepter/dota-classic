@@ -1,0 +1,4 @@
+"DOTAAbilities"
+{
+	"item_tpscroll"				"REMOVE"
+}
