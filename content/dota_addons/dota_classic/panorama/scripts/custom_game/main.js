@@ -8,6 +8,8 @@ shop_interface.FindChildTraverse("SearchAndButtonsContainer").FindChildTraverse(
 shop_interface.FindChildTraverse("SearchAndButtonsContainer").FindChildTraverse("ToggleShopFilter").style.visibility = "collapse";
 shop_interface.FindChildTraverse("SearchAndButtonsContainer").FindChildTraverse("BuybackProtection").style.visibility = "collapse";
 
+shop_interface.FindChildTraverse("GridHeaderAndMainContent").FindChildTraverse("GridMainContent").FindChildTraverse("GridShopHeaders").FindChildTraverse("GridMainTabs").FindChildTraverse("GridNeutralsTab").style.visibility = "collapse";
+
 hero_interface.FindChildTraverse("StatBranch").style.visibility = "collapse";
 hero_interface.FindChildTraverse("ContentsContainer").style.visibility = "collapse";
 hero_interface.FindChildTraverse("AghsStatusContainer").style.visibility = "collapse";
