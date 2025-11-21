@@ -1,0 +1,16 @@
+{
+        "Lua.diagnostics.globals": [
+                "GameRules",
+                "class",
+                "SendToConsole",
+                "DOTA_ATTRIBUTE_STRENGTH_DAMAGE",
+                "DOTA_ATTRIBUTE_STRENGTH_HP_REGEN",
+                "DOTA_ATTRIBUTE_STRENGTH_HP",
+                "DOTA_ATTRIBUTE_AGILITY_DAMAGE",
+                "DOTA_ATTRIBUTE_AGILITY_ATTACK_SPEED",
+                "DOTA_ATTRIBUTE_AGILITY_ARMOR",
+                "DOTA_ATTRIBUTE_INTELLIGENCE_DAMAGE",
+                "DOTA_ATTRIBUTE_INTELLIGENCE_MANA",
+                "DOTA_ATTRIBUTE_INTELLIGENCE_MANA_REGEN"
+        ]
+}
