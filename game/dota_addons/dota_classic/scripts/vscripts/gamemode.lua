@@ -27,6 +27,9 @@ function GameMode:InitGameMode()
         GameMode:SetGiveFreeTPOnDeath(false)
         GameMode:SetBuybackEnabled(false)
 
+        GameMode:SetCustomGlyphCooldown(360000)
+        GameMode:SetCustomScanCooldown(360000)
+
         GameMode:SetAllowNeutralItemDrops(false)
         GameMode:SetNeutralStashEnabled(false)
         GameMode:SetNeutralStashTeamViewOnlyEnabled(true)

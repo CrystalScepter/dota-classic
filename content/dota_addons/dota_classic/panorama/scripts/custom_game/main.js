@@ -6,4 +6,5 @@ hero_interface.FindChildTraverse("AghsStatusContainer").style.visibility = "coll
 
 hero_interface.FindChildTraverse("inventory_composition_layer_container").style.visibility = "collapse";
 
+hud.FindChildTraverse("HUDElements").FindChildTraverse("minimap_container").FindChildTraverse("GlyphScanContainer").style.visibility = "collapse";
 hud.FindChildTraverse("HUDElements").FindChildTraverse("minimap_container").FindChildTraverse("RoshanTimerContainer").style.visibility = "collapse";
