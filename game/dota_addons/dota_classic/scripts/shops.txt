@@ -3,11 +3,14 @@
         //=================================================================================================================
 	// Offensive items
 	//=================================================================================================================
-	"consumables"
+	"weapons_armor"
 	{
 		"item"		"item_blades_of_attack_3_beta2"
 		"item"		"item_blades_of_attack_6_beta2"
 		"item"		"item_blades_of_attack_9_beta2"
 		"item"		"item_blades_of_attack_12_beta2"
+                "item"		"item_broadsword_beta2"
+                "item"		"item_mithril_hammer_beta2"
+                "item"		"item_demon_edge_beta2"
 	}
 }

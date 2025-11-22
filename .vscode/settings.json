@@ -17,6 +17,19 @@
                 "item_blades_of_attack_3_beta2",
                 "modifier_item_damage",
                 "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE",
-                "MODIFIER_ATTRIBUTE_MULTIPLE"
+                "MODIFIER_ATTRIBUTE_MULTIPLE",
+                "modifier_demon_edge_beta2",
+                "item_demon_edge_beta2",
+                "modifier_mithril_hammer_beta2",
+                "item_mithril_hammer_beta2",
+                "modifier_blades_of_attack_3_beta2",
+                "item_broadsword_beta2",
+                "modifier_broadsword_beta2",
+                "modifier_blades_of_attack_9_beta2",
+                "item_blades_of_attack_9_beta2",
+                "item_blades_of_attack_12_beta2",
+                "modifier_blades_of_attack_12_beta2",
+                "modifier_blades_of_attack_6_beta2",
+                "item_blades_of_attack_6_beta2"
         ]
 }

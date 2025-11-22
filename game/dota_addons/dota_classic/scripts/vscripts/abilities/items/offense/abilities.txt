@@ -123,4 +123,97 @@
 			"bonus_damage"			"12"
 		}
 	}
+
+        //====================================================================================================
+	// Broadsword
+	//====================================================================================================
+        "item_broadsword_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_broadsword"
+		"ScriptFile"				"abilities/items/offense/item_broadsword_beta2.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Information
+		//----------------------------------------------------------------------------------------------------
+		"ItemCost"				"1300"
+                "ItemQuality"                           "common"
+		"AllowedInBackpack"			"0"
+                "ItemSellable"				"0"
+                "ItemShareability"                      "ITEM_FULLY_SHAREABLE"
+                "ItemStockInitial"                      "1"
+                "ItemStockMax"                          "1"
+                "ItemStockTime"                         "120"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"bonus_damage"			"27"
+		}
+	}
+
+        //====================================================================================================
+	// Mithril Hammer
+	//====================================================================================================
+        "item_mithril_hammer_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_mithril_hammer"
+		"ScriptFile"				"abilities/items/offense/item_mithril_hammer_beta2.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Information
+		//----------------------------------------------------------------------------------------------------
+		"ItemCost"				"1500"
+                "ItemQuality"                           "common"
+		"AllowedInBackpack"			"0"
+                "ItemSellable"				"0"
+                "ItemShareability"                      "ITEM_FULLY_SHAREABLE"
+                "ItemStockInitial"                      "1"
+                "ItemStockMax"                          "1"
+                "ItemStockTime"                         "120"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"bonus_damage"			"39"
+		}
+	}
+
+        //====================================================================================================
+	// Demon Edge
+	//====================================================================================================
+        "item_demon_edge_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_demon_edge"
+		"ScriptFile"				"abilities/items/offense/item_demon_edge_beta2.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Information
+		//----------------------------------------------------------------------------------------------------
+		"ItemCost"				"2000"
+                "ItemQuality"                           "common"
+		"AllowedInBackpack"			"0"
+                "ItemSellable"				"0"
+                "ItemShareability"                      "ITEM_FULLY_SHAREABLE"
+                "ItemStockInitial"                      "1"
+                "ItemStockMax"                          "1"
+                "ItemStockTime"                         "120"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"bonus_damage"			"45"
+		}
+	}
 }

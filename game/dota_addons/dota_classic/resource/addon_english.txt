@@ -25,5 +25,14 @@
 
                 "dota_tooltip_ability_item_blades_of_attack_12_beta2"					"Blades of Attack +12"
 		"dota_tooltip_ability_item_blades_of_attack_12_beta2_bonus_damage"			"+$damage"
+
+                "dota_tooltip_ability_item_broadsword_beta2"				        	"Broadsword"
+		"dota_tooltip_ability_item_broadsword_beta2_bonus_damage"		        	"+$damage"
+
+                "dota_tooltip_ability_item_mithril_hammer_beta2"		       			"Mithril Hammer"
+		"dota_tooltip_ability_item_mithril_hammer_beta2_bonus_damage"		        	"+$damage"
+
+                "dota_tooltip_ability_item_demon_edge_beta2"			        		"Demon Edge"
+		"dota_tooltip_ability_item_demon_edge_beta2_bonus_damage"	        		"+$damage"
         }
 }
