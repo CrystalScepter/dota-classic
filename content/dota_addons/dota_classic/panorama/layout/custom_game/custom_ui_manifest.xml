@@ -1,5 +1,6 @@
 <root>
 	<scripts>
+		<!-- Run the following scripts when the custom game starts -->
 		<include src="file://{resources}/scripts/custom_game/main.js"/>
 	</scripts>
 
