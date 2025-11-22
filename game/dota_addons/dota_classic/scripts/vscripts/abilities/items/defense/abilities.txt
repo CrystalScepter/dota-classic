@@ -1,0 +1,33 @@
+"DOTAAbilities"
+{
+	//====================================================================================================
+	// Ring of Protection +1
+	//====================================================================================================
+        "item_ring_of_protection_1_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_ring_of_protection"
+		"ScriptFile"				"abilities/items/defense/item_ring_of_protection_1_beta2.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Information
+		//----------------------------------------------------------------------------------------------------
+		"ItemCost"				"200"
+                "ItemQuality"                           "component"
+		"AllowedInBackpack"			"0"
+                "ItemSellable"				"0"
+                "ItemShareability"                      "ITEM_FULLY_SHAREABLE"
+                "ItemStockInitial"                      "3"
+                "ItemStockMax"                          "3"
+                "ItemStockTime"                         "120"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"bonus_armor"			"1"
+		}
+	}
+}

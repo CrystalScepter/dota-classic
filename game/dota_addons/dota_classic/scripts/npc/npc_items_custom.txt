@@ -2,4 +2,5 @@
 // Link items to different files
 //=================================================================================================================
 #base "../vscripts/abilities/items/attribute/abilities.txt"
+#base "../vscripts/abilities/items/defense/abilities.txt"
 #base "../vscripts/abilities/items/offense/abilities.txt"
