@@ -23,6 +23,7 @@
 		"item"		"item_ring_of_protection_2_beta2"
 		"item"		"item_ring_of_protection_3_beta2"
 		"item"		"item_ring_of_protection_4_beta2"
+		"item"		"item_chainmail_beta2"
 	}
         
         //=================================================================================================================
