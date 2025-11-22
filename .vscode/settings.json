@@ -39,6 +39,12 @@
                 "MODIFIER_PROPERTY_STATS_AGILITY_BONUS",
                 "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS",
                 "modifier_staff_of_wizardry_beta2",
-                "item_staff_of_wizardry_beta2"
+                "item_staff_of_wizardry_beta2",
+                "modifier_gauntlets_beta2",
+                "item_gauntlets_beta2",
+                "modifier_slippers_beta2",
+                "item_slippers_beta2",
+                "modifier_mantle_beta2",
+                "item_mantle_beta2"
         ]
 }

@@ -5,6 +5,9 @@
 	//=================================================================================================================
         "attributes"
 	{
+		"item"		"item_gauntlets_beta2"
+		"item"		"item_slippers_beta2"
+		"item"		"item_mantle_beta2"
 		"item"		"item_ogre_axe_beta2"
                 "item"		"item_blade_of_alacrity_beta2"
                 "item"		"item_staff_of_wizardry_beta2"

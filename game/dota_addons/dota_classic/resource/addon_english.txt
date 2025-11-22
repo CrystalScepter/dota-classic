@@ -14,6 +14,15 @@
                 //====================================================================================================
 		// Attribute items
 		//====================================================================================================
+		"dota_tooltip_ability_item_gauntlets_beta2"				        	"Gauntlets of Strength"
+                "dota_tooltip_ability_item_gauntlets_beta2_bonus_strength"		               	"+$str"
+
+		"dota_tooltip_ability_item_slippers_beta2"				   		"Slippers of Agility"
+                "dota_tooltip_ability_item_slippers_beta2_bonus_agility"		  	     	"+$agi"
+
+		"dota_tooltip_ability_item_mantle_beta2"				        	"Robe of the Magi"
+                "dota_tooltip_ability_item_mantle_beta2_bonus_intelligence"		        	"+$int"
+
                 "dota_tooltip_ability_item_ogre_axe_beta2"				        	"Ogre Axe"
                 "dota_tooltip_ability_item_ogre_axe_beta2_bonus_strength"		               	"+$str"
 		"dota_tooltip_ability_item_ogre_axe_beta2_bonus_damage"		                	"+$damage"

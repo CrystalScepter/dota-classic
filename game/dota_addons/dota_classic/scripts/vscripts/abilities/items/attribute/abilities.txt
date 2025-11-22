@@ -1,5 +1,98 @@
 "DOTAAbilities"
 {
+	//====================================================================================================
+	// Gauntlets of Strength
+	//====================================================================================================
+        "item_gauntlets_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_gauntlets"
+		"ScriptFile"				"abilities/items/attribute/item_gauntlets_beta2.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Information
+		//----------------------------------------------------------------------------------------------------
+		"ItemCost"				"400"
+                "ItemQuality"                           "component"
+		"AllowedInBackpack"			"0"
+                "ItemSellable"				"0"
+                "ItemShareability"                      "ITEM_FULLY_SHAREABLE"
+                "ItemStockInitial"                      "2"
+                "ItemStockMax"                          "2"
+                "ItemStockTime"                         "120"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+                        "bonus_strength"                "3"
+		}
+	}
+
+	//====================================================================================================
+	// Slippers of Agility
+	//====================================================================================================
+        "item_slippers_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_slippers"
+		"ScriptFile"				"abilities/items/attribute/item_slippers_beta2.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Information
+		//----------------------------------------------------------------------------------------------------
+		"ItemCost"				"400"
+                "ItemQuality"                           "component"
+		"AllowedInBackpack"			"0"
+                "ItemSellable"				"0"
+                "ItemShareability"                      "ITEM_FULLY_SHAREABLE"
+                "ItemStockInitial"                      "2"
+                "ItemStockMax"                          "2"
+                "ItemStockTime"                         "120"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+                        "bonus_agility"                "3"
+		}
+	}
+
+	//====================================================================================================
+	// Robe of the Magi
+	//====================================================================================================
+        "item_mantle_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_mantle"
+		"ScriptFile"				"abilities/items/attribute/item_mantle_beta2.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Information
+		//----------------------------------------------------------------------------------------------------
+		"ItemCost"				"400"
+                "ItemQuality"                           "component"
+		"AllowedInBackpack"			"0"
+                "ItemSellable"				"0"
+                "ItemShareability"                      "ITEM_FULLY_SHAREABLE"
+                "ItemStockInitial"                      "2"
+                "ItemStockMax"                          "2"
+                "ItemStockTime"                         "120"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+                        "bonus_intelligence"          	"3"
+		}
+	}
+
         //====================================================================================================
 	// Ogre Axe
 	//====================================================================================================
