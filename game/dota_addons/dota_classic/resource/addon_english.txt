@@ -62,6 +62,13 @@
 		"dota_tooltip_ability_item_blade_mail_beta2"			        		"Blade Mail"
 		"dota_tooltip_ability_item_blade_mail_beta2_bonus_armor"				"+$armor"
 
+		"dota_tooltip_ability_item_assault_beta2"			        		"Assault Cuirass"
+		"dota_tooltip_ability_item_assault_beta2_bonus_armor"					"+$armor"
+
+		"dota_tooltip_ability_item_helm_of_iron_will_beta2"			        	"Helm of Iron Will"
+		"dota_tooltip_ability_item_helm_of_iron_will_beta2_bonus_health"	        	"+$health"
+		"dota_tooltip_ability_item_helm_of_iron_will_beta2_bonus_armor"				"+$armor"
+
                 //====================================================================================================
 		// Offensive items
 		//====================================================================================================

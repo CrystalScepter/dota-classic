@@ -26,6 +26,8 @@
 		"item"		"item_chainmail_beta2"
 		"item"		"item_platemail_beta2"
 		"item"		"item_blade_mail_beta2"
+		"item"		"item_assault_beta2"
+		"item"		"item_helm_of_iron_will_beta2"
 	}
         
         //=================================================================================================================

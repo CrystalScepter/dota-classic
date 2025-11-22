@@ -62,6 +62,11 @@
                 "item_platemail_beta2",
                 "modifier_platemail_beta2",
                 "item_blade_mail_beta2",
-                "modifier_blade_mail_beta2"
+                "modifier_blade_mail_beta2",
+                "item_assault_beta2",
+                "modifier_assault_beta2",
+                "MODIFIER_PROPERTY_HEALTH_BONUS",
+                "modifier_helm_of_iron_will_beta2",
+                "item_helm_of_iron_will_beta2"
         ]
 }
