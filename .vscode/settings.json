@@ -67,6 +67,9 @@
                 "modifier_assault_beta2",
                 "MODIFIER_PROPERTY_HEALTH_BONUS",
                 "modifier_helm_of_iron_will_beta2",
-                "item_helm_of_iron_will_beta2"
+                "item_helm_of_iron_will_beta2",
+                "item_talisman_of_evasion_beta2",
+                "modifier_talisman_of_evasion_beta2",
+                "MODIFIER_PROPERTY_EVASION_CONSTANT"
         ]
 }

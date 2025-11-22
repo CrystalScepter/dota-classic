@@ -69,6 +69,10 @@
 		"dota_tooltip_ability_item_helm_of_iron_will_beta2_bonus_health"	        	"+$health"
 		"dota_tooltip_ability_item_helm_of_iron_will_beta2_bonus_armor"				"+$armor"
 
+		"dota_tooltip_ability_item_talisman_of_evasion_beta2"			        	"Helm of Iron Will"
+		"dota_tooltip_ability_item_talisman_of_evasion_beta2_bonus_armor"			"+$armor"
+		"dota_tooltip_ability_item_talisman_of_evasion_beta2_bonus_evasion"	        	"%+$evasion"
+
                 //====================================================================================================
 		// Offensive items
 		//====================================================================================================
