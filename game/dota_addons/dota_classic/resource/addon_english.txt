@@ -1,0 +1,29 @@
+"lang"
+{
+	//====================================================================================================
+	// Language used by the client
+	//====================================================================================================
+	"Language"										"English"
+	"Tokens"
+	{
+		//====================================================================================================
+		// Name of the custom game
+		//====================================================================================================
+		"addon_game_name"								"Defense of the Ancients Beta 2"
+
+                //====================================================================================================
+		// Offensive items
+		//====================================================================================================
+		"dota_tooltip_ability_item_blades_of_attack_3_beta2"					"Blades of Attack +3"
+		"dota_tooltip_ability_item_blades_of_attack_3_beta2_bonus_damage"			"+$damage"
+
+                "dota_tooltip_ability_item_blades_of_attack_6_beta2"					"Blades of Attack +6"
+		"dota_tooltip_ability_item_blades_of_attack_6_beta2_bonus_damage"			"+$damage"
+
+                "dota_tooltip_ability_item_blades_of_attack_9_beta2"					"Blades of Attack +9"
+		"dota_tooltip_ability_item_blades_of_attack_9_beta2_bonus_damage"			"+$damage"
+
+                "dota_tooltip_ability_item_blades_of_attack_12_beta2"					"Blades of Attack +12"
+		"dota_tooltip_ability_item_blades_of_attack_12_beta2_bonus_damage"			"+$damage"
+        }
+}

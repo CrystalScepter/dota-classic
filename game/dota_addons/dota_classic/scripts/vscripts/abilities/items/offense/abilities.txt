@@ -15,14 +15,112 @@
 		// Information
 		//----------------------------------------------------------------------------------------------------
 		"ItemCost"				"300"
-		"ItemDroppable"				"1"
+                "ItemQuality"                           "component"
 		"AllowedInBackpack"			"0"
+                "ItemSellable"				"0"
+                "ItemShareability"                      "ITEM_FULLY_SHAREABLE"
+                "ItemStockInitial"                      "3"
+                "ItemStockMax"                          "3"
+                "ItemStockTime"                         "120"
 
 		// Special Properties
 		//----------------------------------------------------------------------------------------------------
 		"AbilityValues"
 		{
 			"bonus_damage"			"3"
+		}
+	}
+
+        //====================================================================================================
+	// Blades of Attack +6
+	//====================================================================================================
+        "item_blades_of_attack_6_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_blades_of_attack"
+		"ScriptFile"				"abilities/items/offense/item_blades_of_attack_6_beta2.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Information
+		//----------------------------------------------------------------------------------------------------
+		"ItemCost"				"500"
+                "ItemQuality"                           "component"
+		"AllowedInBackpack"			"0"
+                "ItemSellable"				"0"
+                "ItemShareability"                      "ITEM_FULLY_SHAREABLE"
+                "ItemStockInitial"                      "2"
+                "ItemStockMax"                          "2"
+                "ItemStockTime"                         "120"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"bonus_damage"			"6"
+		}
+	}
+
+        //====================================================================================================
+	// Blades of Attack +9
+	//====================================================================================================
+        "item_blades_of_attack_9_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_blades_of_attack"
+		"ScriptFile"				"abilities/items/offense/item_blades_of_attack_9_beta2.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Information
+		//----------------------------------------------------------------------------------------------------
+		"ItemCost"				"700"
+                "ItemQuality"                           "component"
+		"AllowedInBackpack"			"0"
+                "ItemSellable"				"0"
+                "ItemShareability"                      "ITEM_FULLY_SHAREABLE"
+                "ItemStockInitial"                      "1"
+                "ItemStockMax"                          "1"
+                "ItemStockTime"                         "120"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"bonus_damage"			"9"
+		}
+	}
+
+        //====================================================================================================
+	// Blades of Attack +12
+	//====================================================================================================
+        "item_blades_of_attack_12_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_blades_of_attack"
+		"ScriptFile"				"abilities/items/offense/item_blades_of_attack_12_beta2.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Information
+		//----------------------------------------------------------------------------------------------------
+		"ItemCost"				"900"
+                "ItemQuality"                           "component"
+		"AllowedInBackpack"			"0"
+                "ItemSellable"				"0"
+                "ItemShareability"                      "ITEM_FULLY_SHAREABLE"
+                "ItemStockInitial"                      "1"
+                "ItemStockMax"                          "1"
+                "ItemStockTime"                         "120"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"bonus_damage"			"12"
 		}
 	}
 }

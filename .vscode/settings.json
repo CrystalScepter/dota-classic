@@ -11,6 +11,12 @@
                 "DOTA_ATTRIBUTE_AGILITY_ARMOR",
                 "DOTA_ATTRIBUTE_INTELLIGENCE_DAMAGE",
                 "DOTA_ATTRIBUTE_INTELLIGENCE_MANA",
-                "DOTA_ATTRIBUTE_INTELLIGENCE_MANA_REGEN"
+                "DOTA_ATTRIBUTE_INTELLIGENCE_MANA_REGEN",
+                "LinkLuaModifier",
+                "LUA_MODIFIER_MOTION_NONE",
+                "item_blades_of_attack_3_beta2",
+                "modifier_item_damage",
+                "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE",
+                "MODIFIER_ATTRIBUTE_MULTIPLE"
         ]
 }
