@@ -1,0 +1,98 @@
+"DOTAAbilities"
+{
+        //====================================================================================================
+	// Ogre Axe
+	//====================================================================================================
+        "item_ogre_axe_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_ogre_axe"
+		"ScriptFile"				"abilities/items/attribute/item_ogre_axe_beta2.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Information
+		//----------------------------------------------------------------------------------------------------
+		"ItemCost"				"1000"
+                "ItemQuality"                           "common"
+		"AllowedInBackpack"			"0"
+                "ItemSellable"				"0"
+                "ItemShareability"                      "ITEM_FULLY_SHAREABLE"
+                "ItemStockInitial"                      "1"
+                "ItemStockMax"                          "1"
+                "ItemStockTime"                         "120"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+                        "bonus_strength"                "3"
+			"bonus_damage"			"9"
+		}
+	}
+
+        //====================================================================================================
+	// Blade of Alacrity
+	//====================================================================================================
+        "item_blade_of_alacrity_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_blade_of_alacrity"
+		"ScriptFile"				"abilities/items/attribute/item_blade_of_alacrity_beta2.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Information
+		//----------------------------------------------------------------------------------------------------
+		"ItemCost"				"1000"
+                "ItemQuality"                           "common"
+		"AllowedInBackpack"			"0"
+                "ItemSellable"				"0"
+                "ItemShareability"                      "ITEM_FULLY_SHAREABLE"
+                "ItemStockInitial"                      "1"
+                "ItemStockMax"                          "1"
+                "ItemStockTime"                         "120"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+                        "bonus_agility"                 "3"
+			"bonus_damage"			"9"
+		}
+	}
+
+        //====================================================================================================
+	// Staff of Wizardry
+	//====================================================================================================
+        "item_staff_of_wizardry_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_staff_of_wizardry"
+		"ScriptFile"				"abilities/items/attribute/item_staff_of_wizardry_beta2.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Information
+		//----------------------------------------------------------------------------------------------------
+		"ItemCost"				"1000"
+                "ItemQuality"                           "common"
+		"AllowedInBackpack"			"0"
+                "ItemSellable"				"0"
+                "ItemShareability"                      "ITEM_FULLY_SHAREABLE"
+                "ItemStockInitial"                      "1"
+                "ItemStockMax"                          "1"
+                "ItemStockTime"                         "120"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+                        "bonus_intelligence"            "3"
+			"bonus_damage"			"9"
+		}
+	}
+}

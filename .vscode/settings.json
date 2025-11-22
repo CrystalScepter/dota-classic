@@ -30,6 +30,15 @@
                 "item_blades_of_attack_12_beta2",
                 "modifier_blades_of_attack_12_beta2",
                 "modifier_blades_of_attack_6_beta2",
-                "item_blades_of_attack_6_beta2"
+                "item_blades_of_attack_6_beta2",
+                "modifier_ogre_axe_beta2",
+                "item_ogre_axe_beta2",
+                "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS",
+                "item_blade_of_alacrity_beta2",
+                "modifier_blade_of_alacrity_beta2",
+                "MODIFIER_PROPERTY_STATS_AGILITY_BONUS",
+                "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS",
+                "modifier_staff_of_wizardry_beta2",
+                "item_staff_of_wizardry_beta2"
         ]
 }

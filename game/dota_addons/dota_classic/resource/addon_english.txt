@@ -3,13 +3,28 @@
 	//====================================================================================================
 	// Language used by the client
 	//====================================================================================================
-	"Language"										"English"
+	"Language"								       		"English"
 	"Tokens"
 	{
 		//====================================================================================================
 		// Name of the custom game
 		//====================================================================================================
-		"addon_game_name"								"Defense of the Ancients Beta 2"
+		"addon_game_name"							        	"Defense of the Ancients Beta 2"
+
+                //====================================================================================================
+		// Attribute items
+		//====================================================================================================
+                "dota_tooltip_ability_item_ogre_axe_beta2"				        	"Ogre Axe"
+                "dota_tooltip_ability_item_ogre_axe_beta2_bonus_strength"		               	"+$str"
+		"dota_tooltip_ability_item_ogre_axe_beta2_bonus_damage"		                	"+$damage"
+
+                "dota_tooltip_ability_item_blade_of_alacrity_beta2"				        "Blade of Alacrity"
+                "dota_tooltip_ability_item_blade_of_alacrity_beta2_bonus_agility"		        "+$agi"
+		"dota_tooltip_ability_item_blade_of_alacrity_beta2_bonus_damage"		        "+$damage"
+
+                "dota_tooltip_ability_item_staff_of_wizardry_beta2"				        "Staff of Wizardry"
+                "dota_tooltip_ability_item_staff_of_wizardry_beta2_bonus_intelligence"		        "+$int"
+		"dota_tooltip_ability_item_staff_of_wizardry_beta2_bonus_damage"		        "+$damage"
 
                 //====================================================================================================
 		// Offensive items
