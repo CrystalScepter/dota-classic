@@ -25,6 +25,7 @@
 		"item"		"item_ring_of_protection_4_beta2"
 		"item"		"item_chainmail_beta2"
 		"item"		"item_platemail_beta2"
+		"item"		"item_blade_mail_beta2"
 	}
         
         //=================================================================================================================

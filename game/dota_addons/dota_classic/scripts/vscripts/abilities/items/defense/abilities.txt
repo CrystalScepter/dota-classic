@@ -185,4 +185,35 @@
 			"bonus_armor"			"6"
 		}
 	}
+
+        //====================================================================================================
+	// Blade Mail
+	//====================================================================================================
+        "item_blade_mail_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_blade_mail"
+		"ScriptFile"				"abilities/items/defense/item_blade_mail_beta2.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Information
+		//----------------------------------------------------------------------------------------------------
+		"ItemCost"				"900"
+                "ItemQuality"                           "common"
+		"AllowedInBackpack"			"0"
+                "ItemSellable"				"0"
+                "ItemShareability"                      "ITEM_FULLY_SHAREABLE"
+                "ItemStockInitial"                      "1"
+                "ItemStockMax"                          "1"
+                "ItemStockTime"                         "120"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"bonus_armor"			"7"
+		}
+	}
 }
