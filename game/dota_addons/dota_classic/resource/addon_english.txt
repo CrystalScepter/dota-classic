@@ -56,6 +56,9 @@
 		"dota_tooltip_ability_item_chainmail_beta2"			        		"Chainmail"
 		"dota_tooltip_ability_item_chainmail_beta2_bonus_armor"					"+$armor"
 
+		"dota_tooltip_ability_item_platemail_beta2"			        		"Platemail"
+		"dota_tooltip_ability_item_platemail_beta2_bonus_armor"					"+$armor"
+
                 //====================================================================================================
 		// Offensive items
 		//====================================================================================================

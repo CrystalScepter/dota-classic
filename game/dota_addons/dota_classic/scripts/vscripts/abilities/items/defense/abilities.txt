@@ -139,7 +139,7 @@
 		// Information
 		//----------------------------------------------------------------------------------------------------
 		"ItemCost"				"700"
-                "ItemQuality"                           "component"
+                "ItemQuality"                           "common"
 		"AllowedInBackpack"			"0"
                 "ItemSellable"				"0"
                 "ItemShareability"                      "ITEM_FULLY_SHAREABLE"
@@ -152,6 +152,37 @@
 		"AbilityValues"
 		{
 			"bonus_armor"			"5"
+		}
+	}
+
+        //====================================================================================================
+	// Platemail
+	//====================================================================================================
+        "item_platemail_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_platemail"
+		"ScriptFile"				"abilities/items/defense/item_platemail_beta2.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Information
+		//----------------------------------------------------------------------------------------------------
+		"ItemCost"				"800"
+                "ItemQuality"                           "common"
+		"AllowedInBackpack"			"0"
+                "ItemSellable"				"0"
+                "ItemShareability"                      "ITEM_FULLY_SHAREABLE"
+                "ItemStockInitial"                      "2"
+                "ItemStockMax"                          "2"
+                "ItemStockTime"                         "120"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"bonus_armor"			"6"
 		}
 	}
 }
