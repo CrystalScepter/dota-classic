@@ -93,6 +93,37 @@
 		}
 	}
 
+	//====================================================================================================
+	// Circlet of Nobility
+	//====================================================================================================
+        "item_circlet_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_circlet"
+		"ScriptFile"				"abilities/items/attribute/item_circlet_beta2.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Information
+		//----------------------------------------------------------------------------------------------------
+		"ItemCost"				"700"
+                "ItemQuality"                           "component"
+		"AllowedInBackpack"			"0"
+                "ItemSellable"				"0"
+                "ItemShareability"                      "ITEM_FULLY_SHAREABLE"
+                "ItemStockInitial"                      "1"
+                "ItemStockMax"                          "1"
+                "ItemStockTime"                         "120"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"bonus_all_attributes"		"2"
+		}
+	}
+
         //====================================================================================================
 	// Ogre Axe
 	//====================================================================================================
