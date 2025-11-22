@@ -44,6 +44,15 @@
 		"dota_tooltip_ability_item_ring_of_protection_1_beta2"			        	"Ring of Protection +1"
 		"dota_tooltip_ability_item_ring_of_protection_1_beta2_bonus_armor"			"+$armor"
 
+		"dota_tooltip_ability_item_ring_of_protection_2_beta2"			        	"Ring of Protection +2"
+		"dota_tooltip_ability_item_ring_of_protection_2_beta2_bonus_armor"			"+$armor"
+
+		"dota_tooltip_ability_item_ring_of_protection_3_beta2"			        	"Ring of Protection +3"
+		"dota_tooltip_ability_item_ring_of_protection_3_beta2_bonus_armor"			"+$armor"
+
+		"dota_tooltip_ability_item_ring_of_protection_4_beta2"			        	"Ring of Protection +4"
+		"dota_tooltip_ability_item_ring_of_protection_4_beta2_bonus_armor"			"+$armor"
+
                 //====================================================================================================
 		// Offensive items
 		//====================================================================================================

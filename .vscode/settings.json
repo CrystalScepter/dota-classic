@@ -50,6 +50,12 @@
                 "item_circlet_beta2",
                 "item_ring_of_protection_1_beta2",
                 "modifier_ring_of_protection_1_beta2",
-                "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"
+                "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS",
+                "item_ring_of_protection_2_beta2",
+                "modifier_ring_of_protection_2_beta2",
+                "item_ring_of_protection_3_beta2",
+                "modifier_ring_of_protection_3_beta2",
+                "item_ring_of_protection_4_beta2",
+                "modifier_ring_of_protection_4_beta2"
         ]
 }
