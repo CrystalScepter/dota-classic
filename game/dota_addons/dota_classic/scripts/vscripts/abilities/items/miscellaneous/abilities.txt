@@ -1,6 +1,37 @@
 "DOTAAbilities"
 {
-        //====================================================================================================
+	//====================================================================================================
+	// Gloves of Haste
+	//====================================================================================================
+        "item_gloves_of_haste_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_gloves"
+		"ScriptFile"				"abilities/items/miscellaneous/item_gloves_of_haste_beta2.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Information
+		//----------------------------------------------------------------------------------------------------
+		"ItemCost"				"325"
+                "ItemQuality"                           "component"
+		"AllowedInBackpack"			"0"
+                "ItemSellable"				"0"
+                "ItemShareability"                      "ITEM_FULLY_SHAREABLE"
+                "ItemStockInitial"                      "2"
+                "ItemStockMax"                          "2"
+                "ItemStockTime"                         "120"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+                        "bonus_attack_speed"          	"15"
+		}
+	}
+
+	//====================================================================================================
 	// Boots of Speed
 	//====================================================================================================
         "item_boots_of_speed_beta2"
@@ -32,15 +63,15 @@
 	}
 
 	//====================================================================================================
-	// Gloves of Haste
+	// Ring of Regen
 	//====================================================================================================
-        "item_gloves_of_haste_beta2"
+        "item_ring_of_regen_beta2"
 	{
 		// General
 		//----------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
-		"AbilityTextureName"			"item_gloves"
-		"ScriptFile"				"abilities/items/miscellaneous/item_gloves_of_haste_beta2.lua"
+		"AbilityTextureName"			"item_ring_of_regen"
+		"ScriptFile"				"abilities/items/miscellaneous/item_ring_of_regen_beta2.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 
 		// Information
@@ -50,15 +81,46 @@
 		"AllowedInBackpack"			"0"
                 "ItemSellable"				"0"
                 "ItemShareability"                      "ITEM_FULLY_SHAREABLE"
-                "ItemStockInitial"                      "2"
-                "ItemStockMax"                          "2"
+                "ItemStockInitial"                      "1"
+                "ItemStockMax"                          "1"
                 "ItemStockTime"                         "120"
 
 		// Special Properties
 		//----------------------------------------------------------------------------------------------------
 		"AbilityValues"
 		{
-                        "bonus_attack_speed"          	"15"
+                        "bonus_health_regen"          	"2"
+		}
+	}
+
+	//====================================================================================================
+	// Sobi Mask
+	//====================================================================================================
+        "item_sobi_mask_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_sobi_mask"
+		"ScriptFile"				"abilities/items/miscellaneous/item_sobi_mask_beta2.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Information
+		//----------------------------------------------------------------------------------------------------
+		"ItemCost"				"400"
+                "ItemQuality"                           "component"
+		"AllowedInBackpack"			"0"
+                "ItemSellable"				"0"
+                "ItemShareability"                      "ITEM_FULLY_SHAREABLE"
+                "ItemStockInitial"                      "1"
+                "ItemStockMax"                          "1"
+                "ItemStockTime"                         "120"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+                        "bonus_mana_regen"          	"50"
 		}
 	}
 

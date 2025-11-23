@@ -84,6 +84,11 @@
                 "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT",
                 "item_point_booster_beta2",
                 "modifier_point_booster_beta2",
-                "MODIFIER_PROPERTY_MANA_BONUS"
+                "MODIFIER_PROPERTY_MANA_BONUS",
+                "modifier_ring_of_regen_beta2",
+                "item_ring_of_regen_beta2",
+                "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT",
+                "modifier_sobi_mask_beta2",
+                "item_sobi_mask_beta2"
         ]
 }

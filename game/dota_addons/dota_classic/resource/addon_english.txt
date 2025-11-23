@@ -111,6 +111,12 @@
 		"dota_tooltip_ability_item_boots_of_speed_beta2_bonus_movement_speed"	        	"+$move_speed"
 		"dota_tooltip_ability_item_boots_of_speed_beta2_note0"					"Multiple sources of movement speed do stack."
 
+		"dota_tooltip_ability_item_ring_of_regen_beta2"			        		"Ring of Regen"
+		"dota_tooltip_ability_item_ring_of_regen_beta2_bonus_health_regen"	        	"+$hp_regen"
+
+		"dota_tooltip_ability_item_sobi_mask_beta2"			        		"Sobi Mask"
+		"dota_tooltip_ability_item_sobi_mask_beta2_bonus_mana_regen"	        		"%+$mana_regen"
+
 		"dota_tooltip_ability_item_point_booster_beta2"			        		"Point Booster"
 		"dota_tooltip_ability_item_point_booster_beta2_bonus_health"	        		"+$health"
 		"dota_tooltip_ability_item_point_booster_beta2_bonus_mana"				"+$mana"
