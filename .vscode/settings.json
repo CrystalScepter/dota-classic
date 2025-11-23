@@ -81,6 +81,9 @@
                 "modifier_boots_of_speed_beta2",
                 "item_gloves_of_haste_beta2",
                 "modifier_gloves_of_haste_beta2",
-                "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"
+                "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT",
+                "item_point_booster_beta2",
+                "modifier_point_booster_beta2",
+                "MODIFIER_PROPERTY_MANA_BONUS"
         ]
 }

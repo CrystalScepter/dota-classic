@@ -62,6 +62,38 @@
 		}
 	}
 
+	//====================================================================================================
+	// Point Booster
+	//====================================================================================================
+        "item_point_booster_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_point_booster"
+		"ScriptFile"				"abilities/items/miscellaneous/item_point_booster_beta2.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Information
+		//----------------------------------------------------------------------------------------------------
+		"ItemCost"				"1000"
+                "ItemQuality"                           "common"
+		"AllowedInBackpack"			"0"
+                "ItemSellable"				"0"
+                "ItemShareability"                      "ITEM_FULLY_SHAREABLE"
+                "ItemStockInitial"                      "1"
+                "ItemStockMax"                          "1"
+                "ItemStockTime"                         "120"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+                        "bonus_health"          	"300"
+			"bonus_mana"          		"300"
+		}
+	}
+
         //====================================================================================================
 	// Tranquil Boots
 	//====================================================================================================
