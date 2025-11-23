@@ -30,7 +30,6 @@
 		"item"		"item_helm_of_iron_will_beta2"
 		"item"		"item_talisman_of_evasion_beta2"
 		"item"		"item_cloak_beta2"
-		"item"		"item_tranquil_boots_beta2"
 	}
         
         //=================================================================================================================
@@ -45,5 +44,14 @@
                 "item"		"item_broadsword_beta2"
                 "item"		"item_mithril_hammer_beta2"
                 "item"		"item_demon_edge_beta2"
+	}
+
+	//=================================================================================================================
+	// Miscellaneous items
+	//=================================================================================================================
+	"misc"
+	{
+		"item"		"item_boots_of_speed_beta2"
+		"item"		"item_tranquil_boots_beta2"
 	}
 }

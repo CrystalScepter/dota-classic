@@ -77,10 +77,6 @@
 		"dota_tooltip_ability_item_cloak_beta2_bonus_armor"					"+$armor"
 		"dota_tooltip_ability_item_cloak_beta2_bonus_mana_regen"	        		"%+$mana_regen"
 
-		"dota_tooltip_ability_item_tranquil_boots_beta2"			        	"Tranquil Boots"
-		"dota_tooltip_ability_item_tranquil_boots_beta2_bonus_armor"				"+$armor"
-		"dota_tooltip_ability_item_tranquil_boots_beta2_bonus_movement_speed"	        	"+$move_speed"
-
                 //====================================================================================================
 		// Offensive items
 		//====================================================================================================
@@ -104,5 +100,15 @@
 
                 "dota_tooltip_ability_item_demon_edge_beta2"			        		"Demon Edge"
 		"dota_tooltip_ability_item_demon_edge_beta2_bonus_damage"	        		"+$damage"
+
+		//====================================================================================================
+		// Miscellaneous items
+		//====================================================================================================
+		"dota_tooltip_ability_item_boots_of_speed_beta2"			        	"Boots of Speed"
+		"dota_tooltip_ability_item_boots_of_speed_beta2_bonus_movement_speed"	        	"+$move_speed"
+
+		"dota_tooltip_ability_item_tranquil_boots_beta2"			        	"Tranquil Boots"
+		"dota_tooltip_ability_item_tranquil_boots_beta2_bonus_armor"				"+$armor"
+		"dota_tooltip_ability_item_tranquil_boots_beta2_bonus_movement_speed"	        	"+$move_speed"
         }
 }

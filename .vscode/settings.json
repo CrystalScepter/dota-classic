@@ -76,6 +76,8 @@
                 "MODIFIER_PROPERTY_MP_REGEN_AMPLIFY_PERCENTAGE",
                 "item_tranquil_boots_beta2",
                 "modifier_tranquil_boots_beta2",
-                "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"
+                "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT",
+                "item_boots_of_speed_beta2",
+                "modifier_boots_of_speed_beta2"
         ]
 }
