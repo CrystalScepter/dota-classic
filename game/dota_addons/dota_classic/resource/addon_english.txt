@@ -73,6 +73,10 @@
 		"dota_tooltip_ability_item_talisman_of_evasion_beta2_bonus_armor"			"+$armor"
 		"dota_tooltip_ability_item_talisman_of_evasion_beta2_bonus_evasion"	        	"%+$evasion"
 
+		"dota_tooltip_ability_item_cloak_beta2"			        			"Cloak"
+		"dota_tooltip_ability_item_cloak_beta2_bonus_armor"					"+$armor"
+		"dota_tooltip_ability_item_cloak_beta2_bonus_mana_regen"	        		"%+$mana_regen"
+
                 //====================================================================================================
 		// Offensive items
 		//====================================================================================================

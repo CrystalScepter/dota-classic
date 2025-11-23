@@ -70,6 +70,9 @@
                 "item_helm_of_iron_will_beta2",
                 "item_talisman_of_evasion_beta2",
                 "modifier_talisman_of_evasion_beta2",
-                "MODIFIER_PROPERTY_EVASION_CONSTANT"
+                "MODIFIER_PROPERTY_EVASION_CONSTANT",
+                "item_cloak_beta2",
+                "modifier_cloak_beta2",
+                "MODIFIER_PROPERTY_MP_REGEN_AMPLIFY_PERCENTAGE"
         ]
 }

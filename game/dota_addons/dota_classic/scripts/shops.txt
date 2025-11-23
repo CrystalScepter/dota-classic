@@ -29,6 +29,7 @@
 		"item"		"item_assault_beta2"
 		"item"		"item_helm_of_iron_will_beta2"
 		"item"		"item_talisman_of_evasion_beta2"
+		"item"		"item_cloak_beta2"
 	}
         
         //=================================================================================================================

@@ -311,4 +311,36 @@
                         "bonus_evasion"                 "15"
 		}
 	}
+
+        //====================================================================================================
+	// Cloak
+	//====================================================================================================
+        "item_cloak_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_cloak"
+		"ScriptFile"				"abilities/items/defense/item_cloak_beta2.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Information
+		//----------------------------------------------------------------------------------------------------
+		"ItemCost"				"1500"
+                "ItemQuality"                           "common"
+		"AllowedInBackpack"			"0"
+                "ItemSellable"				"0"
+                "ItemShareability"                      "ITEM_FULLY_SHAREABLE"
+                "ItemStockInitial"                      "3"
+                "ItemStockMax"                          "3"
+                "ItemStockTime"                         "120"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"bonus_armor"			"6"
+                        "bonus_mana_regen"              "50"
+		}
+	}
 }
