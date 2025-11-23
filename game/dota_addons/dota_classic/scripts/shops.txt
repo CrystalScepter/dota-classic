@@ -55,6 +55,7 @@
 		"item"		"item_boots_of_speed_beta2"
 		"item"		"item_ring_of_regen_beta2"
 		"item"		"item_sobi_mask_beta2"
+		"item"		"item_perseverance_beta2"
 		"item"		"item_point_booster_beta2"
 		"item"		"item_tranquil_boots_beta2"
 	}
