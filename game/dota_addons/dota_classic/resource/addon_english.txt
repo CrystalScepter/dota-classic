@@ -104,11 +104,16 @@
 		//====================================================================================================
 		// Miscellaneous items
 		//====================================================================================================
+		"dota_tooltip_ability_item_gloves_of_haste_beta2"			        	"Gloves of Haste"
+		"dota_tooltip_ability_item_gloves_of_haste_beta2_bonus_attack_speed"	        	"+$attack"
+
 		"dota_tooltip_ability_item_boots_of_speed_beta2"			        	"Boots of Speed"
 		"dota_tooltip_ability_item_boots_of_speed_beta2_bonus_movement_speed"	        	"+$move_speed"
+		"dota_tooltip_ability_item_boots_of_speed_beta2_note0"					"Multiple sources of movement speed do stack."
 
 		"dota_tooltip_ability_item_tranquil_boots_beta2"			        	"Tranquil Boots"
 		"dota_tooltip_ability_item_tranquil_boots_beta2_bonus_armor"				"+$armor"
 		"dota_tooltip_ability_item_tranquil_boots_beta2_bonus_movement_speed"	        	"+$move_speed"
+		"dota_tooltip_ability_item_tranquil_boots_beta2_note0"			        	"Multiple sources of movement speed do stack."
         }
 }

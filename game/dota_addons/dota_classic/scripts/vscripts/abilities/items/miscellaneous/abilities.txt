@@ -31,6 +31,37 @@
 		}
 	}
 
+	//====================================================================================================
+	// Gloves of Haste
+	//====================================================================================================
+        "item_gloves_of_haste_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_gloves"
+		"ScriptFile"				"abilities/items/miscellaneous/item_gloves_of_haste_beta2.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Information
+		//----------------------------------------------------------------------------------------------------
+		"ItemCost"				"325"
+                "ItemQuality"                           "component"
+		"AllowedInBackpack"			"0"
+                "ItemSellable"				"0"
+                "ItemShareability"                      "ITEM_FULLY_SHAREABLE"
+                "ItemStockInitial"                      "2"
+                "ItemStockMax"                          "2"
+                "ItemStockTime"                         "120"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+                        "bonus_attack_speed"          	"15"
+		}
+	}
+
         //====================================================================================================
 	// Tranquil Boots
 	//====================================================================================================

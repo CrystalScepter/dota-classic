@@ -51,6 +51,7 @@
 	//=================================================================================================================
 	"misc"
 	{
+		"item"		"item_gloves_of_haste_beta2"
 		"item"		"item_boots_of_speed_beta2"
 		"item"		"item_tranquil_boots_beta2"
 	}
