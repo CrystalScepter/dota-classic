@@ -73,6 +73,9 @@
                 "MODIFIER_PROPERTY_EVASION_CONSTANT",
                 "item_cloak_beta2",
                 "modifier_cloak_beta2",
-                "MODIFIER_PROPERTY_MP_REGEN_AMPLIFY_PERCENTAGE"
+                "MODIFIER_PROPERTY_MP_REGEN_AMPLIFY_PERCENTAGE",
+                "item_tranquil_boots_beta2",
+                "modifier_tranquil_boots_beta2",
+                "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"
         ]
 }
