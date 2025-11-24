@@ -22,11 +22,6 @@ function modifier_gem_beta2:OnCreated(kv)
 	self.radius = self:GetAbility():GetSpecialValueFor("radius")
 end
 
--- Allow the modifier to stack
-function modifier_gem_beta2:GetAttributes()
-	return MODIFIER_ATTRIBUTE_MULTIPLE
-end
-
 -- Indicate that the item has an aura
 function modifier_gem_beta2:IsAura()
 	return true
