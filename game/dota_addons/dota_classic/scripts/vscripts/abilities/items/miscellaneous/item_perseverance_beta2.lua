@@ -47,11 +47,6 @@ function modifier_perseverance_beta2:GetAttributes()
 	return MODIFIER_ATTRIBUTE_MULTIPLE
 end
 
--- Prevent the modifier from showing up in the buff bar
-function modifier_perseverance_beta2:IsHidden()
-	return true
-end
-
 -- Indicate that the item has an aura
 function modifier_perseverance_beta2:IsAura()
 	return true

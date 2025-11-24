@@ -3,5 +3,6 @@
 //=================================================================================================================
 #base "../vscripts/abilities/items/attribute/abilities.txt"
 #base "../vscripts/abilities/items/defense/abilities.txt"
-#base "../vscripts/abilities/items/offense/abilities.txt"
+#base "../vscripts/abilities/items/midlaneshop/abilities.txt"
 #base "../vscripts/abilities/items/miscellaneous/abilities.txt"
+#base "../vscripts/abilities/items/offense/abilities.txt"
