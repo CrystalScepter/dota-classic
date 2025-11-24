@@ -1,11 +1,11 @@
 "DOTAHeroes"
 {
 	//=================================================================================================================
-	// Crystal Maiden
+	// Shadow Demon
 	//=================================================================================================================
-	"npc_dota_hero_crystal_maiden_beta2"
+	"npc_dota_hero_shadow_demon_beta2"
 	{
-                "override_hero"				"npc_dota_hero_crystal_maiden"
+                "override_hero"				"npc_dota_hero_shadow_demon"
 
                 "Ability1"				""
 		"Ability2"				""
