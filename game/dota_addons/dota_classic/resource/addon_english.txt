@@ -122,8 +122,8 @@
 		"dota_tooltip_ability_item_perseverance_beta2_bonus_health_regen"			"+$hp_regen"
 		"dota_tooltip_ability_item_perseverance_beta2_bonus_mana_regen"				"%+$mana_regen"
 
-		"dota_tooltip_modifier_perseverance_beta2"						"True Sight"
-		"dota_tooltip_modifier_perseverance_beta2_description"					"Grants the ability to see invisible units."
+		"dota_tooltip_modifier_perseverance_truesight_beta2"					"True Sight"
+		"dota_tooltip_modifier_perseverance_truesight_beta2_description"			"Grants the ability to see invisible units."
 
 		"dota_tooltip_ability_item_point_booster_beta2"						"Point Booster"
 		"dota_tooltip_ability_item_point_booster_beta2_bonus_health"				"+$health"
