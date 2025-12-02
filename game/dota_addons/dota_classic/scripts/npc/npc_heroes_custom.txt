@@ -5,15 +5,21 @@
 	//=================================================================================================================
 	"npc_dota_hero_shadow_demon_beta2"
 	{
-                "override_hero"				"npc_dota_hero_shadow_demon"
+		"override_hero"				"npc_dota_hero_shadow_demon"
 
-                "Ability1"				""
+		"Role"					"Support,Disabler"
+		"Rolelevels"				"3,2"
+		"Complexity"				"1"
+
+		"Ability1"				""
 		"Ability2"				""
 		"Ability3"				""
 		"Ability4"				"generic_hidden"
 		"Ability5"				"generic_hidden"
 		"Ability6"				""
 		"Ability7"				""
+		"Ability8"				""
+		"Ability9"				""
 		"Ability10"				""
 		"Ability11"				""
 		"Ability12"				""
@@ -22,12 +28,55 @@
 		"Ability15"				""
 		"Ability16"				""
 		"Ability17"				""
+		"Ability18"				""
+		"Ability19"				""
+		"Ability20"				""
+		"Ability21"				""
+		"Ability22"				""
+		"Ability23"				""
+		"Ability24"				""
 		"Ability25"				""
-
-		"AbilityTalentStart"			""
 
 		"Facets"
 		{
 		}
-        }
+
+		"AbilityTalentStart"			""
+
+		"ArmorPhysical"				"-2"
+		"MagicalResistance"			"25"
+
+		"BaseAttackSpeed"			"100"
+		"AttackDamageMin"			"2"
+		"AttackDamageMax"			"8"
+		"AttackRate"				"2"
+		"AttackAnimationPoint"			"0.5"
+		"AttackAcquisitionRange"		"600"
+		"AttackRange"				"600"
+		"ProjectileSpeed"			"900"
+
+		"AttributePrimary"			"DOTA_ATTRIBUTE_INTELLECT"
+		"AttributeBaseStrength"			"21"
+		"AttributeStrengthGain"			"2"
+		"AttributeBaseAgility"			"17"
+		"AttributeAgilityGain"			"1.5"
+		"AttributeBaseIntelligence"		"20"
+		"AttributeIntelligenceGain"		"2.5"
+
+		"BountyXP"				"0"
+		"BountyGoldMin"				"30"
+		"BountyGoldMax"				"54"
+
+		"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
+		"MovementSpeed"				"320"
+		"MovementTurnRate"			"0.5"
+
+		"StatusHealth"				"100"
+		"StatusMana"				"0"
+		"StatusHealthRegen"			"1"
+		"StatusManaRegen"			"0.1"
+
+		"VisionDaytimeRange"			"1800"
+		"VisionNighttimeRange"			"800"
+	}
 }
