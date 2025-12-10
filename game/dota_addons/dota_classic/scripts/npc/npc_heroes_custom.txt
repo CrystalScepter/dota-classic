@@ -64,7 +64,7 @@
 		"AttributeIntelligenceGain"		"2.5"
 
 		"BountyXP"				"0"
-		"BountyGoldMin"				"30"
+		"BountyGoldMin"				"38"
 		"BountyGoldMax"				"54"
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
