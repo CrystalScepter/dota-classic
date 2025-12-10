@@ -1,16 +1,20 @@
 "DOTAHeroes"
 {
-	//=================================================================================================================
+	//====================================================================================================
 	// Shadow Demon
-	//=================================================================================================================
+	//====================================================================================================
 	"npc_dota_hero_shadow_demon_beta2"
 	{
 		"override_hero"				"npc_dota_hero_shadow_demon"
 
+		// Roles
+		//----------------------------------------------------------------------------------------------------
 		"Role"					"Support,Disabler"
 		"Rolelevels"				"3,3"
 		"Complexity"				"1"
 
+		// Abilities
+		//----------------------------------------------------------------------------------------------------
 		"Ability1"				""
 		"Ability2"				""
 		"Ability3"				""
@@ -43,10 +47,18 @@
 
 		"AbilityTalentStart"			""
 
-		"ArmorPhysical"				"-2"
-		"MagicalResistance"			"25"
+		// Attributes
+		//----------------------------------------------------------------------------------------------------
+		"AttributePrimary"			"DOTA_ATTRIBUTE_INTELLECT"
+		"AttributeBaseStrength"			"21"
+		"AttributeStrengthGain"			"2"
+		"AttributeBaseAgility"			"17"
+		"AttributeAgilityGain"			"1.5"
+		"AttributeBaseIntelligence"		"20"
+		"AttributeIntelligenceGain"		"2.5"
 
-		"AttackCapabilities"			"DOTA_UNIT_CAP_RANGED_ATTACK"
+		// Stats
+		//----------------------------------------------------------------------------------------------------
 		"BaseAttackSpeed"			"100"
 		"AttackDamageMin"			"2"
 		"AttackDamageMax"			"8"
@@ -56,27 +68,26 @@
 		"AttackRange"				"600"
 		"ProjectileSpeed"			"900"
 
-		"AttributePrimary"			"DOTA_ATTRIBUTE_INTELLECT"
-		"AttributeBaseStrength"			"21"
-		"AttributeStrengthGain"			"2"
-		"AttributeBaseAgility"			"17"
-		"AttributeAgilityGain"			"1.5"
-		"AttributeBaseIntelligence"		"20"
-		"AttributeIntelligenceGain"		"2.5"
-
-		"BountyXP"				"0"
-		"BountyGoldMin"				"38"
-		"BountyGoldMax"				"54"
-
-		"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
-		"MovementSpeed"				"320"
-		"MovementTurnRate"			"0.5"
+		"ArmorPhysical"				"-2"
+		"MagicalResistance"			"25"
 
 		"StatusHealth"				"100"
 		"StatusMana"				"0"
 		"StatusHealthRegen"			"1"
 		"StatusManaRegen"			"0.1"
 
+		"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
+		"MovementSpeed"				"320"
+		"MovementTurnRate"			"0.5"
+
+		// Bounties
+		//----------------------------------------------------------------------------------------------------
+		"BountyXP"				"0"
+		"BountyGoldMin"				"38"
+		"BountyGoldMax"				"54"
+
+		// Vision
+		//----------------------------------------------------------------------------------------------------
 		"VisionDaytimeRange"			"1800"
 		"VisionNighttimeRange"			"800"
 	}
