@@ -139,7 +139,7 @@
 		"dota_tooltip_ability_item_sobi_mask_beta2_bonus_mana_regen"				"%+$mana_regen"
 
 		"dota_tooltip_ability_item_perseverance_beta2"						"Perseverance"
-		"dota_tooltip_ability_item_perseverance_beta2_description"				"<h1>Passive: True Sight</h1>Grants the ability to see invisible units within %radius% range of its carrier."
+		"dota_tooltip_ability_item_perseverance_beta2_description"				"<h1>Passive: True Sight</h1>Grants the ability to see invisible units."
 		"dota_tooltip_ability_item_perseverance_beta2_bonus_health_regen"			"+$hp_regen"
 		"dota_tooltip_ability_item_perseverance_beta2_bonus_mana_regen"				"%+$mana_regen"
 
@@ -159,7 +159,7 @@
 		// Mid lane shop items
 		//====================================================================================================
 		"dota_tooltip_ability_item_gem_beta2"							"Gem of True Sight"
-		"dota_tooltip_ability_item_gem_beta2_description"					"<h1>Passive: True Sight</h1>Grants the ability to see invisible units within %radius% range of its carrier."
+		"dota_tooltip_ability_item_gem_beta2_description"					"<h1>Passive: True Sight</h1>Grants the ability to see invisible units."
 
 		"dota_tooltip_modifier_gem_beta2"							"True Sight"
 		"dota_tooltip_modifier_gem_beta2_description"						"Grants the ability to see invisible units."
