@@ -13,8 +13,15 @@ shop_interface.FindChildTraverse("SearchAndButtonsContainer").FindChildTraverse(
 // Disable neutral items tab in the shop
 shop_interface.FindChildTraverse("GridHeaderAndMainContent").FindChildTraverse("GridMainContent").FindChildTraverse("GridShopHeaders").FindChildTraverse("GridMainTabs").FindChildTraverse("GridNeutralsTab").style.visibility = "collapse";
 
-// Disable talent tree, innates and Aghanim's indicators
+// Disable talent tree
 hero_interface.FindChildTraverse("StatBranch").style.visibility = "collapse";
+hero_interface.FindChildTraverse("StatBranchHotkey").style.visibility = "collapse";
+hero_interface.FindChildTraverse("level_stats_frame").style.visibility = "collapse";
+hero_interface.FindChildTraverse("StatBranch").SetPanelEvent("onmouseover", function () { });
+hero_interface.FindChildTraverse("StatBranch").SetPanelEvent("onactivate", function () { });
+hud.FindChildTraverse("HUDElements").FindChildTraverse("lower_hud").FindChildTraverse("StatBranchDrawer").style.visibility = "collapse";
+
+// Disable innates and Aghanim's indicators
 hero_interface.FindChildTraverse("ContentsContainer").style.visibility = "collapse";
 hero_interface.FindChildTraverse("AghsStatusContainer").style.visibility = "collapse";
 
