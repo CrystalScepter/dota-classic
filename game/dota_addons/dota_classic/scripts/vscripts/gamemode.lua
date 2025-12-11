@@ -1,6 +1,9 @@
 -- Declare the class itself
 GameMode = class({})
 
+-- Import the following classes
+require("events")
+
 -- Called when the custom game starts by the addon_game_mode class
 function GameMode:InitGameMode()
         -- Declare the game mode variable
@@ -29,7 +32,7 @@ function GameMode:InitGameMode()
         GameMode:SetStickyItemDisabled(true)
         GameMode:SetSendToStashEnabled(false)
         GameMode:SetStashPurchasingDisabled(true)
-	GameRules:SetUseUniversalShopMode(true)
+        GameRules:SetUseUniversalShopMode(true)
 
         -- Disable TP on death award and buyback
         GameMode:SetGiveFreeTPOnDeath(false)
@@ -61,35 +64,41 @@ function GameMode:InitGameMode()
 
         -- Change hero maximum level to 10
         GameMode:SetUseCustomHeroLevels(true)
-	GameMode:SetCustomXPRequiredToReachNextLevel({
-		0,
-		200,
-		500,
-		900,
-		1400,
-		2000,
-		2700,
-		3500,
-		4400,
-		5400,
-	})
+        GameMode:SetCustomXPRequiredToReachNextLevel({
+                0,
+                200,
+                500,
+                900,
+                1400,
+                2000,
+                2700,
+                3500,
+                4400,
+                5400,
+        })
 
         -- Change hero attribute values, except for intelligence giving base magic resist since it's broken
         GameMode:SetCustomAttributeDerivedStatValue(DOTA_ATTRIBUTE_STRENGTH_DAMAGE, 1)
-	GameMode:SetCustomAttributeDerivedStatValue(DOTA_ATTRIBUTE_STRENGTH_HP, 25)
-	GameMode:SetCustomAttributeDerivedStatValue(DOTA_ATTRIBUTE_STRENGTH_HP_REGEN, 0.05)
-	GameMode:SetCustomAttributeDerivedStatValue(DOTA_ATTRIBUTE_AGILITY_DAMAGE, 1)
+        GameMode:SetCustomAttributeDerivedStatValue(DOTA_ATTRIBUTE_STRENGTH_HP, 25)
+        GameMode:SetCustomAttributeDerivedStatValue(DOTA_ATTRIBUTE_STRENGTH_HP_REGEN, 0.05)
+        GameMode:SetCustomAttributeDerivedStatValue(DOTA_ATTRIBUTE_AGILITY_DAMAGE, 1)
         GameMode:SetCustomAttributeDerivedStatValue(DOTA_ATTRIBUTE_AGILITY_ATTACK_SPEED, 2)
-	GameMode:SetCustomAttributeDerivedStatValue(DOTA_ATTRIBUTE_AGILITY_ARMOR, 0.3)
-	GameMode:SetCustomAttributeDerivedStatValue(DOTA_ATTRIBUTE_INTELLIGENCE_DAMAGE, 1)
-	GameMode:SetCustomAttributeDerivedStatValue(DOTA_ATTRIBUTE_INTELLIGENCE_MANA, 15)
-	GameMode:SetCustomAttributeDerivedStatValue(DOTA_ATTRIBUTE_INTELLIGENCE_MANA_REGEN, 0.05)
+        GameMode:SetCustomAttributeDerivedStatValue(DOTA_ATTRIBUTE_AGILITY_ARMOR, 0.3)
+        GameMode:SetCustomAttributeDerivedStatValue(DOTA_ATTRIBUTE_INTELLIGENCE_DAMAGE, 1)
+        GameMode:SetCustomAttributeDerivedStatValue(DOTA_ATTRIBUTE_INTELLIGENCE_MANA, 15)
+        GameMode:SetCustomAttributeDerivedStatValue(DOTA_ATTRIBUTE_INTELLIGENCE_MANA_REGEN, 0.05)
 
         -- Disable innate damage block on melee heroes
         GameMode:SetInnateMeleeDamageBlockPercent(0)
         GameMode:SetInnateMeleeDamageBlockAmount(0)
-	GameMode:SetInnateMeleeDamageBlockPerLevelAmount(0)
+        GameMode:SetInnateMeleeDamageBlockPerLevelAmount(0)
 
         -- Disable illusions being removed when your hero dies
         GameMode:SetRemoveIllusionsOnDeath(false)
+
+        -- Register unit spawns
+        ListenToGameEvent("npc_spawned", Dynamic_Wrap(self, "OnNPCSpawned"), self)
+
+        -- Links the modifiers that are going to be used by our events
+        LinkLuaModifier("modifier_magic_resist", "modifiers/modifier_magic_resist.lua", LUA_MODIFIER_MOTION_NONE)
 end
