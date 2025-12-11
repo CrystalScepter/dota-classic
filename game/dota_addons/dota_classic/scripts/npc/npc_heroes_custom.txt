@@ -15,7 +15,7 @@
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
-		"Ability1"				""
+		"Ability1"				"shadow_demon_enfeeble_beta2"
 		"Ability2"				""
 		"Ability3"				""
 		"Ability4"				"generic_hidden"

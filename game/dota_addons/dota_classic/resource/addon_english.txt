@@ -12,6 +12,18 @@
 		"addon_game_name"									"Defense of the Ancients Beta 2"
 
 		//====================================================================================================
+		// Shadow Demon
+		//====================================================================================================
+		"dota_tooltip_ability_shadow_demon_enfeeble_beta2"					"Enfeeble"
+		"dota_tooltip_ability_shadow_demon_enfeeble_beta2_description"				"Weakens an enemy unit, reducing its physical damage."
+		"dota_tooltip_ability_shadow_demon_enfeeble_beta2_damage_reduction"			"%Damage Reduction:"
+		"dota_tooltip_ability_shadow_demon_enfeeble_beta2_hero_duration"			"Hero Duration:"
+		"dota_tooltip_ability_shadow_demon_enfeeble_beta2_creep_duration"			"Creep Duration:"
+
+		"dota_tooltip_modifier_shadow_demon_enfeeble_beta2"					"Enfeeble"
+		"dota_tooltip_modifier_shadow_demon_enfeeble_beta2_description"				"This unit has reduced physical damage."
+
+		//====================================================================================================
 		// Attribute items
 		//====================================================================================================
 		"dota_tooltip_ability_item_gauntlets_beta2"						"Gauntlets of Strength"

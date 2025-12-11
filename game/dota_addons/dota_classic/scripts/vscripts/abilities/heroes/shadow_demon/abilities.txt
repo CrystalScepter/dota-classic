@@ -1,0 +1,45 @@
+"DOTAAbilities"
+{
+	//====================================================================================================
+	// Enfeeble
+	//====================================================================================================
+	"shadow_demon_enfeeble_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/heroes/shadow_demon/shadow_demon_enfeeble_beta2"
+		"AbilityTextureName"			"bane_enfeeble"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+
+		"MaxLevel" 				"3"
+
+		// Stats
+		//----------------------------------------------------------------------------------------------------
+		"AbilityManaCost"			"100"
+		"AbilityCooldown"			"10"
+		"AbilityCastPoint"			"0.3"
+		"AbilityCastRange"			"600"
+		"AbilityCastRangeBuffer"		"300"
+
+                // Precache
+		//----------------------------------------------------------------------------------------------------
+		"precache"
+		{
+			"particle"			"particles/units/heroes/hero_bane/bane_enfeeble.vpcf"
+			"soundfile"			"soundevents/game_sounds_heroes/game_sounds_bane.vsndevts"
+		}
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+                        "damage_reduction"              "10 20 30"
+			"hero_duration"			"10"
+			"creep_duration"		"30"
+		}
+	}
+}
