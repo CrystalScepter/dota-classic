@@ -41,12 +41,12 @@ end
 -- Declare the events and properties that our modifier affects
 function modifier_shadow_demon_enfeeble_beta2:DeclareFunctions()
         return {
-                MODIFIER_PROPERTY_BASEDAMAGEOUTGOING_PERCENTAGE,
+                MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE,
         }
 end
 
 -- Reduce the damage from the target unit
-function modifier_shadow_demon_enfeeble_beta2:GetModifierBaseDamageOutgoing_Percentage()
+function modifier_shadow_demon_enfeeble_beta2:GetModifierDamageOutgoing_Percentage()
         return 0 - self.damage_reduction
 end
 

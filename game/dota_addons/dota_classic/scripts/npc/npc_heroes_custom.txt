@@ -9,8 +9,8 @@
 
 		// Roles
 		//----------------------------------------------------------------------------------------------------
-		"Role"					"Support,Disabler"
-		"Rolelevels"				"3,3"
+		"Role"					"Support,Disabler,Pusher"
+		"Rolelevels"				"3,3,3"
 		"Complexity"				"1"
 
 		// Abilities
