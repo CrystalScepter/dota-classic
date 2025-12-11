@@ -113,7 +113,7 @@
 		"AbilityValues"
 		{
 			"damage_increase"		"10 20 30"
-			"aura_radius"			"900"
+			"radius"			"900"
 		}
 	}
 }

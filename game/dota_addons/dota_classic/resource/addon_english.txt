@@ -32,6 +32,13 @@
 		"dota_tooltip_modifier_shadow_demon_demonic_purge_beta2"				"Demonic Purge"
 		"dota_tooltip_modifier_shadow_demon_demonic_purge_beta2_description"			"This unit has reduced movement speed."
 
+		"dota_tooltip_ability_shadow_demon_vengeance_aura_beta2"				"Vengeance Aura"
+		"dota_tooltip_ability_shadow_demon_vengeance_aura_beta2_description"			"Shadow Demon's presence increases the damage of nearby friendly units."
+		"dota_tooltip_ability_shadow_demon_vengeance_aura_beta2_damage_increase"		"%Attack Damage Bonus:"
+
+		"dota_tooltip_modifier_shadow_demon_vengeance_aura_buff_beta2"				"Vengeance Aura"
+		"dota_tooltip_modifier_shadow_demon_vengeance_aura_buff_beta2_description"		"This unit has increased physical damage."
+
 		//====================================================================================================
 		// Attribute items
 		//====================================================================================================

@@ -78,7 +78,7 @@ function modifier_perseverance_beta2:GetAuraRadius()
 end
 
 ----------------------------------------------------------------------------------------------------
--- True Sight Modifier class
+-- True Sight modifier class
 ----------------------------------------------------------------------------------------------------
 
 -- Declare the modifier class
