@@ -16,10 +16,7 @@ function shadow_demon_enfeeble_beta2:OnSpellStart()
         if target:IsRealHero() then
                 -- Add the modifier to the target hero with its corresponding duration
                 target:AddNewModifier(caster, self, "modifier_shadow_demon_enfeeble_beta2", { duration = hero_duration })
-        end
-
-        -- Check whether the unit is a creep
-        if target:IsCreep() then
+        else
                 -- Add the modifier to the target creep with its corresponding duration
                 target:AddNewModifier(caster, self, "modifier_shadow_demon_enfeeble_beta2", { duration = creep_duration })
         end
@@ -32,7 +29,7 @@ end
 -- Modifier class
 ----------------------------------------------------------------------------------------------------
 
--- Declares the modifier class
+-- Declare the modifier class
 modifier_shadow_demon_enfeeble_beta2 = class({})
 
 -- Called when the modifier is created
@@ -55,12 +52,12 @@ end
 
 -- Return the particle effect to be used
 function modifier_shadow_demon_enfeeble_beta2:GetEffectName()
-	return "particles/units/heroes/hero_bane/bane_enfeeble.vpcf"
+        return "particles/units/heroes/hero_bane/bane_enfeeble.vpcf"
 end
 
 -- Return the particle origin
 function modifier_shadow_demon_enfeeble_beta2:GetEffectAttachType()
-	return PATTACH_ABSORIGIN_FOLLOW
+        return PATTACH_ABSORIGIN_FOLLOW
 end
 
 -- Make the modifier dispellable

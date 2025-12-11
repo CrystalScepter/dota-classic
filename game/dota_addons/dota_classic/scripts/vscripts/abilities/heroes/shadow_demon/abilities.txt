@@ -24,8 +24,9 @@
 		"AbilityCastPoint"			"0.3"
 		"AbilityCastRange"			"600"
 		"AbilityCastRangeBuffer"		"300"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_1"
 
-                // Precache
+		// Precache
 		//----------------------------------------------------------------------------------------------------
 		"precache"
 		{
@@ -37,9 +38,83 @@
 		//----------------------------------------------------------------------------------------------------
 		"AbilityValues"
 		{
-                        "damage_reduction"              "10 20 30"
+			"damage_reduction"		"10 20 30"
 			"hero_duration"			"10"
 			"creep_duration"		"30"
+		}
+	}
+
+	//====================================================================================================
+	// Demonic Purge
+	//====================================================================================================
+	"shadow_demon_demonic_purge_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/heroes/shadow_demon/shadow_demon_demonic_purge_beta2"
+		"AbilityTextureName"			"shadow_demon_demonic_purge"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+
+		"MaxLevel" 				"3"
+
+		// Stats
+		//----------------------------------------------------------------------------------------------------
+		"AbilityManaCost"			"75"
+		"AbilityCooldown"			"0"
+		"AbilityCastPoint"			"0.3"
+		"AbilityCastRange"			"700"
+		"AbilityCastRangeBuffer"		"300"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_2"
+
+		// Precache
+		//----------------------------------------------------------------------------------------------------
+		"precache"
+		{
+			"particle"			"particles/units/heroes/hero_shadow_demon/shadow_demon_demonic_purge.vpcf"
+			"soundfile"			"soundevents/game_sounds_heroes/game_sounds_shadow_demon.vsndevts"
+		}
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"movement_slow"			"20 30 40"
+			"hero_duration"			"10"
+			"creep_duration"		"60"
+		}
+	}
+
+	//====================================================================================================
+	// Vengeance Aura
+	//====================================================================================================
+	"shadow_demon_vengeance_aura_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/heroes/shadow_demon/shadow_demon_vengeance_aura_beta2"
+		"AbilityTextureName"			"vengefulspirit_command_aura"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
+		"SpellImmunityType"			"SPELL_IMMUNITY_ALLIES_YES"
+
+		"MaxLevel" 				"3"
+
+		// Stats
+		//----------------------------------------------------------------------------------------------------
+		"AbilityCastRange"			"900"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"damage_increase"		"10 20 30"
+			"aura_radius"			"900"
 		}
 	}
 }

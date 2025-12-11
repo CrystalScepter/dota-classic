@@ -23,6 +23,15 @@
 		"dota_tooltip_modifier_shadow_demon_enfeeble_beta2"					"Enfeeble"
 		"dota_tooltip_modifier_shadow_demon_enfeeble_beta2_description"				"This unit has reduced physical damage."
 
+		"dota_tooltip_ability_shadow_demon_demonic_purge_beta2"					"Demonic Purge"
+		"dota_tooltip_ability_shadow_demon_demonic_purge_beta2_description"			"Slows an enemy unit."
+		"dota_tooltip_ability_shadow_demon_demonic_purge_beta2_movement_slow"			"%Move Speed Slow:"
+		"dota_tooltip_ability_shadow_demon_demonic_purge_beta2_hero_duration"			"Hero Duration:"
+		"dota_tooltip_ability_shadow_demon_demonic_purge_beta2_creep_duration"			"Creep Duration:"
+
+		"dota_tooltip_modifier_shadow_demon_demonic_purge_beta2"				"Demonic Purge"
+		"dota_tooltip_modifier_shadow_demon_demonic_purge_beta2_description"			"This unit has reduced movement speed."
+
 		//====================================================================================================
 		// Attribute items
 		//====================================================================================================

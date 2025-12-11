@@ -16,8 +16,8 @@
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
 		"Ability1"				"shadow_demon_enfeeble_beta2"
-		"Ability2"				""
-		"Ability3"				""
+		"Ability2"				"shadow_demon_demonic_purge_beta2"
+		"Ability3"				"shadow_demon_vengeance_aura_beta2"
 		"Ability4"				"generic_hidden"
 		"Ability5"				"generic_hidden"
 		"Ability6"				""
