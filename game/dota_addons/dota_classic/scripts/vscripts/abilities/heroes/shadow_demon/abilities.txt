@@ -13,6 +13,7 @@
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
+		"SpellImmunityType"			"SPELL_IMMUNITY_ENEMIES_NO"
 		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
 
 		"MaxLevel" 				"3"
@@ -57,6 +58,7 @@
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
+		"SpellImmunityType"			"SPELL_IMMUNITY_ENEMIES_NO"
 		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
 
 		"MaxLevel" 				"3"
@@ -114,6 +116,53 @@
 		{
 			"damage_increase"		"10 20 30"
 			"radius"			"900"
+		}
+	}
+
+	//====================================================================================================
+	// Midnight Pulse
+	//====================================================================================================
+	"shadow_demon_midnight_pulse_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/heroes/shadow_demon/shadow_demon_midnight_pulse_beta2"
+		"AbilityTextureName"			"enigma_midnight_pulse"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+		"AbilityType"				"ABILITY_TYPE_ULTIMATE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_BOTH"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_ALL"
+		"SpellImmunityType"			"SPELL_IMMUNITY_ENEMIES_NO"
+
+		"MaxLevel" 				"1"
+		"FightRecapLevel"			"1"
+
+		// Stats
+		//----------------------------------------------------------------------------------------------------
+		"AbilityManaCost"			"250"
+		"AbilityCooldown"			"150"
+		"AbilityCastPoint"			"0.3"
+		"AbilityCastRange"			"1000"
+		"AbilityChannelTime"			"35"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_5"
+
+		// Precache
+		//----------------------------------------------------------------------------------------------------
+		"precache"
+		{
+			"particle"			"particles/units/heroes/hero_enigma/enigma_midnight_pulse.vpcf"
+			"soundfile"			"soundevents/game_sounds_heroes/game_sounds_enigma.vsndevts"
+		}
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"max_health_second"		"4"
+			"radius"			"300"
+			"tick_rate"			"1"
 		}
 	}
 }

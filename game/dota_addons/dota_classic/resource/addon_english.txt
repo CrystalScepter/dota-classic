@@ -39,6 +39,11 @@
 		"dota_tooltip_modifier_shadow_demon_vengeance_aura_buff_beta2"				"Vengeance Aura"
 		"dota_tooltip_modifier_shadow_demon_vengeance_aura_buff_beta2_description"		"This unit has increased physical damage."
 
+		"dota_tooltip_ability_shadow_demon_midnight_pulse_beta2"				"Midnight Pulse"
+		"dota_tooltip_ability_shadow_demon_midnight_pulse_beta2_description"			"Steeps an area in dark resonance, damaging units based on their maximum health and destroying all trees."
+		"dota_tooltip_ability_shadow_demon_midnight_pulse_beta2_max_health_second"		"%Max Health as Damage per Second:"
+		"dota_tooltip_ability_shadow_demon_midnight_pulse_beta2_radius"				"Radius:"
+
 		//====================================================================================================
 		// Attribute items
 		//====================================================================================================
