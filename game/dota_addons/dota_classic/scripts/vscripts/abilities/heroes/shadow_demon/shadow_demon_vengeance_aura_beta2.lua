@@ -28,7 +28,7 @@ function modifier_shadow_demon_vengeance_aura_beta2:IsHidden()
 	return true
 end
 
--- Indicate that the item has an aura
+-- Indicate that modifier is an aura
 function modifier_shadow_demon_vengeance_aura_beta2:IsAura()
 	return true
 end
