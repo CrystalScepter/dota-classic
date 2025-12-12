@@ -15,5 +15,6 @@ function GameMode:OnHeroInGame(hero)
         -- Add the following modifiers to the hero
         hero:AddNewModifier(hero, nil, "modifier_magic_resist", nil)
         hero:AddNewModifier(hero, nil, "modifier_health_regen", nil)
+        hero:AddNewModifier(hero, nil, "modifier_health_regen_nighttime", nil)
         hero:AddNewModifier(hero, nil, "modifier_hull_radius", nil)
 end
