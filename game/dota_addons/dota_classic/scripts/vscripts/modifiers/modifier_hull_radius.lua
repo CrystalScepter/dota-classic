@@ -21,3 +21,8 @@ end
 function modifier_hull_radius:IsHidden()
 	return true
 end
+
+-- Make the modifier undispellable
+function modifier_hull_radius:IsPurgable()
+        return false
+end

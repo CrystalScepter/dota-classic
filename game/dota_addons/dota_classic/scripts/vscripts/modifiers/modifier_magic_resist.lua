@@ -17,3 +17,8 @@ end
 function modifier_magic_resist:IsHidden()
 	return true
 end
+
+-- Make the modifier undispellable
+function modifier_magic_resist:IsPurgable()
+        return false
+end
