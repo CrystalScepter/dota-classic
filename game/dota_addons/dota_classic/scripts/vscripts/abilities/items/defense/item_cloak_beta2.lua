@@ -17,7 +17,7 @@ end
 modifier_cloak_beta2 = class({})
 
 -- Called when the modifier is created
-function modifier_cloak_beta2:OnCreated(kv)
+function modifier_cloak_beta2:OnCreated(keys)
 	-- Retrieve the ability values that are going to be used by our modifier
 	self.bonus_armor = self:GetAbility():GetSpecialValueFor("bonus_armor")
 	self.bonus_mana_regen = self:GetAbility():GetSpecialValueFor("bonus_mana_regen")

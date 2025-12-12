@@ -17,7 +17,7 @@ end
 modifier_blade_of_alacrity_beta2 = class({})
 
 -- Called when the modifier is created
-function modifier_blade_of_alacrity_beta2:OnCreated(kv)
+function modifier_blade_of_alacrity_beta2:OnCreated(keys)
 	-- Retrieve the ability values that are going to be used by our modifier
 	self.bonus_agility = self:GetAbility():GetSpecialValueFor("bonus_agility")
 	self.bonus_damage = self:GetAbility():GetSpecialValueFor("bonus_damage")

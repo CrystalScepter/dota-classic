@@ -17,7 +17,7 @@ end
 modifier_boots_of_speed_beta2 = class({})
 
 -- Called when the modifier is created
-function modifier_boots_of_speed_beta2:OnCreated(kv)
+function modifier_boots_of_speed_beta2:OnCreated(keys)
 	-- Retrieve the ability values that are going to be used by our modifier
 	self.bonus_movement_speed = self:GetAbility():GetSpecialValueFor("bonus_movement_speed")
 end

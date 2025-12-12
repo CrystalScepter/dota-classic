@@ -18,7 +18,7 @@ end
 modifier_perseverance_beta2 = class({})
 
 -- Called when the modifier is created
-function modifier_perseverance_beta2:OnCreated(kv)
+function modifier_perseverance_beta2:OnCreated(keys)
 	-- Retrieve the ability values that are going to be used by our modifier
 	self.bonus_health_regen = self:GetAbility():GetSpecialValueFor("bonus_health_regen")
 	self.bonus_mana_regen = self:GetAbility():GetSpecialValueFor("bonus_mana_regen")
@@ -85,7 +85,7 @@ end
 modifier_perseverance_truesight_beta2 = class({})
 
 -- Called when the modifier is created
-function modifier_perseverance_truesight_beta2:OnCreated(kv)
+function modifier_perseverance_truesight_beta2:OnCreated(keys)
 	-- Retrieve the ability values that are going to be used by our modifier
 	self.radius = self:GetAbility():GetSpecialValueFor("radius")
 end

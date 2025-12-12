@@ -17,7 +17,7 @@ end
 modifier_talisman_of_evasion_beta2 = class({})
 
 -- Called when the modifier is created
-function modifier_talisman_of_evasion_beta2:OnCreated(kv)
+function modifier_talisman_of_evasion_beta2:OnCreated(keys)
 	-- Retrieve the ability values that are going to be used by our modifier
 	self.bonus_armor = self:GetAbility():GetSpecialValueFor("bonus_armor")
 	self.bonus_evasion = self:GetAbility():GetSpecialValueFor("bonus_evasion")

@@ -17,7 +17,7 @@ end
 modifier_ring_of_regen_beta2 = class({})
 
 -- Called when the modifier is created
-function modifier_ring_of_regen_beta2:OnCreated(kv)
+function modifier_ring_of_regen_beta2:OnCreated(keys)
 	-- Retrieve the ability values that are going to be used by our modifier
 	self.bonus_health_regen = self:GetAbility():GetSpecialValueFor("bonus_health_regen")
 end

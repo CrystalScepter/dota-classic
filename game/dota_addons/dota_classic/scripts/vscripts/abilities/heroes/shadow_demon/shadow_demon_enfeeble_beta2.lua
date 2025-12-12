@@ -33,7 +33,7 @@ end
 modifier_shadow_demon_enfeeble_beta2 = class({})
 
 -- Called when the modifier is created
-function modifier_shadow_demon_enfeeble_beta2:OnCreated(kv)
+function modifier_shadow_demon_enfeeble_beta2:OnCreated(keys)
         -- Retrieve the ability values that are going to be used by our modifier
         self.damage_reduction = self:GetAbility():GetSpecialValueFor("damage_reduction")
 end

@@ -17,7 +17,7 @@ end
 modifier_staff_of_wizardry_beta2 = class({})
 
 -- Called when the modifier is created
-function modifier_staff_of_wizardry_beta2:OnCreated(kv)
+function modifier_staff_of_wizardry_beta2:OnCreated(keys)
 	-- Retrieve the ability values that are going to be used by our modifier
 	self.bonus_intelligence = self:GetAbility():GetSpecialValueFor("bonus_intelligence")
 	self.bonus_damage = self:GetAbility():GetSpecialValueFor("bonus_damage")

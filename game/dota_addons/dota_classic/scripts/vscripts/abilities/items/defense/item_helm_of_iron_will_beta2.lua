@@ -17,7 +17,7 @@ end
 modifier_helm_of_iron_will_beta2 = class({})
 
 -- Called when the modifier is created
-function modifier_helm_of_iron_will_beta2:OnCreated(kv)
+function modifier_helm_of_iron_will_beta2:OnCreated(keys)
 	-- Retrieve the ability values that are going to be used by our modifier
 	self.bonus_health = self:GetAbility():GetSpecialValueFor("bonus_health")
 	self.bonus_armor = self:GetAbility():GetSpecialValueFor("bonus_armor")

@@ -17,7 +17,7 @@ end
 modifier_circlet_beta2 = class({})
 
 -- Called when the modifier is created
-function modifier_circlet_beta2:OnCreated(kv)
+function modifier_circlet_beta2:OnCreated(keys)
 	-- Retrieve the ability values that are going to be used by our modifier
 	self.bonus_all_attributes = self:GetAbility():GetSpecialValueFor("bonus_all_attributes")
 end

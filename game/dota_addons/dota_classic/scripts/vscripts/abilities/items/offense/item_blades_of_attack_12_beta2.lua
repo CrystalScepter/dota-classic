@@ -17,7 +17,7 @@ end
 modifier_blades_of_attack_12_beta2 = class({})
 
 -- Called when the modifier is created
-function modifier_blades_of_attack_12_beta2:OnCreated(kv)
+function modifier_blades_of_attack_12_beta2:OnCreated(keys)
 	-- Retrieve the ability values that are going to be used by our modifier
 	self.bonus_damage = self:GetAbility():GetSpecialValueFor("bonus_damage")
 end

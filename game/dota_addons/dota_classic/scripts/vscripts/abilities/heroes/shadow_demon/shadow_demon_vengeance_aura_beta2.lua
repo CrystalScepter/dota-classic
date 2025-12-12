@@ -18,7 +18,7 @@ end
 modifier_shadow_demon_vengeance_aura_beta2 = class({})
 
 -- Called when the modifier is created
-function modifier_shadow_demon_vengeance_aura_beta2:OnCreated(kv)
+function modifier_shadow_demon_vengeance_aura_beta2:OnCreated(keys)
 	-- Retrieve the ability values that are going to be used by our modifier
 	self.radius = self:GetAbility():GetSpecialValueFor("radius")
 end
@@ -61,7 +61,7 @@ end
 modifier_shadow_demon_vengeance_aura_buff_beta2 = class({})
 
 -- Called when the modifier is created
-function modifier_shadow_demon_vengeance_aura_buff_beta2:OnCreated(kv)
+function modifier_shadow_demon_vengeance_aura_buff_beta2:OnCreated(keys)
 	-- Retrieve the ability values that are going to be used by our modifier
 	self.damage_increase = self:GetAbility():GetSpecialValueFor("damage_increase")
 end

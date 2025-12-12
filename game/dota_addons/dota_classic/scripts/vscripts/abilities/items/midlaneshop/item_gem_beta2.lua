@@ -17,7 +17,7 @@ end
 modifier_gem_beta2 = class({})
 
 -- Called when the modifier is created
-function modifier_gem_beta2:OnCreated(kv)
+function modifier_gem_beta2:OnCreated(keys)
 	-- Retrieve the ability values that are going to be used by our modifier
 	self.radius = self:GetAbility():GetSpecialValueFor("radius")
 end

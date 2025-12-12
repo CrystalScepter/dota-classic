@@ -17,7 +17,7 @@ end
 modifier_mantle_beta2 = class({})
 
 -- Called when the modifier is created
-function modifier_mantle_beta2:OnCreated(kv)
+function modifier_mantle_beta2:OnCreated(keys)
 	-- Retrieve the ability values that are going to be used by our modifier
 	self.bonus_intelligence = self:GetAbility():GetSpecialValueFor("bonus_intelligence")
 end
