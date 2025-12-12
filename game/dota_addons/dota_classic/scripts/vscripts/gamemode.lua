@@ -101,5 +101,6 @@ function GameMode:InitGameMode()
 
         -- Links the modifiers that are going to be used by our events
         LinkLuaModifier("modifier_magic_resist", "modifiers/modifier_magic_resist.lua", LUA_MODIFIER_MOTION_NONE)
+        LinkLuaModifier("modifier_health_regen", "modifiers/modifier_health_regen.lua", LUA_MODIFIER_MOTION_NONE)
         LinkLuaModifier("modifier_hull_radius", "modifiers/modifier_hull_radius.lua", LUA_MODIFIER_MOTION_NONE)
 end
