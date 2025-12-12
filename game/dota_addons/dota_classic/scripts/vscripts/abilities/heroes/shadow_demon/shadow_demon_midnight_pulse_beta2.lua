@@ -40,21 +40,21 @@ modifier_shadow_demon_midnight_pulse_beta2 = class({})
 
 -- Called when the modifier is created
 function modifier_shadow_demon_midnight_pulse_beta2:OnCreated(keys)
-        -- Proceeds if the code is running in the server
-        if IsServer() then
-                -- Retrieve the ability values that are going to be used by our modifier
-                self.max_health_second = self:GetAbility():GetSpecialValueFor("max_health_second")
-                self.radius = self:GetAbility():GetSpecialValueFor("radius")
-                self.tick_rate = self:GetAbility():GetSpecialValueFor("tick_rate")
+        -- Return if not synchronized with the server
+        if not IsServer() then end
 
-                -- Start the thinking function
-                self:StartIntervalThink(self.tick_rate)
+        -- Retrieve the ability values that are going to be used by our modifier
+        self.max_health_second = self:GetAbility():GetSpecialValueFor("max_health_second")
+        self.radius = self:GetAbility():GetSpecialValueFor("radius")
+        self.tick_rate = self:GetAbility():GetSpecialValueFor("tick_rate")
 
-                -- Create the particle
-                self.particle = ParticleManager:CreateParticle("particles/units/heroes/hero_enigma/enigma_midnight_pulse.vpcf", PATTACH_ABSORIGIN_FOLLOW, self:GetParent())
-	        ParticleManager:SetParticleControl(self.particle, 0, self:GetParent():GetAbsOrigin())
-	        ParticleManager:SetParticleControl(self.particle, 1, Vector(self.radius, 0, 0))
-        end
+        -- Start the thinking function
+        self:StartIntervalThink(self.tick_rate)
+
+        -- Create the particle
+        self.particle = ParticleManager:CreateParticle("particles/units/heroes/hero_enigma/enigma_midnight_pulse.vpcf", PATTACH_ABSORIGIN_FOLLOW, self:GetParent())
+        ParticleManager:SetParticleControl(self.particle, 0, self:GetParent():GetAbsOrigin())
+        ParticleManager:SetParticleControl(self.particle, 1, Vector(self.radius, 0, 0))
 end
 
 -- Called when the modifier ticks
@@ -101,7 +101,7 @@ function modifier_shadow_demon_midnight_pulse_beta2:OnIntervalThink()
                 
                 -- Destroy the particle
                 ParticleManager:DestroyParticle(self.particle, false)
-	        ParticleManager:ReleaseParticleIndex(self.particle)
+                ParticleManager:ReleaseParticleIndex(self.particle)
         end
 end
 
