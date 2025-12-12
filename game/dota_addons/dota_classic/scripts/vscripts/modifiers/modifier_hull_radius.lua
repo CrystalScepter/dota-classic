@@ -7,7 +7,7 @@ function modifier_hull_radius:OnCreated()
 	if IsServer() then
 		-- Proceed if the unit is Shadow Demon and set the custom hull radius
 		if self:GetParent():GetUnitName() == "npc_dota_hero_shadow_demon" then
-			self:GetParent():SetHullRadius(8)
+			self:GetParent():SetHullRadius(0)
 		-- Proceed if the unit is Venomancer and set the custom hull radius
 		elseif self:GetParent():GetUnitName() == "npc_dota_hero_venomancer" then
 			self:GetParent():SetHullRadius(32)
