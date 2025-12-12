@@ -3,15 +3,15 @@ modifier_hull_radius = class({})
 
 -- Called when the modifier is created
 function modifier_hull_radius:OnCreated()
-	-- Return if not synchronized with the server
-	if not IsServer() then end
-
-	-- Proceed if the unit is Shadow Demon and set the custom hull radius
-	if self:GetParent():GetUnitName() == "npc_dota_hero_shadow_demon" then
-		self:GetParent():SetHullRadius(8)
-	-- Proceed if the unit is Venomancer and set the custom hull radius
-	elseif self:GetParent():GetUnitName() == "npc_dota_hero_venomancer" then
-		self:GetParent():SetHullRadius(32)
+	-- Proceed if synchronized with the server
+	if IsServer() then
+		-- Proceed if the unit is Shadow Demon and set the custom hull radius
+		if self:GetParent():GetUnitName() == "npc_dota_hero_shadow_demon" then
+			self:GetParent():SetHullRadius(8)
+		-- Proceed if the unit is Venomancer and set the custom hull radius
+		elseif self:GetParent():GetUnitName() == "npc_dota_hero_venomancer" then
+			self:GetParent():SetHullRadius(32)
+		end
 	end
 end
 
