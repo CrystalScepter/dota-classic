@@ -20,10 +20,25 @@ function modifier_health_regen_nighttime:GetModifierConstantHealthRegen()
         	end
 	end
 
-	-- Check if it's night time and the unit is Venomancer to assign the correct health regen value
-	if self:GetStackCount() == 0 and self:GetParent():GetUnitName() == "npc_dota_hero_venomancer" then
+	-- Declare the variables used by our modifier
+	local stack_count = self:GetStackCount()
+	local unit_name = self:GetParent():GetUnitName()
+
+	-- Check if it's night time and a specific unit to set a night time health regen value for them
+	if stack_count == 0 and unit_name == "npc_dota_hero_doom_bringer" then
+		self.health_regen = 0.5
+	elseif stack_count == 0 and unit_name == "npc_dota_hero_enchantress" then
+		self.health_regen = 0.5
+	elseif stack_count == 0 and unit_name == "npc_dota_hero_mirana" then
+		self.health_regen = 0.5
+	elseif stack_count == 0 and unit_name == "npc_dota_hero_razor" then
+		self.health_regen = 0.5
+	elseif stack_count == 0 and unit_name == "npc_dota_hero_rubick" then
+		self.health_regen = 0.5
+	elseif stack_count == 0 and unit_name == "npc_dota_hero_venomancer" then
 		self.health_regen = 0.5
 	else
+		-- Set night time health regen to 0 if it's none of the listed heroes
 		self.health_regen = 0
 	end
 
