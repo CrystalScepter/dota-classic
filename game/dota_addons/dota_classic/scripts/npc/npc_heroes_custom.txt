@@ -1741,6 +1741,102 @@
 	}
 
 	//====================================================================================================
+	// Underlord
+	//====================================================================================================
+	"npc_dota_hero_abyssal_underlord_beta2"
+	{
+		"override_hero"				"npc_dota_hero_abyssal_underlord"
+
+		// Roles
+		//----------------------------------------------------------------------------------------------------
+		"Role"					"Carry,Durable,Pusher"
+		"Rolelevels"				"3,3,2"
+		"Complexity"				"2"
+
+		// Abilities
+		//----------------------------------------------------------------------------------------------------
+		"Ability1"				""
+		"Ability2"				""
+		"Ability3"				""
+		"Ability4"				""
+		"Ability5"				"generic_hidden"
+		"Ability6"				""
+		"Ability7"				""
+		"Ability8"				""
+		"Ability9"				""
+		"Ability10"				""
+		"Ability11"				""
+		"Ability12"				""
+		"Ability13"				""
+		"Ability14"				""
+		"Ability15"				""
+		"Ability16"				""
+		"Ability17"				""
+		"Ability18"				""
+		"Ability19"				""
+		"Ability20"				""
+		"Ability21"				""
+		"Ability22"				""
+		"Ability23"				""
+		"Ability24"				""
+		"Ability25"				""
+
+		"Facets"
+		{
+		}
+
+		"AbilityTalentStart"			""
+
+		// Attributes
+		//----------------------------------------------------------------------------------------------------
+		"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"			"31"
+		"AttributeStrengthGain"			"3"
+		"AttributeBaseAgility"			"10"
+		"AttributeAgilityGain"			"1"
+		"AttributeBaseIntelligence"		"14"
+		"AttributeIntelligenceGain"		"2"
+
+		// Stats
+		//----------------------------------------------------------------------------------------------------
+		"BaseAttackSpeed"			"100"
+		"AttackDamageMin"			"13"
+		"AttackDamageMax"			"20"
+		"AttackRate"				"2.2"
+		"AttackAnimationPoint"			"0.833"
+		"AttackAcquisitionRange"		"500"
+		"AttackRange"				"200"
+
+		"ArmorPhysical"				"-2"
+		"MagicalResistance"			"25"
+
+		"StatusHealth"				"100"
+		"StatusMana"				"0"
+		"StatusHealthRegen"			"1"
+		"StatusManaRegen"			"0.01"
+
+		// Bounds
+		//----------------------------------------------------------------------------------------------------
+		"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
+
+		// Movement
+		//----------------------------------------------------------------------------------------------------
+		"MovementSpeed"				"250"
+		"MovementTurnRate"			"0.4"
+
+		// Bounties
+		//----------------------------------------------------------------------------------------------------
+		"BountyXP"				"0"
+		"BountyGoldMin"				"38"
+		"BountyGoldMax"				"54"
+
+		// Vision
+		//----------------------------------------------------------------------------------------------------
+		"VisionDaytimeRange"			"1800"
+		"VisionNighttimeRange"			"800"
+	}
+
+	//====================================================================================================
 	// Venomancer
 	//====================================================================================================
 	"npc_dota_hero_venomancer_beta2"
