@@ -775,6 +775,102 @@
 	}
 
 	//====================================================================================================
+	// Lycan
+	//====================================================================================================
+	"npc_dota_hero_lycan_beta2"
+	{
+		"override_hero"				"npc_dota_hero_lycan"
+
+		// Roles
+		//----------------------------------------------------------------------------------------------------
+		"Role"					"Carry,Escape,Disabler,Durable"
+		"Rolelevels"				"3,2,1,1"
+		"Complexity"				"1"
+
+		// Abilities
+		//----------------------------------------------------------------------------------------------------
+		"Ability1"				""
+		"Ability2"				""
+		"Ability3"				""
+		"Ability4"				"generic_hidden"
+		"Ability5"				"generic_hidden"
+		"Ability6"				""
+		"Ability7"				""
+		"Ability8"				""
+		"Ability9"				""
+		"Ability10"				""
+		"Ability11"				""
+		"Ability12"				""
+		"Ability13"				""
+		"Ability14"				""
+		"Ability15"				""
+		"Ability16"				""
+		"Ability17"				""
+		"Ability18"				""
+		"Ability19"				""
+		"Ability20"				""
+		"Ability21"				""
+		"Ability22"				""
+		"Ability23"				""
+		"Ability24"				""
+		"Ability25"				""
+
+		"Facets"
+		{
+		}
+
+		"AbilityTalentStart"			""
+
+		// Attributes
+		//----------------------------------------------------------------------------------------------------
+		"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"			"20"
+		"AttributeStrengthGain"			"2.25"
+		"AttributeBaseAgility"			"16"
+		"AttributeAgilityGain"			"1.25"
+		"AttributeBaseIntelligence"		"18"
+		"AttributeIntelligenceGain"		"2.5"
+
+		// Stats
+		//----------------------------------------------------------------------------------------------------
+		"BaseAttackSpeed"			"100"
+		"AttackDamageMin"			"7"
+		"AttackDamageMax"			"17"
+		"AttackRate"				"2"
+		"AttackAnimationPoint"			"0.55"
+		"AttackAcquisitionRange"		"500"
+		"AttackRange"				"100"
+
+		"ArmorPhysical"				"-2"
+		"MagicalResistance"			"25"
+
+		"StatusHealth"				"200"
+		"StatusMana"				"0"
+		"StatusHealthRegen"			"0"
+		"StatusManaRegen"			"0.01"
+
+		// Bounds
+		//----------------------------------------------------------------------------------------------------
+		"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
+
+		// Movement
+		//----------------------------------------------------------------------------------------------------
+		"MovementSpeed"				"270"
+		"MovementTurnRate"			"0.5"
+
+		// Bounties
+		//----------------------------------------------------------------------------------------------------
+		"BountyXP"				"0"
+		"BountyGoldMin"				"38"
+		"BountyGoldMax"				"54"
+
+		// Vision
+		//----------------------------------------------------------------------------------------------------
+		"VisionDaytimeRange"			"1800"
+		"VisionNighttimeRange"			"800"
+	}
+
+	//====================================================================================================
 	// Shadow Demon
 	//====================================================================================================
 	"npc_dota_hero_shadow_demon_beta2"
