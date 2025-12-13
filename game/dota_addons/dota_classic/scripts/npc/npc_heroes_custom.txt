@@ -879,8 +879,8 @@
 
 		// Roles
 		//----------------------------------------------------------------------------------------------------
-		"Role"					"Support,Nuker,Disabler,Escape"
-		"Rolelevels"				"3,3,1,1"
+		"Role"					"Support,Nuker,Disabler"
+		"Rolelevels"				"3,3,1"
 		"Complexity"				"1"
 
 		// Abilities
@@ -1050,6 +1050,102 @@
 		// Movement
 		//----------------------------------------------------------------------------------------------------
 		"MovementSpeed"				"270"
+		"MovementTurnRate"			"0.5"
+
+		// Bounties
+		//----------------------------------------------------------------------------------------------------
+		"BountyXP"				"0"
+		"BountyGoldMin"				"38"
+		"BountyGoldMax"				"54"
+
+		// Vision
+		//----------------------------------------------------------------------------------------------------
+		"VisionDaytimeRange"			"1800"
+		"VisionNighttimeRange"			"800"
+	}
+
+	//====================================================================================================
+	// Night Stalker
+	//====================================================================================================
+	"npc_dota_hero_night_stalker_beta2"
+	{
+		"override_hero"				"npc_dota_hero_night_stalker"
+
+		// Roles
+		//----------------------------------------------------------------------------------------------------
+		"Role"					"Carry,Durable,Escape"
+		"Rolelevels"				"3,3,2"
+		"Complexity"				"2"
+
+		// Abilities
+		//----------------------------------------------------------------------------------------------------
+		"Ability1"				""
+		"Ability2"				""
+		"Ability3"				""
+		"Ability4"				"generic_hidden"
+		"Ability5"				"generic_hidden"
+		"Ability6"				""
+		"Ability7"				""
+		"Ability8"				""
+		"Ability9"				""
+		"Ability10"				""
+		"Ability11"				""
+		"Ability12"				""
+		"Ability13"				""
+		"Ability14"				""
+		"Ability15"				""
+		"Ability16"				""
+		"Ability17"				""
+		"Ability18"				""
+		"Ability19"				""
+		"Ability20"				""
+		"Ability21"				""
+		"Ability22"				""
+		"Ability23"				""
+		"Ability24"				""
+		"Ability25"				""
+
+		"Facets"
+		{
+		}
+
+		"AbilityTalentStart"			""
+
+		// Attributes
+		//----------------------------------------------------------------------------------------------------
+		"AttributePrimary"			"DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength"			"18"
+		"AttributeStrengthGain"			"2.5"
+		"AttributeBaseAgility"			"20"
+		"AttributeAgilityGain"			"2"
+		"AttributeBaseIntelligence"		"16"
+		"AttributeIntelligenceGain"		"1.5"
+
+		// Stats
+		//----------------------------------------------------------------------------------------------------
+		"BaseAttackSpeed"			"100"
+		"AttackDamageMin"			"9"
+		"AttackDamageMax"			"31"
+		"AttackRate"				"1.77"
+		"AttackAnimationPoint"			"0.55"
+		"AttackAcquisitionRange"		"500"
+		"AttackRange"				"100"
+
+		"ArmorPhysical"				"-2"
+		"MagicalResistance"			"25"
+
+		"StatusHealth"				"100"
+		"StatusMana"				"0"
+		"StatusHealthRegen"			"1"
+		"StatusManaRegen"			"0.1"
+
+		// Bounds
+		//----------------------------------------------------------------------------------------------------
+		"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
+
+		// Movement
+		//----------------------------------------------------------------------------------------------------
+		"MovementSpeed"				"310"
 		"MovementTurnRate"			"0.5"
 
 		// Bounties
