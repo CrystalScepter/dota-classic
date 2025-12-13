@@ -24,7 +24,7 @@
 		"AbilityCooldown"			"10"
 		"AbilityCastPoint"			"0.3"
 		"AbilityCastRange"			"600"
-		"AbilityCastRangeBuffer"		"300"
+		"AbilityCastRangeBuffer"		"250"
 		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_4"
 
 		// Precache
@@ -69,7 +69,7 @@
 		"AbilityCooldown"			"0"
 		"AbilityCastPoint"			"0.3"
 		"AbilityCastRange"			"700"
-		"AbilityCastRangeBuffer"		"300"
+		"AbilityCastRangeBuffer"		"250"
 		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_2"
 
 		// Precache
