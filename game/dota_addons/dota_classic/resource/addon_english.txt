@@ -15,6 +15,9 @@
 		// Buildings
 		//====================================================================================================
 		"npc_radiant_ancient_beta2"								"Ancient"
+		"npc_dire_ancient_beta2"								"Ancient"
+		"npc_radiant_fountain_beta2"								"Well of Life"
+		"npc_dire_fountain_beta2"								"Well of Life"
 
 		//====================================================================================================
 		// Shadow Demon
