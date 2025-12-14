@@ -179,6 +179,7 @@
 		"Model"					"models/fountain.vmdl"
 		"SoundSet"				"dota_fountain"
 		"MinimapIcon"				"minimap_lotuspool"
+		"MinimapIconSize"			"400"
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
@@ -261,6 +262,7 @@
 		"Model"					"models/fountain.vmdl"
 		"SoundSet"				"dota_fountain"
 		"MinimapIcon"				"minimap_lotuspool"
+		"MinimapIconSize"			"400"
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
