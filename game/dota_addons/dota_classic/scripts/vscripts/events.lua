@@ -7,6 +7,10 @@ function GameMode:OnGameRulesStateChange(keys)
         if new_state == DOTA_GAMERULES_STATE_GAME_IN_PROGRESS then
                 -- Remove the stock ancient modifiers
                 Entities:FindByName(nil, "radiant_ancient"):RemoveModifierByName("modifier_tower_truesight_aura")
+                Entities:FindByName(nil, "dire_ancient"):RemoveModifierByName("modifier_tower_truesight_aura")
+
+                -- Add the night time health regen modifier to radiant's ancient
+                Entities:FindByName(nil, "radiant_ancient"):AddNewModifier(Entities:FindByName(nil, "radiant_ancient"), nil, "modifier_health_regen_nighttime", nil)
 
                 -- Remove the stock fountain modifiers
                 Entities:FindByName(nil, "radiant_fountain_1"):RemoveModifierByName("modifier_fountain_aura")
