@@ -40,7 +40,7 @@ function modifier_health_regen_nighttime:GetModifierConstantHealthRegen()
 	elseif stack_count == 0 and unit_name == "npc_dota_hero_venomancer" then
 		self.health_regen = 0.5
 	else
-		-- Set night time health regen to 0 if it's none of the listed heroes
+		-- Set night time health regen to 0 if it's none of the listed units
 		self.health_regen = 0
 	end
 
