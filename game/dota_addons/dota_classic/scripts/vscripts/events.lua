@@ -12,6 +12,12 @@ function GameMode:OnGameRulesStateChange(keys)
                 Entities:FindByName(nil, "radiant_fountain_2"):RemoveModifierByName("modifier_fountain_aura")
                 Entities:FindByName(nil, "radiant_fountain_2"):RemoveModifierByName("modifier_fountain_truesight_aura")
                 Entities:FindByName(nil, "radiant_fountain_2"):RemoveModifierByName("modifier_fountain_passive")
+                Entities:FindByName(nil, "dire_fountain_1"):RemoveModifierByName("modifier_fountain_aura")
+                Entities:FindByName(nil, "dire_fountain_1"):RemoveModifierByName("modifier_fountain_truesight_aura")
+                Entities:FindByName(nil, "dire_fountain_1"):RemoveModifierByName("modifier_fountain_passive")
+                Entities:FindByName(nil, "dire_fountain_2"):RemoveModifierByName("modifier_fountain_aura")
+                Entities:FindByName(nil, "dire_fountain_2"):RemoveModifierByName("modifier_fountain_truesight_aura")
+                Entities:FindByName(nil, "dire_fountain_2"):RemoveModifierByName("modifier_fountain_passive")
         end
 end
 
