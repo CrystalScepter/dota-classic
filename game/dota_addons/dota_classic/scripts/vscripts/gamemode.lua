@@ -96,6 +96,9 @@ function GameMode:InitGameMode()
         -- Disable illusions being removed when your hero dies
         GameMode:SetRemoveIllusionsOnDeath(false)
 
+        -- Register when the game state changes
+	ListenToGameEvent("game_rules_state_change", Dynamic_Wrap(self, "OnGameRulesStateChange"), self)
+
         -- Register unit spawns
         ListenToGameEvent("npc_spawned", Dynamic_Wrap(self, "OnNPCSpawned"), self)
 
