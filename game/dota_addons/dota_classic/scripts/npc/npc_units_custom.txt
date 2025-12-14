@@ -176,7 +176,7 @@
 		// General
 		//----------------------------------------------------------------------------------------------------
 		"BaseClass"				"ent_dota_fountain"
-		"Model"					"models/props_structures/old_well.vmdl"
+		"Model"					"models/fountain.vmdl"
 		"SoundSet"				"dota_fountain"
 		"MinimapIcon"				"minimap_lotuspool"
 
@@ -258,7 +258,7 @@
 		// General
 		//----------------------------------------------------------------------------------------------------
 		"BaseClass"				"ent_dota_fountain"
-		"Model"					"models/props_structures/old_well.vmdl"
+		"Model"					"models/fountain.vmdl"
 		"SoundSet"				"dota_fountain"
 		"MinimapIcon"				"minimap_lotuspool"
 
