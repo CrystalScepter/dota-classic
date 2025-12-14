@@ -182,7 +182,7 @@
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
-		"Ability1"				""
+		"Ability1"				"fountain_regeneration_beta2"
 		"Ability2"				""
 		"Ability3"				""
 		"Ability4"				""
@@ -264,7 +264,7 @@
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
-		"Ability1"				""
+		"Ability1"				"fountain_regeneration_beta2"
 		"Ability2"				""
 		"Ability3"				""
 		"Ability4"				""

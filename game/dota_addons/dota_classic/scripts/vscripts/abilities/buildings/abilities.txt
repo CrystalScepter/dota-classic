@@ -1,0 +1,32 @@
+"DOTAAbilities"
+{
+	//====================================================================================================
+	// Fountain Regeneration
+	//====================================================================================================
+	"fountain_regeneration_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/buildings/fountain_regeneration_beta2"
+		"AbilityTextureName"			"healing_campfire"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_BOTH"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
+
+		"MaxLevel" 				"1"
+
+		// Stats
+		//----------------------------------------------------------------------------------------------------
+		"AbilityCastRange"			"500"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"health_regen"			"1"
+			"mana_regen"			"1"
+			"radius"			"500"
+		}
+	}
+}
