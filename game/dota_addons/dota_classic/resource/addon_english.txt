@@ -20,6 +20,17 @@
 		"npc_dire_fountain_beta2"								"Well of Life"
 
 		//====================================================================================================
+		// Building abilities
+		//====================================================================================================
+		"dota_tooltip_ability_fountain_regeneration_beta2"					"Rejuvenation Aura"
+		"dota_tooltip_ability_fountain_regeneration_beta2_description"				"Restores health and mana of all nearby units."
+		"dota_tooltip_ability_fountain_regeneration_beta2_health_regen"				"%Max Health as Health Regen Bonus:"
+		"dota_tooltip_ability_fountain_regeneration_beta2_mana_regen"				"%Max Mana as Health Regen Bonus:"
+
+		"dota_tooltip_modifier_fountain_regeneration_buff_beta2"				"Rejuvenation Aura"
+		"dota_tooltip_modifier_fountain_regeneration_buff_beta2_description"			"This unit has increased health and mana regen."
+
+		//====================================================================================================
 		// Shadow Demon
 		//====================================================================================================
 		"dota_tooltip_ability_shadow_demon_enfeeble_beta2"					"Enfeeble"

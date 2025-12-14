@@ -23,6 +23,11 @@ function modifier_fountain_regeneration_beta2:OnCreated(keys)
 	self.radius = self:GetAbility():GetSpecialValueFor("radius")
 end
 
+-- Prevent the modifier from showing up in the buff bar
+function modifier_fountain_regeneration_beta2:IsHidden()
+	return true
+end
+
 -- Indicate that modifier is an aura
 function modifier_fountain_regeneration_beta2:IsAura()
 	return true
