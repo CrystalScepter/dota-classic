@@ -5,6 +5,9 @@ function GameMode:OnGameRulesStateChange(keys)
 
         -- Called when the game is in progress
         if new_state == DOTA_GAMERULES_STATE_GAME_IN_PROGRESS then
+                -- Remove the stock ancient modifiers
+                Entities:FindByName(nil, "radiant_ancient"):RemoveModifierByName("modifier_tower_truesight_aura")
+
                 -- Remove the stock fountain modifiers
                 Entities:FindByName(nil, "radiant_fountain_1"):RemoveModifierByName("modifier_fountain_aura")
                 Entities:FindByName(nil, "radiant_fountain_1"):RemoveModifierByName("modifier_fountain_truesight_aura")
