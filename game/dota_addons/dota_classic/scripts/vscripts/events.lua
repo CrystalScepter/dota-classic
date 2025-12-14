@@ -1,14 +1,17 @@
 -- Called when the game state has changed
 function GameMode:OnGameRulesStateChange(keys)
-	-- Catch the current game state
-	local new_state = GameRules:State_Get()
+        -- Catch the current game state
+        local new_state = GameRules:State_Get()
 
         -- Called when the game is in progress
-	if new_state == DOTA_GAMERULES_STATE_GAME_IN_PROGRESS then
+        if new_state == DOTA_GAMERULES_STATE_GAME_IN_PROGRESS then
                 -- Remove the stock fountain modifiers
                 Entities:FindByName(nil, "radiant_fountain_1"):RemoveModifierByName("modifier_fountain_aura")
                 Entities:FindByName(nil, "radiant_fountain_1"):RemoveModifierByName("modifier_fountain_truesight_aura")
                 Entities:FindByName(nil, "radiant_fountain_1"):RemoveModifierByName("modifier_fountain_passive")
+                Entities:FindByName(nil, "radiant_fountain_2"):RemoveModifierByName("modifier_fountain_aura")
+                Entities:FindByName(nil, "radiant_fountain_2"):RemoveModifierByName("modifier_fountain_truesight_aura")
+                Entities:FindByName(nil, "radiant_fountain_2"):RemoveModifierByName("modifier_fountain_passive")
         end
 end
 
