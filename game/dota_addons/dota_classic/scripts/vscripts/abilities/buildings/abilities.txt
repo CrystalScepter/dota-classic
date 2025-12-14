@@ -9,7 +9,7 @@
 		//----------------------------------------------------------------------------------------------------
 		"BaseClass"				"ability_lua"
 		"ScriptFile"				"abilities/buildings/fountain_regeneration_beta2"
-		"AbilityTextureName"			"forest_troll_high_priest_heal_amp_aura"
+		"AbilityTextureName"			"fountain_heal"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_BOTH"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
