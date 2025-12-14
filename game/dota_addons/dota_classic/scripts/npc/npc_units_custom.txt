@@ -8,7 +8,7 @@
 		// General
 		//----------------------------------------------------------------------------------------------------
 		"BaseClass"				"npc_dota_fort"
-		"Model"					"models/props_structures/radiant_ancient001.vmdl"
+		"Model"					"models/props_structures/spring_meteor/spring_meteor.vmdl"
 		"SoundSet"				"Creep_Good_Melee"
 		"MinimapIcon"				"minimap_ancient"
 		"MinimapIconSize"			"400"
@@ -92,7 +92,7 @@
 		// General
 		//----------------------------------------------------------------------------------------------------
 		"BaseClass"				"npc_dota_fort"
-		"Model"					"models/props_structures/dire_ancient_base001.vmdl"
+		"Model"					"models/props_structures/spring_meteor/spring_meteor.vmdl"
 		"SoundSet"				"Creep_Good_Melee"
 		"MinimapIcon"				"minimap_ancient"
 		"MinimapIconSize"			"400"
