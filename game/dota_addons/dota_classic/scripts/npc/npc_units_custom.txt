@@ -171,15 +171,14 @@
 	//====================================================================================================
 	// Radiant Fountain
 	//====================================================================================================
-	"npc_radiant_ountain_beta2"
+	"npc_radiant_fountain_beta2"
 	{
 		// General
 		//----------------------------------------------------------------------------------------------------
 		"BaseClass"				"ent_dota_fountain"
 		"Model"					"models/props_structures/old_well.vmdl"
 		"SoundSet"				"dota_fountain"
-		"MinimapIcon"				"minimap_ward_obs"
-		"MinimapIconSize"			"1"
+		"MinimapIcon"				"minimap_lotuspool"
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
@@ -261,8 +260,7 @@
 		"BaseClass"				"ent_dota_fountain"
 		"Model"					"models/props_structures/old_well.vmdl"
 		"SoundSet"				"dota_fountain"
-		"MinimapIcon"				"minimap_ward_obs"
-		"MinimapIconSize"			"1"
+		"MinimapIcon"				"minimap_lotuspool"
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
