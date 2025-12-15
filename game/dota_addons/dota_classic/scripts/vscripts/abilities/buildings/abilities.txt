@@ -31,14 +31,14 @@
 	}
 
 	//====================================================================================================
-	// Vision
+	// Out of the World
 	//====================================================================================================
-	"abilities_vision_beta2"
+	"out_of_the_world_beta2"
 	{
 		// General
 		//----------------------------------------------------------------------------------------------------
 		"BaseClass"				"ability_lua"
-		"ScriptFile"				"abilities/buildings/abilities_vision_beta2"
+		"ScriptFile"				"abilities/buildings/out_of_the_world_beta2"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 
 		"MaxLevel" 				"1"
