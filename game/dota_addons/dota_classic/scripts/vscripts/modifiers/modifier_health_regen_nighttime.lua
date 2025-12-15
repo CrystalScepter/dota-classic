@@ -27,6 +27,8 @@ function modifier_health_regen_nighttime:GetModifierConstantHealthRegen()
 	-- Check if it's night time and a specific unit to set a night time health regen value for them
 	if stack_count == 0 and unit_name == "npc_radiant_ancient_beta2" then
 		self.health_regen = 0.5
+	elseif stack_count == 0 and unit_name == "npc_radiant_ranged_mid_barracks_beta2" then
+		self.health_regen = 0.5
 	elseif stack_count == 0 and unit_name == "npc_dota_hero_doom_bringer" then
 		self.health_regen = 0.5
 	elseif stack_count == 0 and unit_name == "npc_dota_hero_enchantress" then
