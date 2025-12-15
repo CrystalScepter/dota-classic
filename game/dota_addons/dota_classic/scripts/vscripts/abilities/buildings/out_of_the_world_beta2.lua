@@ -6,7 +6,7 @@ LinkLuaModifier("modifier_out_of_the_world_beta2", "abilities/buildings/out_of_t
 
 -- Called when the ability is created
 function out_of_the_world_beta2:Spawn()
-	-- Proceed if the code is running in the server
+	-- Proceed if synchronized with the server
 	if IsServer() then
 		-- Set the ability level to 1
 		self:SetLevel(1)

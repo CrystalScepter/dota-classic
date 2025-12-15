@@ -42,7 +42,6 @@ modifier_shadow_demon_midnight_pulse_beta2 = class({})
 function modifier_shadow_demon_midnight_pulse_beta2:OnCreated(keys)
         -- Proceed if synchronized with the server
         if IsServer() then
-
                 -- Retrieve the ability values that are going to be used by our modifier
                 self.max_health_second = self:GetAbility():GetSpecialValueFor("max_health_second")
                 self.radius = self:GetAbility():GetSpecialValueFor("radius")
