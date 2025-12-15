@@ -49,8 +49,8 @@
 								surface_property = ""
 								translation_only = false
 								group_id = 0
-								hitbox_mins = [ -128.0, -128.0, 0.0 ]
-								hitbox_maxs = [ 128.0, 128.0, 0.0 ]
+								hitbox_mins = [ -128.0, -128.0, -1.0 ]
+								hitbox_maxs = [ 128.0, 128.0, 1.0 ]
 							},
 						]
 					},
