@@ -266,7 +266,7 @@
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
-		"Ability1"				""
+		"Ability1"				"creep_spawner_radiant_mid_beta2"
 		"Ability2"				""
 		"Ability3"				""
 		"Ability4"				""
