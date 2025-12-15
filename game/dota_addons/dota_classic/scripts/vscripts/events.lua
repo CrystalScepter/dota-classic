@@ -14,17 +14,17 @@ function GameMode:OnGameRulesStateChange(keys)
 
                 -- Remove the stock fountain modifiers
                 Entities:FindByName(nil, "radiant_fountain_1"):RemoveModifierByName("modifier_fountain_aura")
-                Entities:FindByName(nil, "radiant_fountain_1"):RemoveModifierByName("modifier_fountain_truesight_aura")
                 Entities:FindByName(nil, "radiant_fountain_1"):RemoveModifierByName("modifier_fountain_passive")
+                Entities:FindByName(nil, "radiant_fountain_1"):RemoveModifierByName("modifier_fountain_truesight_aura")
                 Entities:FindByName(nil, "radiant_fountain_2"):RemoveModifierByName("modifier_fountain_aura")
-                Entities:FindByName(nil, "radiant_fountain_2"):RemoveModifierByName("modifier_fountain_truesight_aura")
                 Entities:FindByName(nil, "radiant_fountain_2"):RemoveModifierByName("modifier_fountain_passive")
+                Entities:FindByName(nil, "radiant_fountain_2"):RemoveModifierByName("modifier_fountain_truesight_aura")
                 Entities:FindByName(nil, "dire_fountain_1"):RemoveModifierByName("modifier_fountain_aura")
-                Entities:FindByName(nil, "dire_fountain_1"):RemoveModifierByName("modifier_fountain_truesight_aura")
                 Entities:FindByName(nil, "dire_fountain_1"):RemoveModifierByName("modifier_fountain_passive")
+                Entities:FindByName(nil, "dire_fountain_1"):RemoveModifierByName("modifier_fountain_truesight_aura")
                 Entities:FindByName(nil, "dire_fountain_2"):RemoveModifierByName("modifier_fountain_aura")
-                Entities:FindByName(nil, "dire_fountain_2"):RemoveModifierByName("modifier_fountain_truesight_aura")
                 Entities:FindByName(nil, "dire_fountain_2"):RemoveModifierByName("modifier_fountain_passive")
+                Entities:FindByName(nil, "dire_fountain_2"):RemoveModifierByName("modifier_fountain_truesight_aura")
         end
 end
 
@@ -43,8 +43,8 @@ end
 -- Called by heroes when they spawn for the first time
 function GameMode:OnHeroInGame(hero)
         -- Add the following modifiers to the hero
-        hero:AddNewModifier(hero, nil, "modifier_magic_resist", nil)
         hero:AddNewModifier(hero, nil, "modifier_health_regen", nil)
         hero:AddNewModifier(hero, nil, "modifier_health_regen_nighttime", nil)
         hero:AddNewModifier(hero, nil, "modifier_hull_radius", nil)
+        hero:AddNewModifier(hero, nil, "modifier_magic_resist", nil)
 end

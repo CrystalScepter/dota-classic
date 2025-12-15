@@ -29,4 +29,18 @@
 			"radius"			"500"
 		}
 	}
+
+	//====================================================================================================
+	// Vision
+	//====================================================================================================
+	"abilities_vision_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/buildings/abilities_vision_beta2"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+
+		"MaxLevel" 				"1"
+	}
 }
