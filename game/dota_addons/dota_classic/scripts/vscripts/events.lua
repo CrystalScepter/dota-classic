@@ -34,6 +34,13 @@ function GameMode:OnNPCSpawned(keys)
         -- Retrieve the spawned unit
         local unit = EntIndexToHScript(keys.entindex)
 
+        -- Check whether the unit is a creep
+        if unit:IsCreep() then
+                -- Add the following modifiers to the creep
+                unit:AddNewModifier(unit, nil, "modifier_health_regen_nighttime", nil)
+                unit:AddNewModifier(unit, nil, "modifier_hull_radius", nil)
+        end
+
         -- Check whether a hero spawned for the first time
         if unit:IsRealHero() and not unit.first_spawned then
                 unit.first_spawned = true

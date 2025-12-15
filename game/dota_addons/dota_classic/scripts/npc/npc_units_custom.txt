@@ -584,6 +584,90 @@
 	}
 
 	//====================================================================================================
+	// Radiant Ranged Creeps
+	//====================================================================================================
+	"npc_radiant_ranged_creep_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"npc_dota_creep_lane"
+		"Model"					"models/creeps/lane_creeps/creep_radiant_ranged/radiant_ranged.vmdl"
+		"SoundSet"				"Creep_Good_Range"
+		"ModelScale" 				"0.88"
+		"Level"					"2"
+		
+		// Abilities
+		//----------------------------------------------------------------------------------------------------
+		"Ability1"				""
+		"Ability2"				""
+		"Ability3"				""
+		"Ability4"				""
+		"Ability5"				""
+		"Ability6"				""
+		"Ability7"				""
+		"Ability8"				""
+
+		// Attributes
+		//----------------------------------------------------------------------------------------------------
+		"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"			"0"
+		"AttributeStrengthGain"			"0"
+		"AttributeBaseAgility"			"0"
+		"AttributeAgilityGain"			"0"
+		"AttributeBaseIntelligence"		"0"
+		"AttributeIntelligenceGain"		"0"
+
+		// Stats
+		//----------------------------------------------------------------------------------------------------
+		"AttackCapabilities"			"DOTA_UNIT_CAP_RANGED_ATTACK"
+		"AttackDamageMin"			"15"
+		"AttackDamageMax"			"17"
+		"AttackDamageType"			"DAMAGE_TYPE_ArmorPhysical"
+		"AttackRate"				"2"
+		"AttackAnimationPoint"			"0.3"
+		"AttackAcquisitionRange"		"800"
+		"AttackRange"				"500"
+		"ProjectileModel"			"particles/base_attacks/ranged_goodguy.vpcf"
+		"ProjectileSpeed"			"1000"
+
+		"ArmorPhysical"				"0"
+		"MagicalResistance"			"0"
+
+		"StatusHealth"				"380"
+		"StatusMana"				"200"
+		"StatusHealthRegen"			"0"
+		"StatusManaRegen"			"0.5"
+
+		// Bounds
+		//----------------------------------------------------------------------------------------------------
+		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"
+		"RingRadius"				"32"
+		"HealthBarOffset"			"150"
+
+		// Movement
+		//----------------------------------------------------------------------------------------------------
+		"MovementCapabilities"			"DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementSpeed"				"350"
+		"MovementTurnRate"			"0.5"
+
+		// Bounties
+		//----------------------------------------------------------------------------------------------------
+		"BountyXP"				"0"
+		"BountyGoldMin"				"32"
+		"BountyGoldMax"				"46"
+
+		// Team
+		//----------------------------------------------------------------------------------------------------
+		"TeamName"				"DOTA_TEAM_GOODGUYS"
+		"UnitRelationshipClass"			"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		// Vision
+		//----------------------------------------------------------------------------------------------------
+		"VisionDaytimeRange"			"1400"
+		"VisionNighttimeRange"			"800"
+	}	
+
+	//====================================================================================================
 	// Invisible Vision Source
 	//====================================================================================================
 	"npc_dota_invisible_vision_source"

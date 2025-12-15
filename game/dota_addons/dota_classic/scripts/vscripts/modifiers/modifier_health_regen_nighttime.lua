@@ -29,6 +29,8 @@ function modifier_health_regen_nighttime:GetModifierConstantHealthRegen()
 		self.health_regen = 0.5
 	elseif stack_count == 0 and unit_name == "npc_radiant_ranged_mid_barracks_beta2" then
 		self.health_regen = 0.5
+	elseif stack_count == 0 and unit_name == "npc_radiant_ranged_creep_beta2" then
+		self.health_regen = 0.5
 	elseif stack_count == 0 and unit_name == "npc_dota_hero_doom_bringer" then
 		self.health_regen = 0.5
 	elseif stack_count == 0 and unit_name == "npc_dota_hero_enchantress" then
