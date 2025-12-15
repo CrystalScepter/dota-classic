@@ -176,7 +176,7 @@
 		// General
 		//----------------------------------------------------------------------------------------------------
 		"BaseClass"				"npc_dota_building"
-		"Model"					"models/props_structures/good_barracks_ranged002.vmdl"
+		"Model"					"models/radiant_ranged_barracks.vmdl"
 		"SoundSet"				"Creep_Good_Melee"
 		"MinimapIcon"				"minimap_racks90"
 		"MinimapIconSize"			"250"
