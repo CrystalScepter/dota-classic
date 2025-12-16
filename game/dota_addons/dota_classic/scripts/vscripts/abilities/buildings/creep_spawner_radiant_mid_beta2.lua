@@ -57,3 +57,13 @@ function modifier_creep_spawner_radiant_mid_beta2:OnIntervalThink()
 		ExecuteOrderFromTable(order)
 	end
 end
+
+-- Prevent the modifier from showing up in the buff bar
+function modifier_creep_spawner_radiant_mid_beta2:IsHidden()
+	return true
+end
+
+-- Make the modifier undispellable
+function modifier_creep_spawner_radiant_mid_beta2:IsPurgable()
+        return false
+end
