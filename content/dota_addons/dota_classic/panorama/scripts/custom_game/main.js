@@ -28,6 +28,7 @@ hero_interface.FindChildTraverse("AghsStatusContainer").style.visibility = "coll
 // Disable neutral item and TP scroll slots
 hero_interface.FindChildTraverse("inventory_composition_layer_container").style.visibility = "collapse";
 
-// Disable glyph, radar and Roshan indicators
+// Disable glyph, radar, Roshan and Tormentor indicators
 hud.FindChildTraverse("HUDElements").FindChildTraverse("minimap_container").FindChildTraverse("GlyphScanContainer").style.visibility = "collapse";
 hud.FindChildTraverse("HUDElements").FindChildTraverse("minimap_container").FindChildTraverse("RoshanTimerContainer").style.visibility = "collapse";
+hud.FindChildTraverse("HUDElements").FindChildTraverse("minimap_container").FindChildTraverse("TormentorTimerContainer").style.visibility = "collapse";
