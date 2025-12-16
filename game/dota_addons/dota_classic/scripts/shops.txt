@@ -1,23 +1,94 @@
 "dota_shops"
 {
-        //=================================================================================================================
-	// Attribute items
-	//=================================================================================================================
         "consumables"
 	{
-		"item"		"item_gauntlets_beta2"
-		"item"		"item_slippers_beta2"
-		"item"		"item_mantle_beta2"
-		"item"		"item_circlet_beta2"
+	}
+
+	"attributes"
+	{
+	}
+
+	"weapons_armor"
+	{
+	}
+
+	"misc"
+	{
+	}
+
+	"basics"
+	{
+	}
+
+	"support"
+	{
+	}
+
+	"magics"
+	{
+	}
+
+	"defense"
+	{
+	}
+
+	"weapons"
+	{
+	}
+
+	"artifacts"
+	{
+	}
+
+	"sideshop1"
+	{
+	}
+
+	"sideshop2"
+	{
+	}
+
+	"secretshop"
+	{
+	}
+
+	"pregame"
+	{
+	}
+
+	"pregame_consumables"
+	{
+	}
+
+	"pregame_attributes"
+	{
+	}
+
+	"pregame_accessories"
+	{
+	}
+
+	//====================================================================================================
+	// Weapons Shop
+	//====================================================================================================
+	"weapons_shop_beta2"
+	{
+		"item"		"item_blades_of_attack_3_beta2"
+		"item"		"item_blades_of_attack_6_beta2"
+		"item"		"item_blades_of_attack_9_beta2"
+		"item"		"item_blades_of_attack_12_beta2"
 		"item"		"item_ogre_axe_beta2"
                 "item"		"item_blade_of_alacrity_beta2"
                 "item"		"item_staff_of_wizardry_beta2"
+		"item"		"item_broadsword_beta2"
+                "item"		"item_mithril_hammer_beta2"
+                "item"		"item_demon_edge_beta2"
 	}
 
-	//=================================================================================================================
-	// Defensive items
-	//=================================================================================================================
-	"attributes"
+	//====================================================================================================
+	// Armor Shop
+	//====================================================================================================
+	"armor_shop_beta2"
 	{
 		"item"		"item_ring_of_protection_1_beta2"
 		"item"		"item_ring_of_protection_2_beta2"
@@ -30,40 +101,30 @@
 		"item"		"item_helm_of_iron_will_beta2"
 		"item"		"item_talisman_of_evasion_beta2"
 		"item"		"item_cloak_beta2"
-	}
-        
-        //=================================================================================================================
-	// Offensive items
-	//=================================================================================================================
-	"weapons_armor"
-	{
-		"item"		"item_blades_of_attack_3_beta2"
-		"item"		"item_blades_of_attack_6_beta2"
-		"item"		"item_blades_of_attack_9_beta2"
-		"item"		"item_blades_of_attack_12_beta2"
-                "item"		"item_broadsword_beta2"
-                "item"		"item_mithril_hammer_beta2"
-                "item"		"item_demon_edge_beta2"
+		"item"		"item_tranquil_boots_beta2"
 	}
 
-	//=================================================================================================================
-	// Miscellaneous items
-	//=================================================================================================================
-	"misc"
+	//====================================================================================================
+	// Miscellaneous Shop
+	//====================================================================================================
+	"miscellaneous_shop_beta2"
 	{
 		"item"		"item_gloves_of_haste_beta2"
 		"item"		"item_boots_of_speed_beta2"
 		"item"		"item_ring_of_regen_beta2"
+		"item"		"item_gauntlets_beta2"
+		"item"		"item_slippers_beta2"
+		"item"		"item_mantle_beta2"
 		"item"		"item_sobi_mask_beta2"
+		"item"		"item_circlet_beta2"
 		"item"		"item_perseverance_beta2"
 		"item"		"item_point_booster_beta2"
-		"item"		"item_tranquil_boots_beta2"
 	}
 
-	//=================================================================================================================
-	// Mid lane shop items
-	//=================================================================================================================
-	"secretshop"
+	//====================================================================================================
+	// Mid Lane Shop
+	//====================================================================================================
+	"midlane_shop_beta2"
 	{
 		"item"		"item_gem_beta2"
 	}
