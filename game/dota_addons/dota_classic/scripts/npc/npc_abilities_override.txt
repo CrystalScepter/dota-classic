@@ -556,4 +556,12 @@
 	"item_enhancement_thick"		"REMOVE"
 	"item_enhancement_curious"		"REMOVE"
 	"item_furion_gold_bag"			"REMOVE"
+	"item_recipe_specialists_array"		"REMOVE"
+	"item_specialists_array"		"REMOVE"
+	"item_weighted_dice"			"REMOVE"
+	"item_ash_legion_shield"		"REMOVE"
+	"item_riftshadow_prism"			"REMOVE"
+	"item_metamorphic_mandible"		"REMOVE"
+	"item_idol_of_screeauk"			"REMOVE"
+	"item_flayers_bota"			"REMOVE"
 }
