@@ -183,7 +183,7 @@
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
-		"Ability1"				""
+		"Ability1"				"creep_spawner_radiant_ranged_top_beta2"
 		"Ability2"				""
 		"Ability3"				""
 		"Ability4"				""
@@ -266,7 +266,7 @@
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
-		"Ability1"				"creep_spawner_radiant_mid_beta2"
+		"Ability1"				"creep_spawner_radiant_ranged_mid_beta2"
 		"Ability2"				""
 		"Ability3"				""
 		"Ability4"				""
@@ -349,7 +349,7 @@
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
-		"Ability1"				""
+		"Ability1"				"creep_spawner_radiant_ranged_bot_beta2"
 		"Ability2"				""
 		"Ability3"				""
 		"Ability4"				""

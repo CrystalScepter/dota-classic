@@ -1,14 +1,58 @@
 "DOTAAbilities"
 {
 	//====================================================================================================
-	// Creep Spawner Radiant Mid
+	// Creep Spawner Radiant Ranged Top
 	//====================================================================================================
-	"creep_spawner_radiant_mid_beta2"
+	"creep_spawner_radiant_ranged_top_beta2"
 	{
 		// General
 		//----------------------------------------------------------------------------------------------------
 		"BaseClass"				"ability_lua"
-		"ScriptFile"				"abilities/buildings/creep_spawner_radiant_mid_beta2"
+		"ScriptFile"				"abilities/buildings/creep_spawner_radiant_ranged_top_beta2"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+
+		"MaxLevel" 				"1"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"spawn_rate"			"30"
+			"creep_count"			"1"
+		}
+	}
+
+	//====================================================================================================
+	// Creep Spawner Radiant Ranged Mid
+	//====================================================================================================
+	"creep_spawner_radiant_ranged_mid_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/buildings/creep_spawner_radiant_ranged_mid_beta2"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+
+		"MaxLevel" 				"1"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"spawn_rate"			"30"
+			"creep_count"			"1"
+		}
+	}
+
+	//====================================================================================================
+	// Creep Spawner Radiant Ranged Bot
+	//====================================================================================================
+	"creep_spawner_radiant_ranged_bot_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/buildings/creep_spawner_radiant_ranged_bot_beta2"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 
 		"MaxLevel" 				"1"
