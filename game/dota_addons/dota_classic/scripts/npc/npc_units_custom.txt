@@ -183,7 +183,7 @@
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
-		"Ability1"				""
+		"Ability1"				"creep_spawner_radiant_melee_top_beta2"
 		"Ability2"				""
 		"Ability3"				""
 		"Ability4"				""
@@ -266,7 +266,7 @@
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
-		"Ability1"				""
+		"Ability1"				"creep_spawner_radiant_melee_mid_beta2"
 		"Ability2"				""
 		"Ability3"				""
 		"Ability4"				""
@@ -349,7 +349,7 @@
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
-		"Ability1"				""
+		"Ability1"				"creep_spawner_radiant_melee_bot_beta2"
 		"Ability2"				""
 		"Ability3"				""
 		"Ability4"				""
@@ -681,7 +681,7 @@
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
-		"Ability1"				""
+		"Ability1"				"creep_spawner_dire_melee_top_beta2"
 		"Ability2"				""
 		"Ability3"				""
 		"Ability4"				""
@@ -764,7 +764,7 @@
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
-		"Ability1"				""
+		"Ability1"				"creep_spawner_dire_melee_mid_beta2"
 		"Ability2"				""
 		"Ability3"				""
 		"Ability4"				""
@@ -847,7 +847,7 @@
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
-		"Ability1"				""
+		"Ability1"				"creep_spawner_dire_melee_bot_beta2"
 		"Ability2"				""
 		"Ability3"				""
 		"Ability4"				""

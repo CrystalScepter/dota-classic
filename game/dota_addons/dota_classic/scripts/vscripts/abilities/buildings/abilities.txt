@@ -1,6 +1,72 @@
 "DOTAAbilities"
 {
 	//====================================================================================================
+	// Creep Spawner Radiant Melee Top
+	//====================================================================================================
+	"creep_spawner_radiant_melee_top_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/buildings/creep_spawner_radiant_melee_top_beta2"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+
+		"MaxLevel" 				"1"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"spawn_rate"			"30"
+			"creep_count"			"2"
+		}
+	}
+
+	//====================================================================================================
+	// Creep Spawner Radiant Melee Mid
+	//====================================================================================================
+	"creep_spawner_radiant_melee_mid_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/buildings/creep_spawner_radiant_melee_mid_beta2"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+
+		"MaxLevel" 				"1"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"spawn_rate"			"30"
+			"creep_count"			"2"
+		}
+	}
+
+	//====================================================================================================
+	// Creep Spawner Radiant Melee Bot
+	//====================================================================================================
+	"creep_spawner_radiant_melee_bot_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/buildings/creep_spawner_radiant_melee_bot_beta2"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+
+		"MaxLevel" 				"1"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"spawn_rate"			"30"
+			"creep_count"			"2"
+		}
+	}
+
+	//====================================================================================================
 	// Creep Spawner Radiant Ranged Top
 	//====================================================================================================
 	"creep_spawner_radiant_ranged_top_beta2"
@@ -53,6 +119,138 @@
 		//----------------------------------------------------------------------------------------------------
 		"BaseClass"				"ability_lua"
 		"ScriptFile"				"abilities/buildings/creep_spawner_radiant_ranged_bot_beta2"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+
+		"MaxLevel" 				"1"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"spawn_rate"			"30"
+			"creep_count"			"1"
+		}
+	}
+
+	//====================================================================================================
+	// Creep Spawner Dire Melee Top
+	//====================================================================================================
+	"creep_spawner_dire_melee_top_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/buildings/creep_spawner_dire_melee_top_beta2"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+
+		"MaxLevel" 				"1"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"spawn_rate"			"30"
+			"creep_count"			"4"
+		}
+	}
+
+	//====================================================================================================
+	// Creep Spawner Dire Melee Mid
+	//====================================================================================================
+	"creep_spawner_dire_melee_mid_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/buildings/creep_spawner_dire_melee_mid_beta2"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+
+		"MaxLevel" 				"1"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"spawn_rate"			"30"
+			"creep_count"			"4"
+		}
+	}
+
+	//====================================================================================================
+	// Creep Spawner Dire Melee Bot
+	//====================================================================================================
+	"creep_spawner_dire_melee_bot_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/buildings/creep_spawner_dire_melee_bot_beta2"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+
+		"MaxLevel" 				"1"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"spawn_rate"			"30"
+			"creep_count"			"4"
+		}
+	}
+
+	//====================================================================================================
+	// Creep Spawner Dire Ranged Top
+	//====================================================================================================
+	"creep_spawner_dire_ranged_top_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/buildings/creep_spawner_dire_ranged_top_beta2"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+
+		"MaxLevel" 				"1"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"spawn_rate"			"30"
+			"creep_count"			"1"
+		}
+	}
+
+	//====================================================================================================
+	// Creep Spawner Dire Ranged Mid
+	//====================================================================================================
+	"creep_spawner_dire_ranged_mid_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/buildings/creep_spawner_dire_ranged_mid_beta2"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+
+		"MaxLevel" 				"1"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"spawn_rate"			"30"
+			"creep_count"			"1"
+		}
+	}
+
+	//====================================================================================================
+	// Creep Spawner Dire Ranged Bot
+	//====================================================================================================
+	"creep_spawner_dire_ranged_bot_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/buildings/creep_spawner_dire_ranged_bot_beta2"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 
 		"MaxLevel" 				"1"
