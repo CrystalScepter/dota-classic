@@ -1842,7 +1842,7 @@
 		// General
 		//----------------------------------------------------------------------------------------------------
 		"BaseClass"				"npc_dota_creep_lane"
-		"Model"					"models/creeps/lane_creeps/creep_2021_radiant/creep_2021_radiant_ranged.vmdl"
+		"Model"					"models/creeps/lane_creeps/creep_radiant_ranged/crystal_radiant_ranged.vmdl"
 		"SoundSet"				"Creep_Good_Range"
 		"ModelScale" 				"0.88"
 		"Level"					"3"

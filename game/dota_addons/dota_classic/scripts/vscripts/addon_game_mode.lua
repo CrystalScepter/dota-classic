@@ -3,7 +3,8 @@ require("gamemode")
 
 -- Precache resources
 function Precache(context)
-        PrecacheResource("model", "models/creeps/lane_creeps/creep_2021_radiant/creep_2021_radiant_ranged.vmdl", context)
+        PrecacheResource("model", "models/creeps/lane_creeps/creep_radiant_ranged/crystal_radiant_ranged.vmdl", context)
+        PrecacheResource("particle", "particles/base_attacks/ti9_radiant_ranged.vpcf", context)
 end
 
 -- Called when the custom game starts
