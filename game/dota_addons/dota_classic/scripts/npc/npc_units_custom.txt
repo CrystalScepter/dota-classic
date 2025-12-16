@@ -930,7 +930,7 @@
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
-		"Ability1"				""
+		"Ability1"				"creep_spawner_dire_ranged_top_beta2"
 		"Ability2"				""
 		"Ability3"				""
 		"Ability4"				""
@@ -1013,7 +1013,7 @@
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
-		"Ability1"				""
+		"Ability1"				"creep_spawner_dire_ranged_mid_beta2"
 		"Ability2"				""
 		"Ability3"				""
 		"Ability4"				""
@@ -1096,7 +1096,7 @@
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
-		"Ability1"				""
+		"Ability1"				"creep_spawner_dire_ranged_bot_beta2"
 		"Ability2"				""
 		"Ability3"				""
 		"Ability4"				""
@@ -1338,7 +1338,7 @@
 		// General
 		//----------------------------------------------------------------------------------------------------
 		"BaseClass"				"npc_dota_creep_lane"
-		"Model"					"models/creeps/lane_creeps/creep_2021_radiant/creep_2021_radiant_ranged.vmdl"
+		"Model"					"models/creeps/lane_creeps/creep_radiant_ranged/radiant_ranged.vmdl"
 		"SoundSet"				"Creep_Good_Range"
 		"ModelScale" 				"0.88"
 		"Level"					"3"
@@ -1560,7 +1560,7 @@
 		// Movement
 		//----------------------------------------------------------------------------------------------------
 		"MovementCapabilities"			"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"270"
+		"MovementSpeed"				"320"
 		"MovementTurnRate"			"0.5"
 
 		// Bounties
@@ -1644,7 +1644,7 @@
 		// Movement
 		//----------------------------------------------------------------------------------------------------
 		"MovementCapabilities"			"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"270"
+		"MovementSpeed"				"320"
 		"MovementTurnRate"			"0.6"
 
 		// Bounties
