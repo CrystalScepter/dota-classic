@@ -12,6 +12,10 @@ function modifier_hull_radius:OnCreated()
 			self:GetParent():SetHullRadius(0)
 		elseif self:GetParent():GetUnitName() == "npc_dota_hero_abyssal_underlord" then
 			self:GetParent():SetHullRadius(0)
+		elseif self:GetParent():GetUnitName() == "npc_dire_melee_creep_beta2" then
+			self:GetParent():SetHullRadius(31)
+		elseif self:GetParent():GetUnitName() == "npc_dire_ranged_creep_beta2" then
+			self:GetParent():SetHullRadius(16)
 		-- Set a standard hull radius value if it's none of the listed units
 		else
 			self:GetParent():SetHullRadius(32)
