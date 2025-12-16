@@ -141,4 +141,5 @@
 	"npc_dota_hero_muerta"				"0"
 	"npc_dota_hero_ringmaster"			"0"
 	"npc_dota_hero_kez"				"0"
+	"npc_dota_hero_largo"				"0"
 }
