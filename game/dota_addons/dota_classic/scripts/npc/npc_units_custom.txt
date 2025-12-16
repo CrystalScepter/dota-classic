@@ -1560,7 +1560,7 @@
 		// Movement
 		//----------------------------------------------------------------------------------------------------
 		"MovementCapabilities"			"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"320"
+		"MovementSpeed"				"350"
 		"MovementTurnRate"			"0.5"
 
 		// Bounties
@@ -1588,7 +1588,7 @@
 		// General
 		//----------------------------------------------------------------------------------------------------
 		"BaseClass"				"npc_dota_creep_lane"
-		"Model"					"models/creeps/lane_creeps/creep_radiant_ranged/radiant_ranged.vmdl"
+		"Model"					"models/creeps/lane_creeps/creep_bad_ranged/lane_dire_ranged.vmdl"
 		"SoundSet"				"Creep_Bad_Range"
 		"ModelScale" 				"0.93"
 		"Level"					"2"
@@ -1644,7 +1644,7 @@
 		// Movement
 		//----------------------------------------------------------------------------------------------------
 		"MovementCapabilities"			"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"320"
+		"MovementSpeed"				"270"
 		"MovementTurnRate"			"0.6"
 
 		// Bounties
