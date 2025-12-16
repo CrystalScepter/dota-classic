@@ -36,6 +36,7 @@ function GameMode:OnGameRulesStateChange(keys)
                 Entities:FindByName(nil, "radiant_filler_1"):RemoveModifierByName("modifier_invulnerable")
                 Entities:FindByName(nil, "radiant_filler_2"):RemoveModifierByName("modifier_invulnerable")
                 Entities:FindByName(nil, "radiant_filler_3"):RemoveModifierByName("modifier_invulnerable")
+                Entities:FindByName(nil, "radiant_filler_4"):RemoveModifierByName("modifier_invulnerable")
         end
 end
 

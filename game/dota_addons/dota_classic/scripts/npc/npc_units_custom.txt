@@ -1422,7 +1422,7 @@
 		// General
 		//----------------------------------------------------------------------------------------------------
 		"BaseClass"				"npc_dota_filler"
-		"Model"					"models/props_structures/radiant_statue001.vmdl"
+		"Model"					"models/radiant_filler_2.vmdl"
 		"SoundSet"				"Creep_Good_Melee"
 		"MinimapIcon"				"minimap_miscbuilding"
 		"MinimapIconSize"			"200"
