@@ -31,6 +31,11 @@
 		"npc_radiant_fountain_beta2"								"Well of Life"
 		"npc_dire_fountain_beta2"								"Well of Life"
 		"npc_radiant_filler_1_beta2"								"Strong Filler"
+		"npc_radiant_filler_1_beta2"								"Medium Filler"
+		"npc_radiant_filler_1_beta2"								"Weak Filler"
+		"npc_dire_filler_1_beta2"								"Strong Filler"
+		"npc_dire_filler_1_beta2"								"Medium Filler"
+		"npc_dire_filler_1_beta2"								"Weak Filler"
 
 		//====================================================================================================
 		// Building abilities
