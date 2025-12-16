@@ -31,6 +31,11 @@ function GameMode:OnGameRulesStateChange(keys)
                 Entities:FindByName(nil, "dire_fountain_2"):RemoveModifierByName("modifier_fountain_aura")
                 Entities:FindByName(nil, "dire_fountain_2"):RemoveModifierByName("modifier_fountain_passive")
                 Entities:FindByName(nil, "dire_fountain_2"):RemoveModifierByName("modifier_fountain_truesight_aura")
+
+                -- Remove the stock filler building modifiers
+                Entities:FindByName(nil, "radiant_filler_1"):RemoveModifierByName("modifier_invulnerable")
+                Entities:FindByName(nil, "radiant_filler_2"):RemoveModifierByName("modifier_invulnerable")
+                Entities:FindByName(nil, "radiant_filler_3"):RemoveModifierByName("modifier_invulnerable")
         end
 end
 
