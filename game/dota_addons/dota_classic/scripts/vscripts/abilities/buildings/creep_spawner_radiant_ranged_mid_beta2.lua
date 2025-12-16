@@ -32,7 +32,7 @@ end
 -- Called when the modifier ticks
 function modifier_creep_spawner_radiant_ranged_mid_beta2:OnIntervalThink()
 	-- Retrieve the values that are going to be used when the modifier thinks
-	local spawner_name = "lane_mid_spawner_goodguys"
+	local spawner_name = "lane_ranged_mid_spawner_goodguys"
 	local destination_name = "lane_mid_pathcorner_goodguys_1"
 	local unit_to_spawn = "npc_radiant_ranged_creep_beta2"
 	local number_of_units = self.creep_count
