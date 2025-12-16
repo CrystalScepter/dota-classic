@@ -16,18 +16,18 @@
 		//====================================================================================================
 		"npc_radiant_ancient_beta2"								"Ancient"
 		"npc_dire_ancient_beta2"								"Ancient"
-		"npc_radiant_melee_top_barracks_beta2"							"Ancient of War"
-		"npc_radiant_melee_mid_barracks_beta2"							"Ancient of War"
-		"npc_radiant_melee_bot_barracks_beta2"							"Ancient of War"
-		"npc_radiant_ranged_top_barracks_beta2"							"Ancient of Lore"
-		"npc_radiant_ranged_mid_barracks_beta2"							"Ancient of Lore"
-		"npc_radiant_ranged_bot_barracks_beta2"							"Ancient of Lore"
-		"npc_dire_melee_top_barracks_beta2"							"Crypt"
-		"npc_dire_melee_mid_barracks_beta2"							"Crypt"
-		"npc_dire_melee_bot_barracks_beta2"							"Crypt"
-		"npc_dire_ranged_top_barracks_beta2"							"Temple of the Damned"
-		"npc_dire_ranged_mid_barracks_beta2"							"Temple of the Damned"
-		"npc_dire_ranged_bot_barracks_beta2"							"Temple of the Damned"
+		"npc_radiant_melee_top_barracks_beta2"							"Melee Barracks"
+		"npc_radiant_melee_mid_barracks_beta2"							"Melee Barracks"
+		"npc_radiant_melee_bot_barracks_beta2"							"Melee Barracks"
+		"npc_radiant_ranged_top_barracks_beta2"							"Ranged Barracks"
+		"npc_radiant_ranged_mid_barracks_beta2"							"Ranged Barracks"
+		"npc_radiant_ranged_bot_barracks_beta2"							"Ranged Barracks"
+		"npc_dire_melee_top_barracks_beta2"							"Melee Barracks"
+		"npc_dire_melee_mid_barracks_beta2"							"Melee Barracks"
+		"npc_dire_melee_bot_barracks_beta2"							"Melee Barracks"
+		"npc_dire_ranged_top_barracks_beta2"							"Ranged Barracks"
+		"npc_dire_ranged_mid_barracks_beta2"							"Ranged Barracks"
+		"npc_dire_ranged_bot_barracks_beta2"							"Ranged Barracks"
 		"npc_radiant_fountain_beta2"								"Well of Life"
 		"npc_dire_fountain_beta2"								"Well of Life"
 
@@ -45,7 +45,10 @@
 		//====================================================================================================
 		// Creeps
 		//====================================================================================================
+		"npc_radiant_melee_creep_beta2"								"Melee Creep"
 		"npc_radiant_ranged_creep_beta2"							"Ranged Creep"
+		"npc_dire_melee_creep_beta2"								"Melee Creep"
+		"npc_dire_ranged_creep_beta2"								"Ranged Creep"
 
 		//====================================================================================================
 		// Shadow Demon
