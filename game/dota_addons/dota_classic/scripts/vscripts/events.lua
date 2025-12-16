@@ -11,7 +11,12 @@ function GameMode:OnGameRulesStateChange(keys)
 
                 -- Add the night time health regen modifier to radiant's structures
                 Entities:FindByName(nil, "radiant_ancient"):AddNewModifier(Entities:FindByName(nil, "radiant_ancient"), nil, "modifier_health_regen_nighttime", nil)
+                Entities:FindByName(nil, "radiant_melee_top_barracks"):AddNewModifier(Entities:FindByName(nil, "radiant_ranged_mid_barracks"), nil, "modifier_health_regen_nighttime", nil)
+                Entities:FindByName(nil, "radiant_melee_mid_barracks"):AddNewModifier(Entities:FindByName(nil, "radiant_ranged_mid_barracks"), nil, "modifier_health_regen_nighttime", nil)
+                Entities:FindByName(nil, "radiant_melee_bot_barracks"):AddNewModifier(Entities:FindByName(nil, "radiant_ranged_mid_barracks"), nil, "modifier_health_regen_nighttime", nil)
+                Entities:FindByName(nil, "radiant_ranged_top_barracks"):AddNewModifier(Entities:FindByName(nil, "radiant_ranged_mid_barracks"), nil, "modifier_health_regen_nighttime", nil)
                 Entities:FindByName(nil, "radiant_ranged_mid_barracks"):AddNewModifier(Entities:FindByName(nil, "radiant_ranged_mid_barracks"), nil, "modifier_health_regen_nighttime", nil)
+                Entities:FindByName(nil, "radiant_ranged_bot_barracks"):AddNewModifier(Entities:FindByName(nil, "radiant_ranged_mid_barracks"), nil, "modifier_health_regen_nighttime", nil)
 
                 -- Remove the stock fountain modifiers
                 Entities:FindByName(nil, "radiant_fountain_1"):RemoveModifierByName("modifier_fountain_aura")
