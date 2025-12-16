@@ -1415,6 +1415,174 @@
 	}
 
 	//====================================================================================================
+	// Radiant Medium Filler
+	//====================================================================================================
+	"npc_radiant_filler_2_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"npc_dota_filler"
+		"Model"					"models/props_structures/radiant_statue001.vmdl"
+		"SoundSet"				"Creep_Good_Melee"
+		"MinimapIcon"				"minimap_miscbuilding"
+		"MinimapIconSize"			"200"
+
+		// Abilities
+		//----------------------------------------------------------------------------------------------------
+		"Ability1"				""
+		"Ability2"				""
+		"Ability3"				""
+		"Ability4"				""
+		"Ability5"				""
+		"Ability6"				""
+		"Ability7"				""
+		"Ability8"				""
+
+		// Attributes
+		//----------------------------------------------------------------------------------------------------
+		"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"			"0"
+		"AttributeStrengthGain"			"0"
+		"AttributeBaseAgility"			"0"
+		"AttributeAgilityGain"			"0"
+		"AttributeBaseIntelligence"		"0"
+		"AttributeIntelligenceGain"		"0"
+
+		// Stats
+		//----------------------------------------------------------------------------------------------------
+		"AttackCapabilities"			"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackDamageMin"			"0"
+		"AttackDamageMax"			"0"
+		"AttackDamageType"			"DAMAGE_TYPE_ArmorPhysical"
+		"AttackRate"				"0"
+		"AttackAnimationPoint"			"0"
+		"AttackAcquisitionRange"		"0"
+		"AttackRange"				"0"
+		"ProjectileModel"			""
+		"ProjectileSpeed"			"0"
+
+		"ArmorPhysical"				"2"
+		"MagicalResistance"			"0"
+
+		"StatusHealth"				"800"
+		"StatusMana"				"0"
+		"StatusHealthRegen"			"0"
+		"StatusManaRegen"			"0"
+
+		// Bounds
+		//----------------------------------------------------------------------------------------------------
+		"BoundsHullName"			"DOTA_HULL_SIZE_FILLER"
+		"RingRadius"				"128"
+		"HealthBarOffset"			"260"
+
+		// Movement
+		//----------------------------------------------------------------------------------------------------
+		"MovementCapabilities"			"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"
+		"MovementTurnRate"			"0"
+
+		// Bounties
+		//----------------------------------------------------------------------------------------------------
+		"BountyXP"				"0"
+		"BountyGoldMin"				"0"
+		"BountyGoldMax"				"0"
+
+		// Team
+		//----------------------------------------------------------------------------------------------------
+		"TeamName"				"DOTA_TEAM_GOODGUYS"
+		"UnitRelationshipClass"			"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		
+		// Vision
+		//----------------------------------------------------------------------------------------------------
+		"VisionDaytimeRange"			"900"
+		"VisionNighttimeRange"			"600"
+	}
+
+	//====================================================================================================
+	// Radiant Weak Filler
+	//====================================================================================================
+	"npc_radiant_filler_3_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"npc_dota_filler"
+		"Model"					"models/props_structures/radiant_statue001.vmdl"
+		"SoundSet"				"Creep_Good_Melee"
+		"MinimapIcon"				"minimap_miscbuilding"
+		"MinimapIconSize"			"200"
+
+		// Abilities
+		//----------------------------------------------------------------------------------------------------
+		"Ability1"				""
+		"Ability2"				""
+		"Ability3"				""
+		"Ability4"				""
+		"Ability5"				""
+		"Ability6"				""
+		"Ability7"				""
+		"Ability8"				""
+
+		// Attributes
+		//----------------------------------------------------------------------------------------------------
+		"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"			"0"
+		"AttributeStrengthGain"			"0"
+		"AttributeBaseAgility"			"0"
+		"AttributeAgilityGain"			"0"
+		"AttributeBaseIntelligence"		"0"
+		"AttributeIntelligenceGain"		"0"
+
+		// Stats
+		//----------------------------------------------------------------------------------------------------
+		"AttackCapabilities"			"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackDamageMin"			"0"
+		"AttackDamageMax"			"0"
+		"AttackDamageType"			"DAMAGE_TYPE_ArmorPhysical"
+		"AttackRate"				"0"
+		"AttackAnimationPoint"			"0"
+		"AttackAcquisitionRange"		"0"
+		"AttackRange"				"0"
+		"ProjectileModel"			""
+		"ProjectileSpeed"			"0"
+
+		"ArmorPhysical"				"5"
+		"MagicalResistance"			"0"
+
+		"StatusHealth"				"600"
+		"StatusMana"				"300"
+		"StatusHealthRegen"			"0"
+		"StatusManaRegen"			"1.25"
+
+		// Bounds
+		//----------------------------------------------------------------------------------------------------
+		"BoundsHullName"			"DOTA_HULL_SIZE_FILLER"
+		"RingRadius"				"128"
+		"HealthBarOffset"			"260"
+
+		// Movement
+		//----------------------------------------------------------------------------------------------------
+		"MovementCapabilities"			"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"
+		"MovementTurnRate"			"0"
+
+		// Bounties
+		//----------------------------------------------------------------------------------------------------
+		"BountyXP"				"0"
+		"BountyGoldMin"				"0"
+		"BountyGoldMax"				"0"
+
+		// Team
+		//----------------------------------------------------------------------------------------------------
+		"TeamName"				"DOTA_TEAM_GOODGUYS"
+		"UnitRelationshipClass"			"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		
+		// Vision
+		//----------------------------------------------------------------------------------------------------
+		"VisionDaytimeRange"			"900"
+		"VisionNighttimeRange"			"600"
+	}
+
+	//====================================================================================================
 	// Radiant Melee Creeps
 	//====================================================================================================
 	"npc_radiant_melee_creep_beta2"
