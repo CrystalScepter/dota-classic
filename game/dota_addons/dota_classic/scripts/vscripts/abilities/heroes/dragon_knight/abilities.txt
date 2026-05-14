@@ -1,0 +1,24 @@
+"DOTAAbilities"
+{
+	//====================================================================================================
+	// Dragon Blood
+	//====================================================================================================
+	"dragon_knight_dragon_blood_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/heroes/dragon_knight/dragon_knight_dragon_blood_beta2"
+		"AbilityTextureName"			"dragon_knight_dragon_blood"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		"MaxLevel" 				"3"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"health_regen_increase"		"100 200 300"
+		}
+	}
+}

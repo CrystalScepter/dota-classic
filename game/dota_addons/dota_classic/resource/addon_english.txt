@@ -67,6 +67,13 @@
 		"dota_tooltip_modifier_crystal_maiden_arcane_aura_buff_beta2_description"		"This unit has increased mana regen."
 
 		//====================================================================================================
+		// Dragon Knight
+		//====================================================================================================
+		"dota_tooltip_ability_dragon_knight_dragon_blood_beta2"					"Dragon Blood"
+		"dota_tooltip_ability_dragon_knight_dragon_blood_beta2_description"			"The life blood of the Dragon improves health regeneration."
+		"dota_tooltip_ability_dragon_knight_dragon_blood_beta2_health_regen_increase"		"%Health Regen Bonus:"
+
+		//====================================================================================================
 		// Phantom Lancer
 		//====================================================================================================
 		"dota_tooltip_ability_phantom_lancer_toughness_aura_beta2"				"Toughness Aura"
