@@ -31,12 +31,12 @@ end
 -- Declare the events and properties that our modifier affects
 function modifier_dragon_knight_dragon_blood_beta2:DeclareFunctions()
         return {
-                MODIFIER_PROPERTY_HEALTH_REGEN_PERCENTAGE,
+                MODIFIER_PROPERTY_HP_REGEN_MULTIPLIER_PRE_AMPLIFICATION,
         }
 end
 
 -- Increase the unit's health regen
-function modifier_dragon_knight_dragon_blood_beta2:GetModifierHealthRegenPercentage()
+function modifier_dragon_knight_dragon_blood_beta2:GetModifierHPRegenMultiplierPreAmplification()
         return self.health_regen_increase
 end
 
