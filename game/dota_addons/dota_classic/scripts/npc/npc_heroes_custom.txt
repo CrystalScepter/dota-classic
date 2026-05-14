@@ -213,7 +213,7 @@
 		//----------------------------------------------------------------------------------------------------
 		"Ability1"				""
 		"Ability2"				""
-		"Ability3"				""
+		"Ability3"				"doom_immaterial_beta2"
 		"Ability4"				"generic_hidden"
 		"Ability5"				"generic_hidden"
 		"Ability6"				""
@@ -1176,7 +1176,7 @@
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
 		"Ability1"				""
-		"Ability2"				""
+		"Ability2"				"phantom_lancer_bash_beta2"
 		"Ability3"				"phantom_lancer_toughness_aura_beta2"
 		"Ability4"				"generic_hidden"
 		"Ability5"				"generic_hidden"
@@ -1758,7 +1758,7 @@
 		"Ability1"				""
 		"Ability2"				""
 		"Ability3"				""
-		"Ability4"				""
+		"Ability4"				"underlord_demonic_strength_beta2"
 		"Ability5"				"generic_hidden"
 		"Ability6"				""
 		"Ability7"				""

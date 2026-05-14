@@ -1,0 +1,25 @@
+"DOTAAbilities"
+{
+	//====================================================================================================
+	// Demonic Strength
+	//====================================================================================================
+	"underlord_demonic_strength_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/heroes/underlord/underlord_demonic_strength_beta2"
+		"AbilityTextureName"			"abyssal_underlord/ti8_immortal_weapon/abyssal_underlord_pit_of_malice_immortal_crimson"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		"MaxLevel" 				"1"
+		"RequiredLevel"         		"3"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"strength_increase"		"7"
+		}
+	}
+}

@@ -1,0 +1,24 @@
+"DOTAAbilities"
+{
+	//====================================================================================================
+	// Immaterial
+	//====================================================================================================
+	"doom_immaterial_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/heroes/doom/doom_immaterial_beta2"
+		"AbilityTextureName"			"phantom_assassin_immaterial"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		"MaxLevel" 				"3"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"evasion"			"10 20 30"
+		}
+	}
+}

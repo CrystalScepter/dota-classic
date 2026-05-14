@@ -67,6 +67,13 @@
 		"dota_tooltip_modifier_crystal_maiden_arcane_aura_buff_beta2_description"		"This unit has increased mana regen."
 
 		//====================================================================================================
+		// Doom
+		//====================================================================================================
+		"dota_tooltip_ability_doom_immaterial_beta2"						"Immaterial"
+		"dota_tooltip_ability_doom_immaterial_beta2_description"				"Grants Doom evasion bonus."
+		"dota_tooltip_ability_doom_immaterial_beta2_evasion"					"%Evasion Bonus:"
+
+		//====================================================================================================
 		// Dragon Knight
 		//====================================================================================================
 		"dota_tooltip_ability_dragon_knight_dragon_blood_beta2"					"Dragon Blood"
@@ -86,6 +93,11 @@
 		//====================================================================================================
 		// Phantom Lancer
 		//====================================================================================================
+		"dota_tooltip_ability_phantom_lancer_bash_beta2"					"Bash of the Deep"
+		"dota_tooltip_ability_phantom_lancer_bash_beta2_description"				"Grants a chance that an attack will do bonus damage."
+		"dota_tooltip_ability_phantom_lancer_bash_beta2_damage"					"Damage:"
+		"dota_tooltip_ability_phantom_lancer_bash_beta2_chance"					"%Proc Chance:"
+
 		"dota_tooltip_ability_phantom_lancer_toughness_aura_beta2"				"Toughness Aura"
 		"dota_tooltip_ability_phantom_lancer_toughness_aura_beta2_description"			"Phantom Lancer's presence increases the armor of nearby friendly units."
 		"dota_tooltip_ability_phantom_lancer_toughness_aura_beta2_armor_increase"		"Armor Bonus:"
@@ -132,6 +144,13 @@
 		"dota_tooltip_ability_templar_assassin_blueheart_floe_beta2"				"Blueheart Floe"
 		"dota_tooltip_ability_templar_assassin_blueheart_floe_beta2_description"		"Grants Templar Assassin additional mana regeneration."
 		"dota_tooltip_ability_templar_assassin_blueheart_floe_beta2_mana_regen_increase"	"%Mana Regen Bonus:"
+
+		//====================================================================================================
+		// Underlord
+		//====================================================================================================
+		"dota_tooltip_ability_underlord_demonic_strength_beta2"					"Demonic Strength"
+		"dota_tooltip_ability_underlord_demonic_strength_beta2_description"			"Increases Underlord's strength."
+		"dota_tooltip_ability_underlord_demonic_strength_beta2_strength_increase"		"Strength Bonus:"
 
 		//====================================================================================================
 		// Attribute items
