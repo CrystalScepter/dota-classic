@@ -4,4 +4,5 @@
 #base "../vscripts/abilities/heroes/crystal_maiden/abilities.txt"
 #base "../vscripts/abilities/heroes/phantom_lancer/abilities.txt"
 #base "../vscripts/abilities/heroes/shadow_demon/abilities.txt"
+#base "../vscripts/abilities/heroes/templar_assassin/abilities.txt"
 #base "../vscripts/abilities/buildings/abilities.txt"

@@ -1,0 +1,24 @@
+"DOTAAbilities"
+{
+	//====================================================================================================
+	// Blueheart Floe
+	//====================================================================================================
+	"templar_assassin_blueheart_floe_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/heroes/templar_assassin/templar_assassin_blueheart_floe_beta2"
+		"AbilityTextureName"			"crystal_maiden_let_it_go"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		"MaxLevel" 				"3"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"mana_regen_increase"		"150 250 350"
+		}
+	}
+}

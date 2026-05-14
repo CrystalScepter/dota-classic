@@ -1659,7 +1659,7 @@
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
 		"Ability1"				""
-		"Ability2"				""
+		"Ability2"				"templar_assassin_blueheart_floe_beta2"
 		"Ability3"				""
 		"Ability4"				"generic_hidden"
 		"Ability5"				"generic_hidden"

@@ -110,6 +110,13 @@
 		"dota_tooltip_ability_shadow_demon_midnight_pulse_beta2_radius"				"Radius:"
 
 		//====================================================================================================
+		// Templar Assassin
+		//====================================================================================================
+		"dota_tooltip_ability_templar_assassin_blueheart_floe_beta2"				"Blueheart Floe"
+		"dota_tooltip_ability_templar_assassin_blueheart_floe_beta2_description"		"Grants Templar Assassin additional mana regeneration."
+		"dota_tooltip_ability_templar_assassin_blueheart_floe_beta2_mana_regen_increase"	"%Mana Regen Bonus:"
+
+		//====================================================================================================
 		// Attribute items
 		//====================================================================================================
 		"dota_tooltip_ability_item_gauntlets_beta2"						"Gauntlets of Strength"
