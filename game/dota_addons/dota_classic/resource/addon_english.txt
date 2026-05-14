@@ -57,6 +57,16 @@
 		"npc_dire_ranged_creep_beta2"								"Ranged Creep"
 
 		//====================================================================================================
+		// Crystal Maiden
+		//====================================================================================================
+		"dota_tooltip_ability_crystal_maiden_arcane_aura_beta2"					"Arcane Aura"
+		"dota_tooltip_ability_crystal_maiden_arcane_aura_beta2_description"			"Grants additional mana regeneration to nearby friendly units."
+		"dota_tooltip_ability_crystal_maiden_arcane_aura_beta2_mana_regen_increase"		"%Mana Regen Bonus:"
+
+		"dota_tooltip_modifier_crystal_maiden_arcane_aura_buff_beta2"				"Arcane Aura"
+		"dota_tooltip_modifier_crystal_maiden_arcane_aura_buff_beta2_description"		"This unit has increased mana regen."
+
+		//====================================================================================================
 		// Phantom Lancer
 		//====================================================================================================
 		"dota_tooltip_ability_phantom_lancer_toughness_aura_beta2"				"Toughness Aura"
