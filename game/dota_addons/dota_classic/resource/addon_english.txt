@@ -91,6 +91,13 @@
 		"dota_tooltip_modifier_mirana_precision_aura_buff_beta2_description"			"This unit has increased physical damage."
 
 		//====================================================================================================
+		// Night Stalker
+		//====================================================================================================
+		"dota_tooltip_ability_night_stalker_hunter_beta2"					"Hunter in the Night"
+		"dota_tooltip_ability_night_stalker_hunter_beta2_description"				"Increases Night Stalker's attack speed."
+		"dota_tooltip_ability_night_stalker_hunter_beta2_attack_speed"				"%Attack Speed Bonus:"
+
+		//====================================================================================================
 		// Phantom Lancer
 		//====================================================================================================
 		"dota_tooltip_ability_phantom_lancer_bash_beta2"					"Bash of the Deep"

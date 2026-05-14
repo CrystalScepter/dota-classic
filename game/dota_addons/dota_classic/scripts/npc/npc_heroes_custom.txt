@@ -1081,7 +1081,7 @@
 		//----------------------------------------------------------------------------------------------------
 		"Ability1"				""
 		"Ability2"				""
-		"Ability3"				""
+		"Ability3"				"night_stalker_hunter_beta2"
 		"Ability4"				"generic_hidden"
 		"Ability5"				"generic_hidden"
 		"Ability6"				""

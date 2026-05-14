@@ -1,0 +1,24 @@
+"DOTAAbilities"
+{
+	//====================================================================================================
+	// Hunter in the Night
+	//====================================================================================================
+	"night_stalker_hunter_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/heroes/night_stalker/night_stalker_hunter_beta2"
+		"AbilityTextureName"			"night_stalker_hunter_in_the_night"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		"MaxLevel" 				"3"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"attack_speed"			"20 30 40"
+		}
+	}
+}
