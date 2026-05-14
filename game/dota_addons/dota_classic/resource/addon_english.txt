@@ -57,6 +57,16 @@
 		"npc_dire_ranged_creep_beta2"								"Ranged Creep"
 
 		//====================================================================================================
+		// Phantom Lancer
+		//====================================================================================================
+		"dota_tooltip_ability_phantom_lancer_toughness_aura_beta2"				"Toughness Aura"
+		"dota_tooltip_ability_phantom_lancer_toughness_aura_beta2_description"			"Phantom Lancer's presence increases the armor of nearby friendly units."
+		"dota_tooltip_ability_phantom_lancer_toughness_aura_beta2_armor_increase"		"Armor Bonus:"
+
+		"dota_tooltip_modifier_phantom_lancer_toughness_aura_buff_beta2"			"Toughness Aura"
+		"dota_tooltip_modifier_phantom_lancer_toughness_aura_buff_beta2_description"		"This unit has increased armor."
+
+		//====================================================================================================
 		// Shadow Demon
 		//====================================================================================================
 		"dota_tooltip_ability_shadow_demon_enfeeble_beta2"					"Enfeeble"

@@ -1,0 +1,31 @@
+"DOTAAbilities"
+{
+	//====================================================================================================
+	// Toughness Aura
+	//====================================================================================================
+	"phantom_lancer_toughness_aura_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/heroes/phantom_lancer/phantom_lancer_toughness_aura_beta2"
+		"AbilityTextureName"			"enraged_wildkin_toughness_aura"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
+
+		"MaxLevel" 				"3"
+
+		// Stats
+		//----------------------------------------------------------------------------------------------------
+		"AbilityCastRange"			"900"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"armor_increase"		"2 4 6"
+			"radius"			"900"
+		}
+	}
+}
