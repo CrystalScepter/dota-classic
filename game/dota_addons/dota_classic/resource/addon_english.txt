@@ -74,6 +74,16 @@
 		"dota_tooltip_ability_dragon_knight_dragon_blood_beta2_health_regen_increase"		"%Health Regen Bonus:"
 
 		//====================================================================================================
+		// Mirana
+		//====================================================================================================
+		"dota_tooltip_ability_mirana_precision_aura_beta2"					"Precision Aura"
+		"dota_tooltip_ability_mirana_precision_aura_beta2_description"				"Adds bonus damage to the physical attack of allied ranged units in the area."
+		"dota_tooltip_ability_mirana_precision_aura_beta2_damage_increase"			"%Attack Damage Bonus:"
+
+		"dota_tooltip_modifier_mirana_precision_aura_buff_beta2"				"Precision Aura"
+		"dota_tooltip_modifier_mirana_precision_aura_buff_beta2_description"			"This unit has increased physical damage."
+
+		//====================================================================================================
 		// Phantom Lancer
 		//====================================================================================================
 		"dota_tooltip_ability_phantom_lancer_toughness_aura_beta2"				"Toughness Aura"

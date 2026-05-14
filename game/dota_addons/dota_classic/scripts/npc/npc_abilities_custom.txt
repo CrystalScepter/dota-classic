@@ -3,6 +3,7 @@
 //====================================================================================================
 #base "../vscripts/abilities/heroes/crystal_maiden/abilities.txt"
 #base "../vscripts/abilities/heroes/dragon_knight/abilities.txt"
+#base "../vscripts/abilities/heroes/mirana/abilities.txt"
 #base "../vscripts/abilities/heroes/phantom_lancer/abilities.txt"
 #base "../vscripts/abilities/heroes/shadow_demon/abilities.txt"
 #base "../vscripts/abilities/heroes/templar_assassin/abilities.txt"
