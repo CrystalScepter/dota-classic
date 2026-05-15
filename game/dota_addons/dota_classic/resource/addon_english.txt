@@ -81,6 +81,14 @@
 		"dota_tooltip_ability_dragon_knight_dragon_blood_beta2_health_regen_increase"		"%Health Regen Bonus:"
 
 		//====================================================================================================
+		// Lifestealer
+		//====================================================================================================
+		"dota_tooltip_ability_life_stealer_feast_beta2"						"Feast"
+		"dota_tooltip_ability_life_stealer_feast_beta2_description"				"Regenerates health based on Lifestealer's attack damage."
+		"dota_tooltip_ability_life_stealer_feast_beta2_life_steal"				"%Attack Damage:"
+		"dota_tooltip_ability_life_stealer_feast_beta2_note0"					"Does not work against structures or allied units."
+
+		//====================================================================================================
 		// Mirana
 		//====================================================================================================
 		"dota_tooltip_ability_mirana_precision_aura_beta2"					"Precision Aura"

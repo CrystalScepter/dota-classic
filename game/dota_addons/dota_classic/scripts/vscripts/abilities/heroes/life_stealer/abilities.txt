@@ -1,0 +1,24 @@
+"DOTAAbilities"
+{
+	//====================================================================================================
+	// Feast
+	//====================================================================================================
+	"life_stealer_feast_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/heroes/life_stealer/life_stealer_feast_beta2"
+		"AbilityTextureName"			"life_stealer_feast"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		"MaxLevel" 				"3"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"life_steal"			"25 35 45"
+		}
+	}
+}
