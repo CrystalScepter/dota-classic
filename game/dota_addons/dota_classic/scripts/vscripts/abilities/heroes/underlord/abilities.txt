@@ -1,6 +1,49 @@
 "DOTAAbilities"
 {
 	//====================================================================================================
+	// Mist Coil
+	//====================================================================================================
+	"underlord_mist_coil_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/heroes/underlord/underlord_mist_coil_beta2"
+		"AbilityTextureName"			"abaddon_death_coil"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_BOTH"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
+		"SpellImmunityType"			"SPELL_IMMUNITY_ENEMIES_NO"
+
+		"MaxLevel" 				"3"
+
+		// Stats
+		//----------------------------------------------------------------------------------------------------
+		"AbilityDamage"				"200 400 600"
+		"AbilityManaCost"			"75"
+		"AbilityCooldown"			"10"
+		"AbilityCastPoint"			"0.3"
+		"AbilityCastRange"			"800"
+		"AbilityCastRangeBuffer"		"250"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_1"
+
+		// Precache
+		//----------------------------------------------------------------------------------------------------
+		"precache"
+		{
+			"particle"			"particles/units/heroes/hero_abaddon/abaddon_death_coil.vpcf"
+			"soundfile"			"soundevents/game_sounds_heroes/game_sounds_abaddon.vsndevts"
+		}
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"projectile_speed"		"1100"
+		}
+	}
+
+	//====================================================================================================
 	// Demonic Strength
 	//====================================================================================================
 	"underlord_demonic_strength_beta2"

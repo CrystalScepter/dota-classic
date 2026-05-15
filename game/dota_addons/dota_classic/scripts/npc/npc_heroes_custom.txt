@@ -692,7 +692,7 @@
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
-		"Ability1"				""
+		"Ability1"				"underlord_mist_coil_beta2"
 		"Ability2"				""
 		"Ability3"				""
 		"Ability4"				"generic_hidden"
@@ -1755,7 +1755,7 @@
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
-		"Ability1"				""
+		"Ability1"				"underlord_mist_coil_beta2"
 		"Ability2"				""
 		"Ability3"				""
 		"Ability4"				"underlord_demonic_strength_beta2"
