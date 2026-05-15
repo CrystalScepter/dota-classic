@@ -71,7 +71,7 @@
 		//====================================================================================================
 		"dota_tooltip_ability_doom_immaterial_beta2"						"Immaterial"
 		"dota_tooltip_ability_doom_immaterial_beta2_description"				"Grants Doom evasion bonus."
-		"dota_tooltip_ability_doom_immaterial_beta2_evasion"					"%Evasion Bonus:"
+		"dota_tooltip_ability_doom_immaterial_beta2_evasion"					"%Evasion:"
 
 		//====================================================================================================
 		// Dragon Knight
@@ -84,9 +84,8 @@
 		// Lifestealer
 		//====================================================================================================
 		"dota_tooltip_ability_life_stealer_feast_beta2"						"Feast"
-		"dota_tooltip_ability_life_stealer_feast_beta2_description"				"Regenerates health based on Lifestealer's attack damage."
-		"dota_tooltip_ability_life_stealer_feast_beta2_life_steal"				"%Attack Damage:"
-		"dota_tooltip_ability_life_stealer_feast_beta2_note0"					"Does not work against structures or allied units."
+		"dota_tooltip_ability_life_stealer_feast_beta2_description"				"Grants bonus lifesteal."
+		"dota_tooltip_ability_life_stealer_feast_beta2_life_steal"				"%Lifesteal:"
 
 		//====================================================================================================
 		// Mirana
