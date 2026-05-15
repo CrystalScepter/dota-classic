@@ -112,6 +112,9 @@
 		//====================================================================================================
 		// Phantom Lancer
 		//====================================================================================================
+		"dota_tooltip_ability_phantom_lancer_spirit_lance_beta2"				"Spirit Lance"
+		"dota_tooltip_ability_phantom_lancer_spirit_lance_beta2_description"			"Sends a magical spirit lance to a target enemy unit that damages it."
+
 		"dota_tooltip_ability_phantom_lancer_bash_beta2"					"Bash of the Deep"
 		"dota_tooltip_ability_phantom_lancer_bash_beta2_description"				"Grants a chance that an attack will do bonus damage."
 		"dota_tooltip_ability_phantom_lancer_bash_beta2_damage"					"Damage:"
