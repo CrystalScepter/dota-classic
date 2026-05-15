@@ -1,0 +1,25 @@
+"DOTAAbilities"
+{
+	//====================================================================================================
+	// Critical Strike
+	//====================================================================================================
+	"riki_critical_strike_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/heroes/riki/riki_critical_strike_beta2"
+		"AbilityTextureName"			"riki/haze_atrocity_icons/riki_backstab"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		"MaxLevel" 				"3"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"critical_damage"		"200 300 400"
+			"critical_chance"		"15 15 15"
+		}
+	}
+}

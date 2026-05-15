@@ -37,27 +37,34 @@ end
 
 -- Called when an attack is successful
 function modifier_life_stealer_feast_beta2:OnAttackLanded(keys)
-        -- Retrieves the owner of the modifier
+        -- Retrieve the owner of the modifier
 	local parent = self:GetParent()
 
-	-- Returns if the attacker is not the parent of the modifier
+	-- Return if the attacker is not the parent of the modifier
 	if keys.attacker ~= parent then
 		return
 	end
 
-	-- Checks whether the target is on the enemy team and not a building
-	if keys.target:GetTeam() ~= parent:GetTeam() and not keys.target:IsBuilding() then
-		-- Heals based on a percentage of the parent's damage
-		parent:Heal(parent:GetAverageTrueAttackDamage(parent) * self.life_steal / 100, self:GetAbility())
-
-		-- Creates the particle effect
-		local effect_cast = ParticleManager:CreateParticle(
-			"particles/generic_gameplay/generic_lifesteal.vpcf",
-			PATTACH_ABSORIGIN_FOLLOW,
-			parent
-		)
-		ParticleManager:ReleaseParticleIndex(effect_cast)
+	-- Return if the target is not on the opposite team
+	if keys.target:GetTeamNumber() == parent:GetTeamNumber() then
+		return
 	end
+
+	-- Return if the target is a building
+	if keys.target:IsBuilding() then
+		return
+	end
+
+	-- Heal based on a percentage of the parent's damage
+	parent:Heal(parent:GetAverageTrueAttackDamage(parent) * self.life_steal / 100, self:GetAbility())
+
+	-- Create the particle effect
+	local effect_cast = ParticleManager:CreateParticle(
+		"particles/generic_gameplay/generic_lifesteal.vpcf",
+		PATTACH_ABSORIGIN_FOLLOW,
+		parent
+	)
+	ParticleManager:ReleaseParticleIndex(effect_cast)
 end
 
 -- Prevent the modifier from showing up in the buff bar

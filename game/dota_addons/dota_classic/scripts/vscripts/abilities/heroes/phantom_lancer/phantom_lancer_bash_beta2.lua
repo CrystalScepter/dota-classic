@@ -39,15 +39,25 @@ end
 
 -- Called when an attack is successful
 function modifier_phantom_lancer_bash_beta2:OnAttackLanded(keys)
-        -- Retrieves the owner of the modifier
+        -- Retrieve the owner of the modifier
 	local parent = self:GetParent()
 
-	-- Returns if the attacker is not the parent of the modifier
+	-- Return if the attacker is not the parent of the modifier
 	if keys.attacker ~= parent then
 		return
 	end
 
-	-- Rolls the dice to check whether the attack will deal extra damage
+	-- Return if the target is not on the opposite team
+	if keys.target:GetTeamNumber() == parent:GetTeamNumber() then
+		return
+	end
+
+	-- Return if the target is a building
+	if keys.target:IsBuilding() then
+		return
+	end
+
+	-- Roll the dice to check whether the attack will deal extra damage
 	if RandomFloat(0, 100) < self.chance then
 		-- Deals damage to the target
 		local damage_table = {

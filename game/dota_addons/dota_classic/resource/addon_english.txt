@@ -120,6 +120,14 @@
 		"dota_tooltip_modifier_phantom_lancer_toughness_aura_buff_beta2_description"		"This unit has increased armor."
 
 		//====================================================================================================
+		// Riki
+		//====================================================================================================
+		"dota_tooltip_ability_riki_critical_strike_beta2"					"Critical Strike"
+		"dota_tooltip_ability_riki_critical_strike_beta2_description"				"Gives Riki a chance to deal extra damage upon attacking."
+		"dota_tooltip_ability_riki_critical_strike_beta2_critical_damage"			"%Critical Damage:"
+		"dota_tooltip_ability_riki_critical_strike_beta2_critical_chance"			"%Critical Chance:"
+
+		//====================================================================================================
 		// Shadow Demon
 		//====================================================================================================
 		"dota_tooltip_ability_shadow_demon_enfeeble_beta2"					"Enfeeble"
