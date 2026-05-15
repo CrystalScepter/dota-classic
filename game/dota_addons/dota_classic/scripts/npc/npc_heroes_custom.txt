@@ -1368,7 +1368,7 @@
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
-		"Ability1"				""
+		"Ability1"				"riki_shuriken_toss_beta2"
 		"Ability2"				""
 		"Ability3"				"riki_critical_strike_beta2"
 		"Ability4"				"generic_hidden"

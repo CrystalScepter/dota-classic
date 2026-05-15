@@ -130,6 +130,11 @@
 		//====================================================================================================
 		// Riki
 		//====================================================================================================
+		"dota_tooltip_ability_riki_shuriken_toss_beta2"						"Shuriken Toss"
+		"dota_tooltip_ability_riki_shuriken_toss_beta2_description"				"Hurls a deadly shuriken at an enemy unit, stunning the target."
+		"dota_tooltip_ability_riki_shuriken_toss_beta2_stun_duration_hero"			"Hero Stun Duration:"
+		"dota_tooltip_ability_riki_shuriken_toss_beta2_stun_duration_creep"			"Creep Stun Duration:"
+
 		"dota_tooltip_ability_riki_critical_strike_beta2"					"Critical Strike"
 		"dota_tooltip_ability_riki_critical_strike_beta2_description"				"Gives Riki a chance to deal extra damage upon attacking."
 		"dota_tooltip_ability_riki_critical_strike_beta2_critical_damage"			"%Critical Damage:"
@@ -313,5 +318,11 @@
 
 		"dota_tooltip_modifier_gem_beta2"							"True Sight"
 		"dota_tooltip_modifier_gem_beta2_description"						"Grants the ability to see invisible units."
+
+		//====================================================================================================
+		// Modifiers
+		//====================================================================================================
+		"dota_tooltip_modifier_stun"								"Stunned"
+		"dota_tooltip_modifier_stun_description"						"This unit is stunned."
 	}
 }
