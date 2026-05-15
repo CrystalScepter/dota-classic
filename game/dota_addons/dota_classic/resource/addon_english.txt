@@ -76,6 +76,11 @@
 		//====================================================================================================
 		// Dragon Knight
 		//====================================================================================================
+		"dota_tooltip_ability_dragon_knight_immolation_beta2"					"Immolation"
+		"dota_tooltip_ability_dragon_knight_immolation_beta2_description"			"Engulfs the dragon knight in flames, causing damage to nearby enemy units."
+		"dota_tooltip_ability_dragon_knight_immolation_beta2_damage_per_tick"			"Damage per second:"
+		"dota_tooltip_ability_dragon_knight_immolation_beta2_radius"				"Radius:"
+
 		"dota_tooltip_ability_dragon_knight_dragon_blood_beta2"					"Dragon Blood"
 		"dota_tooltip_ability_dragon_knight_dragon_blood_beta2_description"			"The life blood of the Dragon improves health regeneration."
 		"dota_tooltip_ability_dragon_knight_dragon_blood_beta2_health_regen_increase"		"%Health Regen Bonus:"

@@ -1,6 +1,34 @@
 "DOTAAbilities"
 {
 	//====================================================================================================
+	// Immolation
+	//====================================================================================================
+	"dragon_knight_immolation_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/heroes/dragon_knight/dragon_knight_immolation_beta2"
+		"AbilityTextureName"			"dragon_knight/fireborn_ability_icons/dragon_knight_breathe_fire"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		"MaxLevel" 				"3"
+
+		// Stats
+		//----------------------------------------------------------------------------------------------------
+		"AbilityCastRange"			"220"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"damage_per_tick"		"5 10 15"
+			"tick_interval"			"1"
+			"radius"			"220"
+		}
+	}
+
+	//====================================================================================================
 	// Dragon Blood
 	//====================================================================================================
 	"dragon_knight_dragon_blood_beta2"

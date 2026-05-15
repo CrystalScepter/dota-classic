@@ -19,7 +19,7 @@
 		"AbilityValues"
 		{
 			"critical_damage"		"200 300 400"
-			"critical_chance"		"15 15 15"
+			"critical_chance"		"15"
 		}
 	}
 }

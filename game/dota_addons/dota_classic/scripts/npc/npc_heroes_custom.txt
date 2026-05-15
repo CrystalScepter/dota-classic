@@ -308,7 +308,7 @@
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
 		"Ability1"				""
-		"Ability2"				""
+		"Ability2"				"dragon_knight_immolation_beta2"
 		"Ability3"				"dragon_knight_dragon_blood_beta2"
 		"Ability4"				"generic_hidden"
 		"Ability5"				"generic_hidden"
