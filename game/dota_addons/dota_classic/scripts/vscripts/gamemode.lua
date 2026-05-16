@@ -3,6 +3,7 @@ GameMode = class({})
 
 -- Import the following classes
 require("events")
+require("libraries/timers")
 
 -- Called when the custom game starts by the addon_game_mode class
 function GameMode:InitGameMode()
