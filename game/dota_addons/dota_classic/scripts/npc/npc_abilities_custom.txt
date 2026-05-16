@@ -1,6 +1,7 @@
 //====================================================================================================
 // Link abilities to different files
 //====================================================================================================
+#base "../vscripts/abilities/heroes/bloodseeker/abilities.txt"
 #base "../vscripts/abilities/heroes/crystal_maiden/abilities.txt"
 #base "../vscripts/abilities/heroes/doom/abilities.txt"
 #base "../vscripts/abilities/heroes/dragon_knight/abilities.txt"

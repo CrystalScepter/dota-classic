@@ -57,6 +57,17 @@
 		"npc_dire_ranged_creep_beta2"								"Ranged Creep"
 
 		//====================================================================================================
+		// Bloodseeker
+		//====================================================================================================
+		"dota_tooltip_ability_bloodseeker_ice_armor_beta2"					"Ice Armor"
+		"dota_tooltip_ability_bloodseeker_ice_armor_beta2_description"				"Creates a shield around the target friendly unit, which adds armor."
+		"dota_tooltip_ability_bloodseeker_ice_armor_beta2_armor_increase"			"Armor Bonus:"
+		"dota_tooltip_ability_bloodseeker_ice_armor_beta2_duration"				"Duration:"
+
+		"dota_tooltip_modifier_bloodseeker_ice_armor_beta2"					"Ice Armor"
+		"dota_tooltip_modifier_bloodseeker_ice_armor_beta2_description"				"This unit has increased armor."
+
+		//====================================================================================================
 		// Crystal Maiden
 		//====================================================================================================
 		"dota_tooltip_ability_crystal_maiden_arcane_aura_beta2"					"Arcane Aura"
