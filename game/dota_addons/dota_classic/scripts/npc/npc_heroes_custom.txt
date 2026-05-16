@@ -596,7 +596,7 @@
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
-		"Ability1"				""
+		"Ability1"				"life_stealer_finger_of_death_beta2"
 		"Ability2"				""
 		"Ability3"				"life_stealer_feast_beta2"
 		"Ability4"				"generic_hidden"

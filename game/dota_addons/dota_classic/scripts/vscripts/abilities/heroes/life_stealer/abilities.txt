@@ -1,6 +1,50 @@
 "DOTAAbilities"
 {
 	//====================================================================================================
+	// Finger of Death
+	//====================================================================================================
+	"life_stealer_finger_of_death_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/heroes/life_stealer/life_stealer_finger_of_death_beta2"
+		"AbilityTextureName"			"lion_finger_of_death"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"
+		"SpellImmunityType"			"SPELL_IMMUNITY_ENEMIES_NO"
+
+		"MaxLevel" 				"3"
+
+		// Stats
+		//----------------------------------------------------------------------------------------------------
+		"AbilityDamage"				"100 200 300"
+		"AbilityManaCost"			"100"
+		"AbilityCooldown"			"15"
+		"AbilityCastPoint"			"0.3"
+		"AbilityCastRange"			"300"
+		"AbilityCastRangeBuffer"		"250"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_3"
+
+		// Precache
+		//----------------------------------------------------------------------------------------------------
+		"precache"
+		{
+			"particle"			"particles/units/heroes/hero_lion/lion_spell_finger_of_death.vpcf"
+			"soundfile"			"soundevents/game_sounds_heroes/game_sounds_lion.vsndevts"
+		}
+		
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"effect_delay"			"0.25"
+		}
+	}
+
+	//====================================================================================================
 	// Feast
 	//====================================================================================================
 	"life_stealer_feast_beta2"

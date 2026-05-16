@@ -6,9 +6,10 @@ function night_stalker_mana_burn_beta2:OnSpellStart()
 	-- Retrieve values that are going to be used by the ability
 	local caster = self:GetCaster()
 	local target = self:GetCursorTarget()
-	local particle_manaburn = "particles/units/heroes/hero_nyx_assassin/nyx_assassin_mana_burn.vpcf"
+	local particle_effect = "particles/units/heroes/hero_nyx_assassin/nyx_assassin_mana_burn.vpcf"
+	local effect_delay = self:GetSpecialValueFor("effect_delay")
 
-	Timers:CreateTimer(0.25, function()
+	Timers:CreateTimer(effect_delay, function()
 		-- Return if the target is dead
 		if not target:IsAlive() then
 			return
@@ -40,9 +41,8 @@ function night_stalker_mana_burn_beta2:OnSpellStart()
 		ApplyDamage(damage_table)
 
 		-- Add particle effect onto the target
-		local particle = ParticleManager:CreateParticle(particle_manaburn, PATTACH_CUSTOMORIGIN, target)
-		ParticleManager:SetParticleControlEnt(particle, 0, target, PATTACH_POINT_FOLLOW, "attach_hitloc",
-			target:GetAbsOrigin(), true)
+		local particle = ParticleManager:CreateParticle(particle_effect, PATTACH_CUSTOMORIGIN, target)
+		ParticleManager:SetParticleControlEnt(particle, 0, target, PATTACH_POINT_FOLLOW, "attach_hitloc", target:GetAbsOrigin(), true)
 		ParticleManager:ReleaseParticleIndex(particle)
 
 		-- Play the corresponding sound
