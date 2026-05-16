@@ -1273,7 +1273,7 @@
 		//----------------------------------------------------------------------------------------------------
 		"Ability1"				""
 		"Ability2"				""
-		"Ability3"				""
+		"Ability3"				"razor_bloodrage_beta2"
 		"Ability4"				"generic_hidden"
 		"Ability5"				"generic_hidden"
 		"Ability6"				""

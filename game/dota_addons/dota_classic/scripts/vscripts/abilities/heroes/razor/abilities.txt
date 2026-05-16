@@ -1,0 +1,44 @@
+"DOTAAbilities"
+{
+	//====================================================================================================
+	// Bloodrage
+	//====================================================================================================
+	"razor_bloodrage_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/heroes/razor/razor_bloodrage_beta2"
+		"AbilityTextureName"			"bloodseeker_bloodrage"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+
+		"MaxLevel" 				"3"
+
+		// Stats
+		//----------------------------------------------------------------------------------------------------
+		"AbilityManaCost"			"50 100 100"
+		"AbilityCooldown"			"60"
+		"AbilityCastPoint"			"0.3"
+		"AbilityCastAnimation"			"ACT_DOTA_OVERRIDE_ABILITY_1"
+
+		// Precache
+		//----------------------------------------------------------------------------------------------------
+		"precache"
+		{
+			"particle"			"particles/units/heroes/hero_bloodseeker/bloodseeker_bloodrage.vpcf"
+			"soundfile"			"soundevents/game_sounds_heroes/game_sounds_bloodseeker.vsndevts"
+		}
+		
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"attack_speed_bonus"		"100 200 300"
+			"health_drain_second"		"8 7 6"
+			"tick_interval"			"1"
+			"duration"			"15"
+		}
+	}
+}

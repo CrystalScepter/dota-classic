@@ -148,6 +148,19 @@
 		"dota_tooltip_modifier_phantom_lancer_toughness_aura_buff_beta2_description"		"This unit has increased armor."
 
 		//====================================================================================================
+		// Razor
+		//====================================================================================================
+		"dota_tooltip_ability_razor_bloodrage_beta2"						"Bloodrage"
+		"dota_tooltip_ability_razor_bloodrage_beta2_description"				"Grants self bonus attack speed at the cost of health per second."
+		"dota_tooltip_ability_razor_bloodrage_beta2_attack_speed_bonus"				"%Attack Speed Bonus:"
+		"dota_tooltip_ability_razor_bloodrage_beta2_health_drain_second"			"Self-Damage per Second:"
+		"dota_tooltip_ability_razor_bloodrage_beta2_duration"					"Duration:"
+		"dota_tooltip_ability_razor_bloodrage_beta2_note0"					"The self-damage is reduced by magic resistance."
+
+		"dota_tooltip_modifier_razor_bloodrage_beta2"						"Bloodrage"
+		"dota_tooltip_modifier_razor_bloodrage_beta2_description"				"This unit has increased attack speed at the cost of damage over time."
+
+		//====================================================================================================
 		// Riki
 		//====================================================================================================
 		"dota_tooltip_ability_riki_shuriken_toss_beta2"						"Shuriken Toss"

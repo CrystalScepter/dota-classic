@@ -18,7 +18,7 @@ function GameMode:InitGameMode()
         GameRules:SetCustomGameSetupAutoLaunchDelay(0)
         GameRules:SetStrategyTime(0)
         GameRules:SetShowcaseTime(0)
-        GameMode:SetCustomGameForceHero("npc_dota_hero_rubick")
+        GameMode:SetCustomGameForceHero("npc_dota_hero_razor")
 
         -- Disable hero grids and ability / item suggestions since we will use custom heroes
         GameRules:SetEnableAlternateHeroGrids(false)

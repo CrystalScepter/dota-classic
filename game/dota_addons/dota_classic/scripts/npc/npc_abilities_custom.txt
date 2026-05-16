@@ -9,6 +9,7 @@
 #base "../vscripts/abilities/heroes/mirana/abilities.txt"
 #base "../vscripts/abilities/heroes/night_stalker/abilities.txt"
 #base "../vscripts/abilities/heroes/phantom_lancer/abilities.txt"
+#base "../vscripts/abilities/heroes/razor/abilities.txt"
 #base "../vscripts/abilities/heroes/riki/abilities.txt"
 #base "../vscripts/abilities/heroes/rubick/abilities.txt"
 #base "../vscripts/abilities/heroes/shadow_demon/abilities.txt"
