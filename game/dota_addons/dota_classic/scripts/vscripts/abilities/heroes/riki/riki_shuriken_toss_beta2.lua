@@ -34,7 +34,7 @@ function riki_shuriken_toss_beta2:OnProjectileHit(hTarget, vLocation)
 	local stun_duration_creep = self:GetSpecialValueFor("stun_duration_creep")
 
 	-- Add the stun modifier to the target based on whether it's a hero or creep
-	if hTarget:IsHero() then
+	if hTarget:IsRealHero() then
 		hTarget:AddNewModifier(caster, self, "modifier_stun", { duration = stun_duration_hero })
 	else
 		hTarget:AddNewModifier(caster, self, "modifier_stun", { duration = stun_duration_creep })

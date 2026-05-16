@@ -30,7 +30,10 @@ function underlord_mist_coil_beta2:OnProjectileHit(hTarget, vLocation)
 	local damage = self:GetAbilityDamage()
 
 	-- Check whether the target is an ally or enemy
-	if not hTarget:GetTeamNumber() == caster:GetTeamNumber() then
+	if hTarget:GetTeamNumber() == caster:GetTeamNumber() then
+		-- Heal the friendly unit
+		hTarget:Heal(damage, self)
+	else
 		-- Deal damage to the enemy target
 		local damage_table = {
 			victim = hTarget,
@@ -40,9 +43,6 @@ function underlord_mist_coil_beta2:OnProjectileHit(hTarget, vLocation)
 			ability = self,
 		}
 		ApplyDamage(damage_table)
-	else
-		-- Heal the friendly unit
-		hTarget:Heal(damage, self)
 	end
 
 	-- Play the corresponding sound
