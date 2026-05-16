@@ -161,6 +161,18 @@
 		"dota_tooltip_ability_riki_critical_strike_beta2_critical_chance"			"%Critical Chance:"
 
 		//====================================================================================================
+		// Rubick
+		//====================================================================================================
+		"dota_tooltip_ability_rubick_living_armor_beta2"					"Living Armor"
+		"dota_tooltip_ability_rubick_living_armor_beta2_description"				"Applies a buff that increases the target's damage and armor."
+		"dota_tooltip_ability_rubick_living_armor_beta2_damage_increase_pct"			"%Damage Bonus:"
+		"dota_tooltip_ability_rubick_living_armor_beta2_armor_increase"				"Armor Bonus:"
+		"dota_tooltip_ability_rubick_living_armor_beta2_duration"				"Duration:"
+
+		"dota_tooltip_modifier_rubick_living_armor_beta2"					"Living Armor"
+		"dota_tooltip_modifier_rubick_living_armor_beta2_description"				"This unit has increased damage and armor."
+
+		//====================================================================================================
 		// Shadow Demon
 		//====================================================================================================
 		"dota_tooltip_ability_shadow_demon_enfeeble_beta2"					"Enfeeble"

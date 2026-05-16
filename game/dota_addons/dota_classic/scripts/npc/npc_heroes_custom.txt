@@ -15,9 +15,9 @@
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
-		"Ability1"				"bloodseeker_ice_armor_beta2"
+		"Ability1"				""
 		"Ability2"				""
-		"Ability3"				""
+		"Ability3"				"bloodseeker_ice_armor_beta2"
 		"Ability4"				"generic_hidden"
 		"Ability5"				"generic_hidden"
 		"Ability6"				""
@@ -1464,7 +1464,7 @@
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
-		"Ability1"				""
+		"Ability1"				"rubick_living_armor_beta2"
 		"Ability2"				""
 		"Ability3"				""
 		"Ability4"				"generic_hidden"
