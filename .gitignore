@@ -8,3 +8,6 @@
 /game/dota_addons/dota_classic/panorama_debugger.cfg
 /game/dota_addons/dota_classic/tools_asset_info.bin
 /game/dota_addons/dota_classic/tools_thumbnail_cache.bin
+/game/dota_addons/dota_classic/tools_thumbnail_cache.sqlite3
+/game/dota_addons/dota_classic/tools_thumbnail_cache.sqlite3-shm
+/game/dota_addons/dota_classic/tools_thumbnail_cache.sqlite3-wal
