@@ -105,6 +105,10 @@
 		//====================================================================================================
 		// Night Stalker
 		//====================================================================================================
+		"dota_tooltip_ability_night_stalker_mana_burn_beta2"					"Mana Burn"
+		"dota_tooltip_ability_night_stalker_mana_burn_beta2_description"			"Destroys the target's mana, dealing damage equal to the mana burned."
+		"dota_tooltip_ability_night_stalker_mana_burn_beta2_mana_burn"				"Mana Burned:"
+
 		"dota_tooltip_ability_night_stalker_hunter_beta2"					"Hunter in the Night"
 		"dota_tooltip_ability_night_stalker_hunter_beta2_description"				"Increases Night Stalker's attack speed."
 		"dota_tooltip_ability_night_stalker_hunter_beta2_attack_speed"				"%Attack Speed Bonus:"

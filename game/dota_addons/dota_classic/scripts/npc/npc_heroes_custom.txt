@@ -1079,7 +1079,7 @@
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
-		"Ability1"				""
+		"Ability1"				"night_stalker_mana_burn_beta2"
 		"Ability2"				""
 		"Ability3"				"night_stalker_hunter_beta2"
 		"Ability4"				"generic_hidden"

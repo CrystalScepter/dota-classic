@@ -1,6 +1,49 @@
 "DOTAAbilities"
 {
 	//====================================================================================================
+	// Mana Burn
+	//====================================================================================================
+	"night_stalker_mana_burn_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/heroes/night_stalker/night_stalker_mana_burn_beta2"
+		"AbilityTextureName"			"nyx_assassin_mana_burn"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"
+		"SpellImmunityType"			"SPELL_IMMUNITY_ENEMIES_NO"
+
+		"MaxLevel" 				"3"
+
+		// Stats
+		//----------------------------------------------------------------------------------------------------
+		"AbilityManaCost"			"75"
+		"AbilityCooldown"			"6"
+		"AbilityCastPoint"			"0.55"
+		"AbilityCastRange"			"250"
+		"AbilityCastRangeBuffer"		"250"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_2"
+
+		// Precache
+		//----------------------------------------------------------------------------------------------------
+		"precache"
+		{
+			"particle"			"particles/units/heroes/hero_nyx_assassin/nyx_assassin_mana_burn.vpcf"
+			"soundfile"			"soundevents/game_sounds_heroes/game_sounds_nyx_assassin.vsndevts"
+		}
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"mana_burn"			"100 200 300"
+		}
+	}
+
+	//====================================================================================================
 	// Hunter in the Night
 	//====================================================================================================
 	"night_stalker_hunter_beta2"
