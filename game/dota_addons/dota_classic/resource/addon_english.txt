@@ -80,6 +80,11 @@
 		//====================================================================================================
 		// Doom
 		//====================================================================================================
+		"dota_tooltip_ability_doom_void_beta2"							"Void"
+		"dota_tooltip_ability_doom_void_beta2_description"					"Damages and applies a movement speed slow on the unit-targeted enemy."
+		"dota_tooltip_ability_doom_void_beta2_slow_amount"					"%Move Speed Slow:"
+		"dota_tooltip_ability_doom_void_beta2_duration"						"Duration:"
+
 		"dota_tooltip_ability_doom_immaterial_beta2"						"Immaterial"
 		"dota_tooltip_ability_doom_immaterial_beta2_description"				"Grants Doom evasion bonus."
 		"dota_tooltip_ability_doom_immaterial_beta2_evasion"					"%Evasion:"
@@ -372,5 +377,8 @@
 		//====================================================================================================
 		"dota_tooltip_modifier_stun"								"Stunned"
 		"dota_tooltip_modifier_stun_description"						"This unit is stunned."
+
+		"dota_tooltip_modifier_slow"								"Slowed"
+		"dota_tooltip_modifier_slow_description"						"This unit is slowed."
 	}
 }
