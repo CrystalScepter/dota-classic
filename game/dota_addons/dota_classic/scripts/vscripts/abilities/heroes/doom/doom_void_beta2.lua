@@ -39,6 +39,24 @@ end
 -- Declare the modifier class
 modifier_doom_void_beta2 = class({})
 
+-- Called when the modifier is created
+function modifier_doom_void_beta2:OnCreated(keys)
+	-- Retrieve the ability values that are going to be used by our modifier
+	self.attack_speed_slow_amount = self:GetAbility():GetSpecialValueFor("attack_speed_slow_amount")
+end
+
+-- Declare the events and properties that our modifier affects
+function modifier_doom_void_beta2:DeclareFunctions()
+        return {
+		MODIFIER_PROPERTY_ATTACKSPEED_PERCENTAGE,
+        }
+end
+
+-- Reduce attack speed by a percentage
+function modifier_doom_void_beta2:GetModifierAttackSpeedPercentage()
+        return 0 - self.attack_speed_slow_amount
+end
+
 -- Retrieve the name of the particle
 function modifier_doom_void_beta2:GetEffectName()
 	return "particles/units/heroes/hero_night_stalker/nightstalker_void.vpcf"

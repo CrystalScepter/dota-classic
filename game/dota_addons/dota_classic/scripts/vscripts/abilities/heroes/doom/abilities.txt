@@ -41,6 +41,7 @@
 		"AbilityValues"
 		{
 			"slow_amount"			"50"
+			"attack_speed_slow_amount"	"25"
 			"duration"			"2 3 4"
 		}
 	}

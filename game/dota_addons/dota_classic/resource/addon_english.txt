@@ -81,8 +81,9 @@
 		// Doom
 		//====================================================================================================
 		"dota_tooltip_ability_doom_void_beta2"							"Void"
-		"dota_tooltip_ability_doom_void_beta2_description"					"Damages and applies a movement speed slow on the unit-targeted enemy."
+		"dota_tooltip_ability_doom_void_beta2_description"					"Damages and applies an attack and movement speed slow on the unit-targeted enemy."
 		"dota_tooltip_ability_doom_void_beta2_slow_amount"					"%Move Speed Slow:"
+		"dota_tooltip_ability_doom_void_beta2_attack_speed_slow_amount"				"%Attack Speed Slow:"
 		"dota_tooltip_ability_doom_void_beta2_duration"						"Duration:"
 
 		"dota_tooltip_ability_doom_immaterial_beta2"						"Immaterial"
