@@ -212,11 +212,11 @@
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
 		"Ability1"				"doom_void_beta2"
-		"Ability2"				""
+		"Ability2"				"doom_nightmare_beta2"
 		"Ability3"				"doom_immaterial_beta2"
 		"Ability4"				"generic_hidden"
 		"Ability5"				"generic_hidden"
-		"Ability6"				""
+		"Ability6"				"doom_song_siren_beta2"
 		"Ability7"				""
 		"Ability8"				""
 		"Ability9"				""
