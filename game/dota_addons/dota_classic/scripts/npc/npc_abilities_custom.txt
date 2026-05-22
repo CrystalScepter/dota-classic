@@ -16,3 +16,4 @@
 #base "../vscripts/abilities/heroes/templar_assassin/abilities.txt"
 #base "../vscripts/abilities/heroes/underlord/abilities.txt"
 #base "../vscripts/abilities/buildings/abilities.txt"
+#base "../vscripts/abilities/units/abilities.txt"

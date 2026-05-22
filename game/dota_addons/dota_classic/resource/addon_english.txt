@@ -57,6 +57,15 @@
 		"npc_dire_ranged_creep_beta2"								"Ranged Creep"
 
 		//====================================================================================================
+		// Creep abilities
+		//====================================================================================================
+		"dota_tooltip_ability_moon_glaives_creeps_beta2"					"Moon Glaives"
+		"dota_tooltip_ability_moon_glaives_creeps_beta2_description"				"The creep's attacks bounce between enemy units, and deals lesser damage per bounce."
+		"dota_tooltip_ability_moon_glaives_creeps_beta2_bounce_range"				"Search Radius:"
+		"dota_tooltip_ability_moon_glaives_creeps_beta2_bounces_number"				"Numbers of Bounces:"
+		"dota_tooltip_ability_moon_glaives_creeps_beta2_damage_reduction_bounce"		"%Damage Reduction per Bounce:"
+
+		//====================================================================================================
 		// Bloodseeker
 		//====================================================================================================
 		"dota_tooltip_ability_bloodseeker_ice_armor_beta2"					"Ice Armor"

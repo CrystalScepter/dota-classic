@@ -1,0 +1,28 @@
+"DOTAAbilities"
+{
+	//====================================================================================================
+	// Moon Glaives
+	//====================================================================================================
+	"moon_glaives_creeps_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/units/moon_glaives_creeps_beta2"
+                "AbilityTextureName"			"luna_moon_glaive"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+                "AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"
+                "SpellImmunityType"			"SPELL_IMMUNITY_ENEMIES_YES"
+
+		"MaxLevel" 				"1"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"bounce_range"	                "500"
+			"bounces_number"		"2"
+			"damage_reduction_bounce"	"50"
+		}
+	}
+}
