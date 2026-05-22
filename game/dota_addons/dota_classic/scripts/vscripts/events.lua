@@ -109,28 +109,13 @@ function GameMode:OnEntityKilled(keys)
 			return
 		end
 
-                -- Initialize the items table
-                local available_items = {}
+                -- Pull a random slot and grab its respective item
+                local item_slot = RandomInt(0, 5)
+                local item_to_drop = killed_unit:GetItemInSlot(item_slot)
 
-                -- Loop over all inventory slots
-                for slot = 0, 5 do
-                        -- Grab the item
-                        local item = killed_unit:GetItemInSlot(slot)
-
-                        -- Check if the item exists
-                        if item then
-                                -- Add the item slot to the table
-                                table.insert(available_items, item)
-                        end
-                end
-
-                -- Check whether the hero has any items
-                if #available_items > 0 then
-                        -- Pick a random item
-                        local random_item = RandomInt(1, #available_items)
-                        local item_to_drop = available_items[random_item]
-
-                        -- Drop the random item
+                -- Check if there's an item to drop
+                if item_to_drop then
+                        -- Drop the item
                         killed_unit:DropItemAtPositionImmediate(item_to_drop, killed_unit:GetAbsOrigin())
                 end
 
