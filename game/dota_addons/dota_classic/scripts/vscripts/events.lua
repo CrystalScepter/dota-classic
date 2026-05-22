@@ -96,3 +96,54 @@ function GameMode:OnHeroInGame(hero)
         hero:AddNewModifier(hero, nil, "modifier_hull_radius", nil)
         hero:AddNewModifier(hero, nil, "modifier_magic_resist", nil)
 end
+
+-- Called when a unit dies
+function GameMode:OnEntityKilled(keys)
+	-- Retrieve the unit that was killed
+	local killed_unit = EntIndexToHScript(keys.entindex_killed)
+
+	-- Proceed if the killed unit is a hero
+	if killed_unit:IsRealHero() then
+		-- Return if the unit is reincarnating
+		if killed_unit:IsReincarnating() then
+			return
+		end
+
+                -- Initialize the items table
+                local available_items = {}
+
+                -- Loop over all inventory slots
+                for slot = 0, 5 do
+                        -- Grab the item
+                        local item = killed_unit:GetItemInSlot(slot)
+
+                        -- Check if the item exists
+                        if item then
+                                -- Add the item slot to the table
+                                table.insert(available_items, item)
+                        end
+                end
+
+                -- Check whether the hero has any items
+                if #available_items > 0 then
+                        -- Pick a random item
+                        local random_item = RandomInt(1, #available_items)
+                        local item_to_drop = available_items[random_item]
+
+                        -- Drop the random item
+                        killed_unit:DropItemAtPositionImmediate(item_to_drop, killed_unit:GetAbsOrigin())
+                end
+
+		-- Retrieve the level of the killed hero
+		local hero_level = killed_unit:GetLevel()
+
+		-- Set the level multiplier for the respawn timer
+		local level_multiplier = 10
+
+		-- Calculate the respawn timer
+		local respawn_time = hero_level * level_multiplier
+
+		-- Set the respawn timer for the hero
+		killed_unit:SetTimeUntilRespawn(respawn_time)
+	end
+end
