@@ -123,7 +123,7 @@ function moon_glaives_creeps_beta2:OnProjectileHit_ExtraData(hTarget, vLocation,
                         self.target_tracker[ExtraData.record] = nil
                 end
         else
-                -- Clears the record because there are no bounces left
+                -- Clear the record because there are no bounces left
                 self.target_tracker[ExtraData.record] = nil
         end
 end
