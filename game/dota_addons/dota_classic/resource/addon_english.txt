@@ -103,6 +103,10 @@
 		"dota_tooltip_ability_doom_immaterial_beta2_description"				"Grants Doom evasion bonus."
 		"dota_tooltip_ability_doom_immaterial_beta2_evasion"					"%Evasion:"
 
+		"dota_tooltip_ability_doom_song_siren_beta2"						"Song of the Siren"
+		"dota_tooltip_ability_doom_song_siren_beta2_description"				"All enemy units in range of Doom are put into a magical stasis where they cannot act or be attacked."
+		"dota_tooltip_ability_doom_song_siren_beta2_duration"					"Duration:"
+
 		//====================================================================================================
 		// Dragon Knight
 		//====================================================================================================

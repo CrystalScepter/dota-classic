@@ -27,13 +27,12 @@ function moon_glaives_creeps_beta2:OnProjectileHit_ExtraData(hTarget, vLocation,
         if hTarget then
                 -- Define the damage to be dealt
                 local damageTable = {
-                        victim       = hTarget,
-                        damage       = ExtraData.damage *
-                        ((100 - self:GetSpecialValueFor("damage_reduction_bounce")) * 0.01) ^ (ExtraData.bounces + 1),
-                        damage_type  = DAMAGE_TYPE_PHYSICAL,
-                        damage_flags = DOTA_DAMAGE_FLAG_NO_SPELL_AMPLIFICATION + DOTA_DAMAGE_FLAG_NO_SPELL_LIFESTEAL,
-                        attacker     = self:GetCaster(),
-                        ability      = self
+                        victim          = hTarget,
+                        damage          = ExtraData.damage * ((100 - self:GetSpecialValueFor("damage_reduction_bounce")) * 0.01) ^ (ExtraData.bounces + 1),
+                        damage_type     = DAMAGE_TYPE_PHYSICAL,
+                        damage_flags    = DOTA_DAMAGE_FLAG_NO_SPELL_AMPLIFICATION + DOTA_DAMAGE_FLAG_NO_SPELL_LIFESTEAL,
+                        attacker        = self:GetCaster(),
+                        ability         = self
                 }
 
                 -- Apply the damage
@@ -60,11 +59,17 @@ function moon_glaives_creeps_beta2:OnProjectileHit_ExtraData(hTarget, vLocation,
         local glaive_launched = false
 
         -- Find close enemies in order of closest first
-        local enemies = FindUnitsInRadius(self:GetCaster():GetTeamNumber(), vLocation, nil,
-                self:GetSpecialValueFor("bounce_range"), DOTA_UNIT_TARGET_TEAM_ENEMY,
+        local enemies = FindUnitsInRadius(
+                self:GetCaster():GetTeamNumber(), 
+                vLocation, 
+                nil,
+                self:GetSpecialValueFor("bounce_range"), 
+                DOTA_UNIT_TARGET_TEAM_ENEMY,
                 DOTA_UNIT_TARGET_HERO + DOTA_UNIT_TARGET_BASIC + DOTA_UNIT_TARGET_BUILDING,
-                DOTA_UNIT_TARGET_FLAG_FOW_VISIBLE + DOTA_UNIT_TARGET_FLAG_NO_INVIS +
-                DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES, FIND_CLOSEST, false)
+                DOTA_UNIT_TARGET_FLAG_FOW_VISIBLE + DOTA_UNIT_TARGET_FLAG_NO_INVIS + DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES, 
+                FIND_CLOSEST, 
+                false
+        )
 
         -- Check if the number of bounces is lower than the limit and whether there is more than 1 enemy found
         if ExtraData.bounces < self:GetSpecialValueFor("bounces_number") and #enemies > 1 then
@@ -102,9 +107,9 @@ function moon_glaives_creeps_beta2:OnProjectileHit_ExtraData(hTarget, vLocation,
                                         bProvidesVision   = false,
 
                                         ExtraData         = {
-                                                bounces = ExtraData.bounces,
-                                                record  = ExtraData.record,
-                                                damage  = ExtraData.damage
+                                                bounces   = ExtraData.bounces,
+                                                record    = ExtraData.record,
+                                                damage    = ExtraData.damage
                                         }
                                 }
 
@@ -157,11 +162,17 @@ function modifier_moon_glaives_creeps_beta2:GetModifierProcAttack_Feedback(keys)
         -- Check if the attacker is the parent and passives aren't disabled
         if keys.attacker == self:GetParent() and not self:GetParent():PassivesDisabled() then
                 -- Find enemies close to the attacked unit
-                local enemies = FindUnitsInRadius(self:GetCaster():GetTeamNumber(), keys.target:GetAbsOrigin(), nil,
-                        self.bounce_range, DOTA_UNIT_TARGET_TEAM_ENEMY,
+                local enemies = FindUnitsInRadius(
+                        self:GetCaster():GetTeamNumber(), 
+                        keys.target:GetAbsOrigin(), 
+                        nil,
+                        self.bounce_range, 
+                        DOTA_UNIT_TARGET_TEAM_ENEMY,
                         DOTA_UNIT_TARGET_HERO + DOTA_UNIT_TARGET_BASIC + DOTA_UNIT_TARGET_BUILDING,
-                        DOTA_UNIT_TARGET_FLAG_FOW_VISIBLE + DOTA_UNIT_TARGET_FLAG_NO_INVIS +
-                        DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES, FIND_CLOSEST, false)
+                        DOTA_UNIT_TARGET_FLAG_FOW_VISIBLE + DOTA_UNIT_TARGET_FLAG_NO_INVIS + DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES, 
+                        FIND_CLOSEST, 
+                        false
+                )
 
                 -- Ensure trackers exist for this attack record
                 if not self:GetAbility().target_tracker then
