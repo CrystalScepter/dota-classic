@@ -39,39 +39,53 @@ function moon_glaives_creeps_beta2:OnProjectileHit_ExtraData(hTarget, vLocation,
                 -- Apply the damage
                 ApplyDamage(damageTable)
 
+                -- Ensure trackers exist for this attack record
                 if not self.target_tracker then
                         self.target_tracker = {}
                 end
 
+                -- Ensure the record key is tracked
                 if not self.target_tracker[ExtraData.record] then
                         self.target_tracker[ExtraData.record] = {}
                 end
 
+                -- Mark the unit as hit so the chain can bounce back to it later
                 self.target_tracker[ExtraData.record][hTarget:GetEntityIndex()] = true
         end
 
+        -- Add a bounce count
         ExtraData.bounces = ExtraData.bounces + 1
 
+        -- Initialize the glaive projectile
         local glaive_launched = false
 
+        -- Find close enemies in order of closest first
         local enemies = FindUnitsInRadius(self:GetCaster():GetTeamNumber(), vLocation, nil,
                 self:GetSpecialValueFor("bounce_range"), DOTA_UNIT_TARGET_TEAM_ENEMY,
                 DOTA_UNIT_TARGET_HERO + DOTA_UNIT_TARGET_BASIC + DOTA_UNIT_TARGET_BUILDING,
                 DOTA_UNIT_TARGET_FLAG_FOW_VISIBLE + DOTA_UNIT_TARGET_FLAG_NO_INVIS +
                 DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES, FIND_CLOSEST, false)
 
+        -- Check if the number of bounces is lower than the limit and whether there is more than 1 enemy found
         if ExtraData.bounces < self:GetSpecialValueFor("bounces_number") and #enemies > 1 then
+                -- Create the all bounced enemies variable
                 local all_enemies_bounced = true
 
+                -- Loop through all enemies found
                 for _, enemy in pairs(enemies) do
+                        -- Check if there are targets that haven't been hit yet
                         if enemy ~= hTarget and not self.target_tracker[ExtraData.record][enemy:GetEntityIndex()] then
+                                -- Allow the bounces to find other targets instead of going back
                                 all_enemies_bounced = false
                                 break
                         end
                 end
 
+                -- Loop through all enemies found
                 for _, enemy in pairs(enemies) do
+                        -- Check if 
                         if enemy ~= hTarget and (not self.target_tracker[ExtraData.record][enemy:GetEntityIndex()] or all_enemies_bounced) then
+                                -- Define the glaive projectile
                                 local glaive =
                                 {
                                         Target            = enemy,
@@ -94,18 +108,22 @@ function moon_glaives_creeps_beta2:OnProjectileHit_ExtraData(hTarget, vLocation,
                                         }
                                 }
 
+                                -- Release the glaive projectile
                                 ProjectileManager:CreateTrackingProjectile(glaive)
 
+                                -- Mark the projectile as launched
                                 glaive_launched = true
 
                                 break
                         end
                 end
 
+                -- If there's no glaive launched then delete all records
                 if not glaive_launched then
                         self.target_tracker[ExtraData.record] = nil
                 end
         else
+                -- Clears the record because there are no bounces left
                 self.target_tracker[ExtraData.record] = nil
         end
 end
@@ -151,6 +169,7 @@ function modifier_moon_glaives_creeps_beta2:GetModifierProcAttack_Feedback(keys)
                         self:GetAbility().target_tracker = {}
                 end
 
+                -- Ensure the record key is tracked
                 if not self:GetAbility().target_tracker[keys.record] then
                         self:GetAbility().target_tracker[keys.record] = {}
                 end
