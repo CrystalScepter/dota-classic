@@ -70,13 +70,12 @@
 		"AbilityCastPoint"			"0.3"
 		"AbilityCastRange"			"800"
 		"AbilityCastRangeBuffer"		"250"
-		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_1"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_3"
 
 		// Precache
 		//----------------------------------------------------------------------------------------------------
 		"precache"
 		{
-			"particle"			"particles/units/heroes/hero_bane/bane_nightmare.vpcf"
 			"soundfile"			"soundevents/game_sounds_heroes/game_sounds_bane.vsndevts"
 		}
 
@@ -135,7 +134,7 @@
 		"AbilityCastPoint"			"0.3"
 		"AbilityCastRange"			"5000"
 		"AbilityCastRangeBuffer"		"250"
-		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_1"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_2"
 
 		// Precache
 		//----------------------------------------------------------------------------------------------------

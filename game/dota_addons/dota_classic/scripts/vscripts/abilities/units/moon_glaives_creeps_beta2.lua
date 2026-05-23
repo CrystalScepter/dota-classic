@@ -113,7 +113,6 @@ function moon_glaives_creeps_beta2:OnProjectileHit_ExtraData(hTarget, vLocation,
 
                                 -- Mark the projectile as launched
                                 glaive_launched = true
-
                                 break
                         end
                 end
