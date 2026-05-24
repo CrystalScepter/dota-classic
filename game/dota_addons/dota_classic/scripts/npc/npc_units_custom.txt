@@ -1346,7 +1346,7 @@
 
 		// Abilities
 		//----------------------------------------------------------------
-		"Ability1"				""
+		"Ability1"				"tower_true_sight_beta2"
 		"Ability2"				""
 		"Ability3"				""
 		"Ability4"				""
@@ -1430,7 +1430,7 @@
 
 		// Abilities
 		//----------------------------------------------------------------
-		"Ability1"				""
+		"Ability1"				"tower_true_sight_beta2"
 		"Ability2"				""
 		"Ability3"				""
 		"Ability4"				""

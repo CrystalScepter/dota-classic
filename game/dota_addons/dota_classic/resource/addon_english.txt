@@ -50,6 +50,9 @@
 		"dota_tooltip_modifier_fountain_regeneration_buff_beta2"				"Rejuvenation Aura"
 		"dota_tooltip_modifier_fountain_regeneration_buff_beta2_description"			"This unit has increased health and mana regen."
 
+		"dota_tooltip_ability_tower_true_sight_beta2"						"True Sight"
+		"dota_tooltip_ability_tower_true_sight_beta2_description"				"Reveals nearby invisible enemy units."
+
 		//====================================================================================================
 		// Creeps
 		//====================================================================================================
