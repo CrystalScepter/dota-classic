@@ -39,6 +39,8 @@ function modifier_health_regen_nighttime:GetModifierConstantHealthRegen()
 		self.health_regen = 0.5
 	elseif stack_count == 0 and unit_name == "npc_radiant_ranged_bot_barracks_beta2" then
 		self.health_regen = 0.5
+	elseif stack_count == 0 and unit_name == "npc_radiant_tower_beta2" then
+		self.health_regen = 0.5
 	elseif stack_count == 0 and unit_name == "npc_radiant_melee_creep_beta2" then
 		self.health_regen = 0.5
 	elseif stack_count == 0 and unit_name == "npc_radiant_ranged_creep_beta2" then
