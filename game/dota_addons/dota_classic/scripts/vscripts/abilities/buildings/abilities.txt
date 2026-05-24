@@ -324,6 +324,35 @@
 	}
 
 	//====================================================================================================
+	// Blight Aura
+	//====================================================================================================
+	"tower_blight_aura_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/buildings/tower_blight_aura_beta2.lua"
+		"AbilityTextureName"			"flagbearer_creep_aura_effect"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
+
+		"MaxLevel" 				"1"
+
+		// Stats
+		//----------------------------------------------------------------------------------------------------
+		"AbilityCastRange"			"832"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"radius"			"832"
+			"health_regen"			"2"
+		}
+	}
+
+	//====================================================================================================
 	// Out of the World
 	//====================================================================================================
 	"out_of_the_world_beta2"

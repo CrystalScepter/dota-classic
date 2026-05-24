@@ -1431,7 +1431,7 @@
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"				"tower_true_sight_beta2"
-		"Ability2"				""
+		"Ability2"				"tower_blight_aura_beta2"
 		"Ability3"				""
 		"Ability4"				""
 		"Ability5"				""

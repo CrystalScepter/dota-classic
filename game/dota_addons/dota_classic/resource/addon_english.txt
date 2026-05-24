@@ -53,6 +53,11 @@
 		"dota_tooltip_ability_tower_true_sight_beta2"						"True Sight"
 		"dota_tooltip_ability_tower_true_sight_beta2_description"				"Reveals nearby invisible enemy units."
 
+		"dota_tooltip_ability_tower_blight_aura_beta2"						"Blight"
+		"dota_tooltip_ability_tower_blight_aura_beta2_description"				"Increases the health regeneration of allied creeps and some heroes. Affected heroes are Lifestealer, Lycan, Necrophos and Templar Assassin."
+		"dota_tooltip_ability_tower_blight_aura_beta2_health_regen"				"Health Regen:"
+		"dota_tooltip_ability_tower_blight_aura_beta2_note0"					"The regen value is halved for Lifestealer, Necrophos and Templar Assassin."
+
 		//====================================================================================================
 		// Creeps
 		//====================================================================================================
