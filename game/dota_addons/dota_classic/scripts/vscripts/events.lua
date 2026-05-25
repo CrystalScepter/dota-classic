@@ -148,7 +148,6 @@ function GameMode:OnGameRulesStateChange(keys)
                 Entities:FindByName(nil, "radiant_tower_base_2"):AddNewModifier(Entities:FindByName(nil, "radiant_tower_base_2"), nil, "modifier_health_regen_nighttime", nil)
                 Entities:FindByName(nil, "radiant_tower_base_3"):AddNewModifier(Entities:FindByName(nil, "radiant_tower_base_3"), nil, "modifier_health_regen_nighttime", nil)
                 Entities:FindByName(nil, "radiant_tower_base_4"):AddNewModifier(Entities:FindByName(nil, "radiant_tower_base_4"), nil, "modifier_health_regen_nighttime", nil)
-
         end
 end
 
