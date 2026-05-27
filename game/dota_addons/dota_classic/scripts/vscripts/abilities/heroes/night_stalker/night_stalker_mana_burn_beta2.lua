@@ -35,7 +35,7 @@ function night_stalker_mana_burn_beta2:OnSpellStart()
 			victim = target,
 			attacker = caster,
 			damage = actual_mana_burn,
-			damage_type = DAMAGE_TYPE_PURE,
+			damage_type = DAMAGE_TYPE_MAGICAL,
 			ability = self,
 		}
 		ApplyDamage(damage_table)
