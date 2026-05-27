@@ -57,6 +57,11 @@ function modifier_phantom_lancer_bash_beta2:OnAttackLanded(keys)
 		return
 	end
 
+	-- Return if the target has magic immunity
+	if keys.target:IsMagicImmune() then
+		return
+	end
+
 	-- Roll the dice to check whether the attack will deal extra damage
 	if RandomFloat(0, 100) < self.chance then
 		-- Deals damage to the target

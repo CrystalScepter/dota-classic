@@ -55,6 +55,7 @@
 		"ScriptFile"				"abilities/heroes/phantom_lancer/phantom_lancer_bash_beta2"
 		"AbilityTextureName"			"slardar_bash"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"SpellImmunityType"			"SPELL_IMMUNITY_ENEMIES_NO"
 
 		"MaxLevel" 				"3"
 

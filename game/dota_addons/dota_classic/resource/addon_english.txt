@@ -183,6 +183,7 @@
 		"dota_tooltip_ability_phantom_lancer_bash_beta2_description"				"Grants a chance that an attack will do bonus damage."
 		"dota_tooltip_ability_phantom_lancer_bash_beta2_damage"					"Damage:"
 		"dota_tooltip_ability_phantom_lancer_bash_beta2_chance"					"%Proc Chance:"
+		"dota_tooltip_ability_phantom_lancer_bash_beta2_note0"					"Does not work against magic immune targets."
 
 		"dota_tooltip_ability_phantom_lancer_toughness_aura_beta2"				"Toughness Aura"
 		"dota_tooltip_ability_phantom_lancer_toughness_aura_beta2_description"			"Phantom Lancer's presence increases the armor of nearby friendly units."
