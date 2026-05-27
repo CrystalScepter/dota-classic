@@ -16,7 +16,7 @@ function shadow_demon_midnight_pulse_beta2:OnSpellStart()
                 caster,
                 self,
                 "modifier_shadow_demon_midnight_pulse_beta2",
-                { duration = duration },
+                {duration = duration},
                 point,
                 caster:GetTeamNumber(),
                 false

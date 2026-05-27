@@ -27,7 +27,7 @@ function doom_song_siren_beta2:OnSpellStart()
         -- Loop through every enemy found
         for _, enemy in pairs(enemies) do
                 -- Add the stasis modifier to the target
-                enemy:AddNewModifier(caster, self, "modifier_stasis", { duration = duration })
+                enemy:AddNewModifier(caster, self, "modifier_stun", {duration = duration})
         end
 
         -- Create the particle
