@@ -26,7 +26,7 @@ function life_stealer_finger_of_death_beta2:OnSpellStart()
 			victim = target,
 			attacker = caster,
 			damage = damage,
-			damage_type = DAMAGE_TYPE_PURE,
+			damage_type = DAMAGE_TYPE_MAGICAL,
 			ability = self,
 		}
 		ApplyDamage(damage_table)
