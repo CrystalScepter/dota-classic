@@ -1,0 +1,45 @@
+"DOTAAbilities"
+{
+	//====================================================================================================
+	// Corrosive Haze
+	//====================================================================================================
+	"necrophos_corrosive_haze_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/heroes/necrophos/necrophos_corrosive_haze_beta2"
+		"AbilityTextureName"			"slardar_amplify_damage"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
+		"SpellImmunityType"			"SPELL_IMMUNITY_ENEMIES_NO"
+
+		"MaxLevel" 				"3"
+
+		// Stats
+		//----------------------------------------------------------------------------------------------------
+		"AbilityManaCost"			"75"
+		"AbilityCooldown"			"0"
+		"AbilityCastPoint"			"0.3"
+		"AbilityCastRange"			"700"
+		"AbilityCastRangeBuffer"		"250"
+		"AbilityCastAnimation"			"ACT_DOTA_NECRO_GHOST_SHROUD"
+
+		// Precache
+		//----------------------------------------------------------------------------------------------------
+		"precache"
+		{
+			"particle"			"particles/units/heroes/hero_slardar/slardar_amp_damage.vpcf"
+			"soundfile"			"soundevents/game_sounds_heroes/game_sounds_slardar.vsndevts"
+		}
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"armor_reduction"		"25 50 75"
+			"duration"			"30"
+		}
+	}
+}

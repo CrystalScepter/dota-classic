@@ -7,6 +7,7 @@
 #base "../vscripts/abilities/heroes/dragon_knight/abilities.txt"
 #base "../vscripts/abilities/heroes/life_stealer/abilities.txt"
 #base "../vscripts/abilities/heroes/mirana/abilities.txt"
+#base "../vscripts/abilities/heroes/necrophos/abilities.txt"
 #base "../vscripts/abilities/heroes/night_stalker/abilities.txt"
 #base "../vscripts/abilities/heroes/phantom_lancer/abilities.txt"
 #base "../vscripts/abilities/heroes/razor/abilities.txt"

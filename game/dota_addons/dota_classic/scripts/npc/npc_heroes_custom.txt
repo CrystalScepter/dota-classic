@@ -983,7 +983,7 @@
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
 		"Ability1"				""
-		"Ability2"				""
+		"Ability2"				"necrophos_corrosive_haze_beta2"
 		"Ability3"				""
 		"Ability4"				"generic_hidden"
 		"Ability5"				"generic_hidden"

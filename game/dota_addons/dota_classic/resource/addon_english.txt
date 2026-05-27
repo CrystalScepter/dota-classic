@@ -151,6 +151,17 @@
 		"dota_tooltip_modifier_mirana_precision_aura_buff_beta2_description"			"This unit has increased physical damage."
 
 		//====================================================================================================
+		// Necrophos
+		//====================================================================================================
+		"dota_tooltip_ability_necrophos_corrosive_haze_beta2"					"Corrosive Haze"
+		"dota_tooltip_ability_necrophos_corrosive_haze_beta2_description"			"Reduces the affected enemy target's armor, provides True Sight and vision over it, revealing invisibility."
+		"dota_tooltip_ability_necrophos_corrosive_haze_beta2_armor_reduction"			"Armor Reduction:"
+		"dota_tooltip_ability_necrophos_corrosive_haze_beta2_duration"				"Duration:"
+
+		"dota_tooltip_modifier_necrophos_corrosive_haze_beta2"					"Corrosive Haze"
+		"dota_tooltip_modifier_necrophos_corrosive_haze_beta2_description"			"This unit has decreased armor and is giving vision to the enemy team."
+
+		//====================================================================================================
 		// Night Stalker
 		//====================================================================================================
 		"dota_tooltip_ability_night_stalker_mana_burn_beta2"					"Mana Burn"
