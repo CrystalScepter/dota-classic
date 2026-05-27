@@ -501,7 +501,7 @@
 		//----------------------------------------------------------------------------------------------------
 		"Ability1"				""
 		"Ability2"				""
-		"Ability3"				""
+		"Ability3"				"enchantress_feral_impulse_beta2"
 		"Ability4"				"generic_hidden"
 		"Ability5"				"generic_hidden"
 		"Ability6"				""

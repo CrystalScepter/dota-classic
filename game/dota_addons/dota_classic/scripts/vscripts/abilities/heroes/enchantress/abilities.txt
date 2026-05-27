@@ -1,0 +1,37 @@
+"DOTAAbilities"
+{
+	//====================================================================================================
+	// Feral Impulse
+	//====================================================================================================
+	"enchantress_feral_impulse_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/heroes/enchantress/enchantress_feral_impulse_beta2"
+		"AbilityTextureName"			"lycan_feral_impulse"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
+
+		"MaxLevel" 				"3"
+
+		// Stats
+		//----------------------------------------------------------------------------------------------------
+		"AbilityManaCost"			"100"
+		"AbilityCooldown"			"0"
+		"AbilityCastPoint"			"0.3"
+		"AbilityCastRange"			"500"
+		"AbilityCastRangeBuffer"		"250"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_3"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"damage_increase"		"25 35 45"
+			"radius"			"500"
+			"duration"			"45"
+		}
+	}
+}

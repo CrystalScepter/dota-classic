@@ -61,6 +61,6 @@ function modifier_bloodseeker_ice_armor_beta2:PlayEffects()
 	-- Add particle effect
 	local particle = ParticleManager:CreateParticle(particle_effect, PATTACH_OVERHEAD_FOLLOW, self.parent)
 	ParticleManager:SetParticleControl(particle, 0, self.parent:GetAbsOrigin())
-	ParticleManager:SetParticleControl(particle, 1, Vector(1,1,1))
+	ParticleManager:SetParticleControl(particle, 1, Vector(1, 1, 1))
 	self:AddParticle(particle, false, false, -1, false, false)
 end
