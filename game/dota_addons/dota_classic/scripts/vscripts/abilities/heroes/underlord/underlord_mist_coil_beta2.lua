@@ -38,8 +38,8 @@ function underlord_mist_coil_beta2:OnProjectileHit(hTarget, vLocation)
 		local damage_table = {
 			victim = hTarget,
 			attacker = caster,
-			damage = damage,
-			damage_type = DAMAGE_TYPE_MAGICAL,
+			damage = damage / 2,
+			damage_type = DAMAGE_TYPE_PURE,
 			ability = self,
 		}
 		ApplyDamage(damage_table)
