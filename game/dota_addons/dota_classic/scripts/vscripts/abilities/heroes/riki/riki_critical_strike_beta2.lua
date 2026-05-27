@@ -57,6 +57,11 @@ function modifier_riki_critical_strike_beta2:GetModifierPreAttack_CriticalStrike
 		return
 	end
 
+	-- Return if the target has magic immunity
+	if keys.target:IsMagicImmune() then
+		return
+	end
+
 	-- Roll the dice to determine whether it's a critical attack or not
 	if RandomFloat(0, 100) < self.critical_chance then
 		return self.critical_damage
