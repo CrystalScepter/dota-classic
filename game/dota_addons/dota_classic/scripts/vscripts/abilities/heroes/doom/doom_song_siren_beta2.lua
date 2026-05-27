@@ -2,7 +2,7 @@
 doom_song_siren_beta2 = class({})
 
 -- Link the modifiers that are going to be used by our ability
-LinkLuaModifier("modifier_stasis", "modifiers/states/modifier_stasis.lua", LUA_MODIFIER_MOTION_NONE)
+LinkLuaModifier("modifier_stun", "modifiers/states/modifier_stun.lua", LUA_MODIFIER_MOTION_NONE)
 
 -- Called when the ability is cast
 function doom_song_siren_beta2:OnSpellStart()
