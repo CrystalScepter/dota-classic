@@ -87,7 +87,7 @@ function modifier_shadow_demon_midnight_pulse_beta2:OnIntervalThink()
                                 victim = unit,
                                 attacker = self:GetCaster(),
                                 damage = unit:GetMaxHealth() * self.max_health_second / 100,
-                                damage_type = DAMAGE_TYPE_MAGICAL,
+                                damage_type = DAMAGE_TYPE_PURE,
                                 damage_flags = DOTA_DAMAGE_FLAG_NONE,
                                 ability = self:GetAbility()
                         }
