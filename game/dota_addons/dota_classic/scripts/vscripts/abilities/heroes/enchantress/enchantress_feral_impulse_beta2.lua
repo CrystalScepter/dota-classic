@@ -50,7 +50,7 @@ modifier_enchantress_feral_impulse_beta2 = class({})
 function modifier_enchantress_feral_impulse_beta2:OnCreated()
         -- Retrieve the ability values that are going to be used by our modifier
         self.parent = self:GetParent()
-        self.damage_increase   = self:GetAbility():GetSpecialValueFor("damage_increase")
+        self.damage_increase = self:GetAbility():GetSpecialValueFor("damage_increase")
 
         -- Play the visual effect
 	self:PlayEffects()

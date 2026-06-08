@@ -133,6 +133,15 @@
 		//====================================================================================================
 		// Enchantress
 		//====================================================================================================
+		"dota_tooltip_ability_enchantress_empower_beta2"					"Empower"
+		"dota_tooltip_ability_enchantress_empower_beta2_description"				"Grants magic immunity to Enchantress, while increasing her attack damage and health."
+		"dota_tooltip_ability_enchantress_empower_beta2_damage_increase"			"Attack Damage Bonus:"
+		"dota_tooltip_ability_enchantress_empower_beta2_health_increase"			"Health Bonus:"
+		"dota_tooltip_ability_enchantress_empower_beta2_duration"				"Duration:"
+
+		"dota_tooltip_modifier_enchantress_empower_beta2"					"Empower"
+		"dota_tooltip_modifier_enchantress_empower_beta2_description"				"This unit is magic immune and has increased attack damage and health."
+
 		"dota_tooltip_ability_enchantress_feral_impulse_beta2"					"Feral Impulse"
 		"dota_tooltip_ability_enchantress_feral_impulse_beta2_description"			"Grants bonus attack damage to Enchantress and allies nearby."
 		"dota_tooltip_ability_enchantress_feral_impulse_beta2_damage_increase"			"%Attack Damage Bonus:"

@@ -1,6 +1,44 @@
 "DOTAAbilities"
 {
 	//====================================================================================================
+	// Empower
+	//====================================================================================================
+	"enchantress_empower_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/heroes/enchantress/enchantress_empower_beta2"
+		"AbilityTextureName"			"magnataur_empower"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+
+		"MaxLevel" 				"3"
+
+		// Stats
+		//----------------------------------------------------------------------------------------------------
+		"AbilityManaCost"			"100"
+		"AbilityCooldown"			"75"
+		"AbilityCastPoint"			"0.3"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_2"
+
+		// Precache
+		//----------------------------------------------------------------------------------------------------
+		"precache"
+		{
+			"soundfile"			"soundevents/game_sounds_heroes/game_sounds_magnataur.vsndevts"
+		}
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"damage_increase"		"5 10 15"
+			"health_increase"		"100 150 200"
+			"duration"			"30"
+		}
+	}
+
+	//====================================================================================================
 	// Feral Impulse
 	//====================================================================================================
 	"enchantress_feral_impulse_beta2"
