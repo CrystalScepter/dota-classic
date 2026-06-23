@@ -72,4 +72,34 @@
 			"duration"			"45"
 		}
 	}
+
+	//====================================================================================================
+	// Divine Favor
+	//====================================================================================================
+	"enchantress_divine_favor_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/heroes/enchantress/enchantress_divine_favor_beta2"
+		"AbilityTextureName"			"chen_divine_favor"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+		"AbilityType"				"ABILITY_TYPE_ULTIMATE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
+
+		"MaxLevel" 				"1"
+
+		// Stats
+		//----------------------------------------------------------------------------------------------------
+		"AbilityCastRange"			"900"
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"health_regen"			"250"
+			"radius"			"900"
+		}
+	}
 }

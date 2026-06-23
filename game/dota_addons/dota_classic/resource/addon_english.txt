@@ -150,6 +150,13 @@
 		"dota_tooltip_modifier_enchantress_feral_impulse_beta2"					"Feral Impulse"
 		"dota_tooltip_modifier_enchantress_feral_impulse_beta2_description"			"This unit has increased attack damage."
 
+		"dota_tooltip_ability_enchantress_divine_favor_beta2"					"Divine Favor Aura"
+		"dota_tooltip_ability_enchantress_divine_favor_beta2_description"			"Grants a health regeneration bonus aura within the radius."
+		"dota_tooltip_ability_enchantress_divine_favor_beta2_health_regen"			"%Health Regen Bonus:"
+
+		"dota_tooltip_modifier_enchantress_divine_favor_buff_beta2"				"Divine Favor Aura"
+		"dota_tooltip_modifier_enchantress_divine_favor_buff_beta2_description"			"This unit has increased health regeneration."
+
 		//====================================================================================================
 		// Lifestealer
 		//====================================================================================================
