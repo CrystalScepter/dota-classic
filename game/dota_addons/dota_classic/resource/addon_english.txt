@@ -168,6 +168,14 @@
 		"dota_tooltip_ability_life_stealer_feast_beta2_description"				"Grants bonus lifesteal."
 		"dota_tooltip_ability_life_stealer_feast_beta2_life_steal"				"%Lifesteal:"
 
+		"dota_tooltip_ability_life_stealer_rage_beta2"						"Rage"
+		"dota_tooltip_ability_life_stealer_rage_beta2_description"				"Grants bonus health and magic immunity for the entire duration."
+		"dota_tooltip_ability_life_stealer_rage_beta2_health_increase"				"Health Bonus:"
+		"dota_tooltip_ability_life_stealer_rage_beta2_duration"					"Duration:"
+
+		"dota_tooltip_modifier_life_stealer_rage_beta2"						"Rage"
+		"dota_tooltip_modifier_life_stealer_rage_beta2_description"				"This unit is magic immune and has increased health."
+
 		//====================================================================================================
 		// Mirana
 		//====================================================================================================

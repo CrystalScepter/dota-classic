@@ -65,4 +65,42 @@
 			"life_steal"			"25 35 45"
 		}
 	}
+
+	//====================================================================================================
+	// Rage
+	//====================================================================================================
+	"life_stealer_rage_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/heroes/life_stealer/life_stealer_rage_beta2"
+		"AbilityTextureName"			"life_stealer_rage"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityType"				"ABILITY_TYPE_ULTIMATE"
+
+		"MaxLevel" 				"1"
+
+		// Stats
+		//----------------------------------------------------------------------------------------------------
+		"AbilityManaCost"			"150"
+		"AbilityCooldown"			"120"
+		"AbilityCastPoint"			"0.3"
+		"AbilityCastAnimation"			"ACT_DOTA_LIFESTEALER_RAGE"
+
+		// Precache
+		//----------------------------------------------------------------------------------------------------
+		"precache"
+		{
+			"soundfile"			"soundevents/game_sounds_heroes/game_sounds_life_stealer.vsndevts"
+		}
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"health_increase"		"750"
+			"duration"			"60"
+		}
+	}
 }
