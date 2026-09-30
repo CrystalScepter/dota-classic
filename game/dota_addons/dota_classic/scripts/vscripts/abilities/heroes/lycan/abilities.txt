@@ -1,0 +1,42 @@
+"DOTAAbilities"
+{
+	//====================================================================================================
+	// Hex
+	//====================================================================================================
+	"lycan_hex_beta2"
+	{
+		// General
+		//----------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/heroes/lycan/lycan_hex_beta2"
+		"AbilityTextureName"			"shadow_shaman_voodoo"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
+		"SpellImmunityType"			"SPELL_IMMUNITY_ENEMIES_NO"
+
+		"MaxLevel" 				"3"
+
+		// Stats
+		//----------------------------------------------------------------------------------------------------
+		"AbilityManaCost"			"75 50 25"
+		"AbilityCooldown"			"10"
+		"AbilityCastPoint"			"0.3"
+		"AbilityCastRange"			"1000"
+		"AbilityCastRangeBuffer"		"250"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_1"
+
+		// Precache
+		//----------------------------------------------------------------------------------------------------
+		"precache"
+		{ "soundfile"			"soundevents/game_sounds_heroes/game_sounds_shadowshaman.vsndevts"
+		}
+
+		// Special Properties
+		//----------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"duration"			"6"
+		}
+	}
+}
