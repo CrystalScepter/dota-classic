@@ -1663,7 +1663,7 @@
 		"Ability3"				""
 		"Ability4"				"generic_hidden"
 		"Ability5"				"generic_hidden"
-		"Ability6"				""
+		"Ability6"				"templar_assassin_hex_beta2"
 		"Ability7"				""
 		"Ability8"				""
 		"Ability9"				""
