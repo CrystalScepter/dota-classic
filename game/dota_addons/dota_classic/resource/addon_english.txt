@@ -89,6 +89,14 @@
 		//====================================================================================================
 		// Crystal Maiden
 		//====================================================================================================
+		"dota_tooltip_ability_crystal_maiden_frost_nova_beta2"					"Crystal Nova"
+		"dota_tooltip_ability_crystal_maiden_frost_nova_beta2_description"			"Blasts the target enemy unit with damaging frost, dealing area damage and slowing movement and attack speed for a duration."
+		"dota_tooltip_ability_crystal_maiden_frost_nova_beta2_aoe_damage"			"Area Damage:"
+		"dota_tooltip_ability_crystal_maiden_frost_nova_beta2_aoe_radius"			"Radius:"
+		"dota_tooltip_ability_crystal_maiden_frost_nova_beta2_slow_amount"			"%Move Speed Slow:"
+		"dota_tooltip_ability_crystal_maiden_frost_nova_beta2_attack_speed_slow_amount"		"%Attack Speed Slow:"
+		"dota_tooltip_ability_crystal_maiden_frost_nova_beta2_duration"				"Duration:"
+
 		"dota_tooltip_ability_crystal_maiden_arcane_aura_beta2"					"Arcane Aura"
 		"dota_tooltip_ability_crystal_maiden_arcane_aura_beta2_description"			"Grants additional mana regeneration to nearby friendly units."
 		"dota_tooltip_ability_crystal_maiden_arcane_aura_beta2_mana_regen_increase"		"%Mana Regen Bonus:"
