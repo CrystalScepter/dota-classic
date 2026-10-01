@@ -21,4 +21,45 @@
 			"mana_regen_increase"		"150 250 350"
 		}
 	}
+	
+	//====================================================================================================
+	// Hex
+	//====================================================================================================
+	"templar_assassin_hex_beta2"
+	{
+		// General
+		//====================================================================================================
+		"BaseClass"                		"ability_lua"
+		"ScriptFile"                		"abilities/heroes/templar_assassin/templar_assassin_hex_beta2"
+		"AbilityTextureName"            	"lion_voodoo"
+		"AbilityType"				"ABILITY_TYPE_ULTIMATE"
+		"AbilityBehavior"             		"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"       		"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
+
+		"MaxLevel"                    		"1"
+
+		// Stats
+		//====================================================================================================
+		"AbilityManaCost"            		"220"
+		"AbilityCooldown"            		"10"
+		"AbilityCastPoint"           		"0.3"
+		"AbilityCastRange"           		"500"
+		"AbilityCastRangeBuffer"     		"250"
+		"AbilityCastAnimation"       		"ACT_DOTA_CAST_ABILITY_4"
+
+		// Precache
+		//====================================================================================================
+		"precache"
+		{
+			"soundfile"            		""
+		}
+
+		// Special Properties
+		//====================================================================================================
+		"AbilityValues"
+		{
+		       "duration"            		"30"
+		}
+	}
 }
