@@ -1,15 +1,15 @@
 "DOTAAbilities"
 {
 	//====================================================================================================
-	// Frost Nova
+	// Crystal Nova
 	//====================================================================================================
-	"crystal_maiden_frost_nova_beta2"
+	"crystal_maiden_crystal_nova_beta2"
 	{
 		// General
 		//----------------------------------------------------------------------------------------------------
 		"BaseClass"				"ability_lua"
-		"ScriptFile"				"abilities/heroes/crystal_maiden/crystal_maiden_frost_nova_beta2"
-		"AbilityTextureName"			"lich_frost_nova"
+		"ScriptFile"				"abilities/heroes/crystal_maiden/crystal_maiden_crystal_nova_beta2"
+		"AbilityTextureName"			"crystal_maiden_crystal_nova"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"

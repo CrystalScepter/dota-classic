@@ -1,12 +1,12 @@
 -- Declare the ability class
-crystal_maiden_frost_nova_beta2 = class({})
+crystal_maiden_crystal_nova_beta2 = class({})
 
 -- Link the modifiers that are going to be used by our ability
 LinkLuaModifier("modifier_slow", "modifiers/states/modifier_slow.lua", LUA_MODIFIER_MOTION_NONE)
-LinkLuaModifier("modifier_crystal_maiden_frost_nova_beta2", "abilities/heroes/crystal_maiden/crystal_maiden_frost_nova_beta2.lua", LUA_MODIFIER_MOTION_NONE)
+LinkLuaModifier("modifier_crystal_maiden_crystal_nova_beta2", "abilities/heroes/crystal_maiden/crystal_maiden_crystal_nova_beta2.lua", LUA_MODIFIER_MOTION_NONE)
 
 -- Called when the ability is cast
-function crystal_maiden_frost_nova_beta2:OnSpellStart()
+function crystal_maiden_crystal_nova_beta2:OnSpellStart()
 	-- Retrieve values that are going to be used by the ability
 	local caster = self:GetCaster()
 	local target = self:GetCursorTarget()
@@ -75,8 +75,7 @@ function crystal_maiden_frost_nova_beta2:OnSpellStart()
 
 			-- Add the slow modifier to the target
 			enemy:AddNewModifier(caster, self, "modifier_slow", { duration = duration, slow = slow_amount })
-			enemy:AddNewModifier(caster, self, "modifier_crystal_maiden_frost_nova_beta2",
-				{ duration = duration })
+			enemy:AddNewModifier(caster, self, "modifier_crystal_maiden_frost_nova_beta2", { duration = duration })
 
 			-- Create the particle effect
 			local particle = ParticleManager:CreateParticle(particle_nova, PATTACH_ABSORIGIN_FOLLOW, enemy)
@@ -93,27 +92,27 @@ end
 ----------------------------------------------------------------------------------------------------
 
 -- Declare the modifier class
-modifier_crystal_maiden_frost_nova_beta2 = class({})
+modifier_crystal_maiden_crystal_nova_beta2 = class({})
 
 -- Called when the modifier is created
-function modifier_crystal_maiden_frost_nova_beta2:OnCreated(keys)
+function modifier_crystal_maiden_crystal_nova_beta2:OnCreated(keys)
 	-- Retrieve the ability values that are going to be used by our modifier
 	self.attack_speed_slow_amount = self:GetAbility():GetSpecialValueFor("attack_speed_slow_amount")
 end
 
 -- Declare the events and properties that our modifier affects
-function modifier_crystal_maiden_frost_nova_beta2:DeclareFunctions()
+function modifier_crystal_maiden_crystal_nova_beta2:DeclareFunctions()
 	return {
 		MODIFIER_PROPERTY_ATTACKSPEED_PERCENTAGE,
 	}
 end
 
 -- Reduce attack speed by a percentage
-function modifier_crystal_maiden_frost_nova_beta2:GetModifierAttackSpeedPercentage()
+function modifier_crystal_maiden_crystal_nova_beta2:GetModifierAttackSpeedPercentage()
 	return 0 - self.attack_speed_slow_amount
 end
 
 -- Prevent the modifier from showing up in the buff bar
-function modifier_crystal_maiden_frost_nova_beta2:IsHidden()
+function modifier_crystal_maiden_crystal_nova_beta2:IsHidden()
 	return true
 end

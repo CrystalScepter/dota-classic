@@ -114,7 +114,7 @@
 
 		// Abilities
 		//----------------------------------------------------------------------------------------------------
-		"Ability1"				"crystal_maiden_frost_nova_beta2"
+		"Ability1"				"crystal_maiden_crystal_nova_beta2"
 		"Ability2"				""
 		"Ability3"				"crystal_maiden_arcane_aura_beta2"
 		"Ability4"				"generic_hidden"
