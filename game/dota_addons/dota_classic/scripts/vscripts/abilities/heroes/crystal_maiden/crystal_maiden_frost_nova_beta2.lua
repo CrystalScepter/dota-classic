@@ -56,36 +56,35 @@ function crystal_maiden_frost_nova_beta2:OnSpellStart()
 
 	-- Loop through every enemy found
 	for _, enemy in pairs(enemies) do
-		-- Return if the enemy is the original target
-		if enemy == target then
-			return
+		-- Proceed if the enemy isn't the main target
+		if enemy ~= target then
+			-- Return if the target is magic immune
+			if enemy:IsMagicImmune() then
+				return
+			end
+
+			-- Deal damage to the target
+			local damage_table = {
+				victim = enemy,
+				attacker = caster,
+				damage = aoe_damage,
+				damage_type = DAMAGE_TYPE_MAGICAL,
+				ability = self,
+			}
+			ApplyDamage(damage_table)
+
+			-- Add the slow modifier to the target
+			enemy:AddNewModifier(caster, self, "modifier_slow", { duration = duration, slow = slow_amount })
+			enemy:AddNewModifier(caster, self, "modifier_crystal_maiden_frost_nova_beta2",
+				{ duration = duration })
+
+			-- Create the particle effect
+			local particle = ParticleManager:CreateParticle(particle_nova, PATTACH_ABSORIGIN_FOLLOW, enemy)
+			ParticleManager:SetParticleControl(particle, 0, enemy:GetAbsOrigin())
+			ParticleManager:SetParticleControl(particle, 1, Vector(radius, radius, radius))
+			ParticleManager:SetParticleControl(particle, 2, enemy:GetAbsOrigin())
+			ParticleManager:ReleaseParticleIndex(particle)
 		end
-
-		-- Return if the target is magic immune
-		if enemy:IsMagicImmune() then
-			return
-		end
-
-		-- Deal damage to the target
-		local damage_table = {
-			victim = enemy,
-			attacker = caster,
-			damage = aoe_damage,
-			damage_type = DAMAGE_TYPE_MAGICAL,
-			ability = self,
-		}
-		ApplyDamage(damage_table)
-
-		-- Add the slow modifier to the target
-		enemy:AddNewModifier(caster, self, "modifier_slow", { duration = duration, slow = slow_amount })
-		enemy:AddNewModifier(caster, self, "modifier_crystal_maiden_frost_nova_beta2", { duration = duration })
-
-		-- Create the particle effect
-		local particle = ParticleManager:CreateParticle(particle_nova, PATTACH_ABSORIGIN_FOLLOW, enemy)
-		ParticleManager:SetParticleControl(particle, 0, enemy:GetAbsOrigin())
-		ParticleManager:SetParticleControl(particle, 1, Vector(radius, radius, radius))
-		ParticleManager:SetParticleControl(particle, 2, enemy:GetAbsOrigin())
-		ParticleManager:ReleaseParticleIndex(particle)
 	end
 end
 
